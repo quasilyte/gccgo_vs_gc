@@ -1,0 +1,32 @@
+BenchmarkCrc64/ISO64KB         	   30000	     43522 ns/op	1505.78 MB/s	       0 B/op	       0 allocs/op
+BenchmarkCrc64/ISO64KB         	   30000	     45996 ns/op	1424.82 MB/s	       0 B/op	       0 allocs/op
+BenchmarkCrc64/ISO64KB         	   30000	     43356 ns/op	1511.57 MB/s	       0 B/op	       0 allocs/op
+BenchmarkCrc64/ISO64KB         	   30000	     43056 ns/op	1522.10 MB/s	       0 B/op	       0 allocs/op
+BenchmarkCrc64/ISO64KB         	   30000	     47221 ns/op	1387.85 MB/s	       0 B/op	       0 allocs/op
+BenchmarkCrc64/ISO4KB          	  500000	      2726 ns/op	1502.54 MB/s	       0 B/op	       0 allocs/op
+BenchmarkCrc64/ISO4KB          	  500000	      2741 ns/op	1494.33 MB/s	       0 B/op	       0 allocs/op
+BenchmarkCrc64/ISO4KB          	  500000	      2772 ns/op	1477.60 MB/s	       0 B/op	       0 allocs/op
+BenchmarkCrc64/ISO4KB          	  500000	      2947 ns/op	1389.80 MB/s	       0 B/op	       0 allocs/op
+BenchmarkCrc64/ISO4KB          	  500000	      2740 ns/op	1494.61 MB/s	       0 B/op	       0 allocs/op
+BenchmarkCrc64/ISO1KB          	 2000000	       722 ns/op	1416.46 MB/s	       0 B/op	       0 allocs/op
+BenchmarkCrc64/ISO1KB          	 2000000	       710 ns/op	1440.26 MB/s	       0 B/op	       0 allocs/op
+BenchmarkCrc64/ISO1KB          	 2000000	       721 ns/op	1419.19 MB/s	       0 B/op	       0 allocs/op
+BenchmarkCrc64/ISO1KB          	 2000000	       760 ns/op	1347.24 MB/s	       0 B/op	       0 allocs/op
+BenchmarkCrc64/ISO1KB          	 2000000	       717 ns/op	1426.36 MB/s	       0 B/op	       0 allocs/op
+BenchmarkCrc64/ECMA64KB        	   30000	     46889 ns/op	1397.66 MB/s	       0 B/op	       0 allocs/op
+BenchmarkCrc64/ECMA64KB        	   30000	     43349 ns/op	1511.82 MB/s	       0 B/op	       0 allocs/op
+BenchmarkCrc64/ECMA64KB        	   30000	     43389 ns/op	1510.42 MB/s	       0 B/op	       0 allocs/op
+BenchmarkCrc64/ECMA64KB        	   30000	     47021 ns/op	1393.75 MB/s	       0 B/op	       0 allocs/op
+BenchmarkCrc64/ECMA64KB        	   30000	     43343 ns/op	1512.02 MB/s	       0 B/op	       0 allocs/op
+BenchmarkCrc64/Random64KB      	   30000	     47700 ns/op	1373.91 MB/s	   16384 B/op	       1 allocs/op
+BenchmarkCrc64/Random64KB      	   30000	     49705 ns/op	1318.47 MB/s	   16384 B/op	       1 allocs/op
+BenchmarkCrc64/Random64KB      	   30000	     47349 ns/op	1384.10 MB/s	   16384 B/op	       1 allocs/op
+BenchmarkCrc64/Random64KB      	   30000	     50489 ns/op	1298.02 MB/s	   16384 B/op	       1 allocs/op
+BenchmarkCrc64/Random64KB      	   30000	     47156 ns/op	1389.76 MB/s	   16384 B/op	       1 allocs/op
+BenchmarkCrc64/Random16KB      	   30000	     43116 ns/op	 379.99 MB/s	       0 B/op	       0 allocs/op
+BenchmarkCrc64/Random16KB      	   30000	     46204 ns/op	 354.60 MB/s	       0 B/op	       0 allocs/op
+BenchmarkCrc64/Random16KB      	   30000	     43168 ns/op	 379.53 MB/s	       0 B/op	       0 allocs/op
+BenchmarkCrc64/Random16KB      	   30000	     43549 ns/op	 376.21 MB/s	       0 B/op	       0 allocs/op
+BenchmarkCrc64/Random16KB      	   30000	     46405 ns/op	 353.07 MB/s	       0 B/op	       0 allocs/op
+PASS
+ok  	hash/crc64	54.676s

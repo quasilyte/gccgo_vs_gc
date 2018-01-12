@@ -1,0 +1,7 @@
+BenchmarkDup 	    1000	   1085286 ns/op	  160082 B/op	   20000 allocs/op
+BenchmarkDup 	    2000	   1035085 ns/op	  160041 B/op	   20000 allocs/op
+BenchmarkDup 	    2000	   1089951 ns/op	  160041 B/op	   20000 allocs/op
+BenchmarkDup 	    2000	   1016638 ns/op	  160041 B/op	   20000 allocs/op
+BenchmarkDup 	    2000	   1069516 ns/op	  160041 B/op	   20000 allocs/op
+PASS
+ok  	container/heap	10.064s

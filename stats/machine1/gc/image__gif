@@ -1,0 +1,12 @@
+BenchmarkEncode          	     200	   7930627 ns/op	 154.94 MB/s	   84144 B/op	       9 allocs/op
+BenchmarkEncode          	     200	   7936963 ns/op	 154.82 MB/s	   84144 B/op	       9 allocs/op
+BenchmarkEncode          	     200	   8063121 ns/op	 152.40 MB/s	   84144 B/op	       9 allocs/op
+BenchmarkEncode          	     200	   7824032 ns/op	 157.05 MB/s	   84144 B/op	       9 allocs/op
+BenchmarkEncode          	     200	   7655511 ns/op	 160.51 MB/s	   84144 B/op	       9 allocs/op
+BenchmarkQuantizedEncode 	       2	 746618740 ns/op	   1.65 MB/s	 1650200 B/op	  307215 allocs/op
+BenchmarkQuantizedEncode 	       2	 760267882 ns/op	   1.62 MB/s	 1650208 B/op	  307215 allocs/op
+BenchmarkQuantizedEncode 	       2	 759664509 ns/op	   1.62 MB/s	 1650200 B/op	  307215 allocs/op
+BenchmarkQuantizedEncode 	       2	 746175004 ns/op	   1.65 MB/s	 1650208 B/op	  307215 allocs/op
+BenchmarkQuantizedEncode 	       2	 791487355 ns/op	   1.55 MB/s	 1650208 B/op	  307215 allocs/op
+PASS
+ok  	image/gif	34.764s

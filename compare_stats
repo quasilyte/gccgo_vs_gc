@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+set -e
+
+compare() {
+    local benchdata=$(benchstat "${1}" "${2}")
+    if [ -z "${benchdata// }" ]; then
+        echo "  can't compare ${1} and ${2}"
+        return
+    fi
+    echo "${benchdata}" |
+        grep -P --color=always '(?(?=.*/s).*\+[0-9.]+%|.*\-[0-9.]+%)' &&
+        echo '  gccgo won some rounds!' ||
+            echo '  gc won all rounds'
+}
+
+for pkg in `cat packages.txt`; do
+    gc_file="bench/gc/${pkg/\//__}"
+    gccgo_file="bench/gccgo/${pkg/\//__}"
+    if [ -f "$gc_file" ] && [ -f "$gccgo_file" ]; then
+        echo "comparing ${pkg}..."
+        compare "${gc_file}" "${gccgo_file}"
+    else
+        echo "skip ${pkg}: no stats"
+    fi
+done

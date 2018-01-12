@@ -1,0 +1,32 @@
+BenchmarkEscape         	   50000	     20140 ns/op	   12288 B/op	       2 allocs/op
+BenchmarkEscape         	  100000	     19789 ns/op	   12288 B/op	       2 allocs/op
+BenchmarkEscape         	  100000	     19901 ns/op	   12288 B/op	       2 allocs/op
+BenchmarkEscape         	  100000	     19438 ns/op	   12288 B/op	       2 allocs/op
+BenchmarkEscape         	  100000	     20428 ns/op	   12288 B/op	       2 allocs/op
+BenchmarkEscapeNone     	  300000	      4392 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEscapeNone     	  300000	      4375 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEscapeNone     	  300000	      4633 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEscapeNone     	  300000	      4524 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEscapeNone     	  300000	      4393 ns/op	       0 B/op	       0 allocs/op
+BenchmarkUnescape       	  100000	     24439 ns/op	   10240 B/op	       2 allocs/op
+BenchmarkUnescape       	  100000	     22848 ns/op	   10240 B/op	       2 allocs/op
+BenchmarkUnescape       	  100000	     24046 ns/op	   10240 B/op	       2 allocs/op
+BenchmarkUnescape       	  100000	     22237 ns/op	   10240 B/op	       2 allocs/op
+BenchmarkUnescape       	  100000	     23811 ns/op	   10240 B/op	       2 allocs/op
+BenchmarkUnescapeNone   	20000000	        97.6 ns/op	       0 B/op	       0 allocs/op
+BenchmarkUnescapeNone   	20000000	       100 ns/op	       0 B/op	       0 allocs/op
+BenchmarkUnescapeNone   	20000000	       101 ns/op	       0 B/op	       0 allocs/op
+BenchmarkUnescapeNone   	20000000	        98.9 ns/op	       0 B/op	       0 allocs/op
+BenchmarkUnescapeNone   	20000000	       103 ns/op	       0 B/op	       0 allocs/op
+BenchmarkUnescapeSparse 	  500000	      2323 ns/op	    8192 B/op	       2 allocs/op
+BenchmarkUnescapeSparse 	  500000	      2322 ns/op	    8192 B/op	       2 allocs/op
+BenchmarkUnescapeSparse 	 1000000	      2450 ns/op	    8192 B/op	       2 allocs/op
+BenchmarkUnescapeSparse 	 1000000	      2318 ns/op	    8192 B/op	       2 allocs/op
+BenchmarkUnescapeSparse 	 1000000	      2588 ns/op	    8192 B/op	       2 allocs/op
+BenchmarkUnescapeDense  	  100000	     18069 ns/op	    2688 B/op	       2 allocs/op
+BenchmarkUnescapeDense  	  100000	     19054 ns/op	    2688 B/op	       2 allocs/op
+BenchmarkUnescapeDense  	  100000	     17920 ns/op	    2688 B/op	       2 allocs/op
+BenchmarkUnescapeDense  	  100000	     18244 ns/op	    2688 B/op	       2 allocs/op
+BenchmarkUnescapeDense  	  100000	     18959 ns/op	    2688 B/op	       2 allocs/op
+PASS
+ok  	html	60.422s

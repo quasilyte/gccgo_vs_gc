@@ -1,0 +1,7 @@
+BenchmarkEmptyOpContext 	 5000000	       223 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEmptyOpContext 	10000000	       235 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEmptyOpContext 	10000000	       222 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEmptyOpContext 	 5000000	       243 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEmptyOpContext 	 5000000	       222 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	regexp/syntax	9.443s

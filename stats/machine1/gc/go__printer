@@ -1,0 +1,14 @@
+BenchmarkPrint 	     200	   7968980 ns/op	  759950 B/op	   34343 allocs/op
+BenchmarkPrint 	     200	   7377425 ns/op	  759985 B/op	   34343 allocs/op
+BenchmarkPrint 	     200	   7965592 ns/op	  759959 B/op	   34343 allocs/op
+BenchmarkPrint 	     200	   7433344 ns/op	  759911 B/op	   34343 allocs/op
+BenchmarkPrint 	     200	   7624018 ns/op	  759970 B/op	   34343 allocs/op
+PASS
+ok  	go/printer	11.146s
+BenchmarkPrint 	     200	   7334325 ns/op	  759961 B/op	   34343 allocs/op
+BenchmarkPrint 	     200	   7378670 ns/op	  760000 B/op	   34343 allocs/op
+BenchmarkPrint 	     200	   7361085 ns/op	  759936 B/op	   34343 allocs/op
+BenchmarkPrint 	     200	   7193665 ns/op	  760070 B/op	   34344 allocs/op
+BenchmarkPrint 	     200	   7730912 ns/op	  759953 B/op	   34343 allocs/op
+PASS
+ok  	go/printer	10.934s

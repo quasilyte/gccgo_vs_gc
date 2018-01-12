@@ -1,0 +1,22 @@
+BenchmarkSignP256      	    2000	    549965 ns/op	   65363 B/op	    1456 allocs/op
+BenchmarkSignP256      	    3000	    522428 ns/op	   65362 B/op	    1456 allocs/op
+BenchmarkSignP256      	    3000	    561646 ns/op	   65365 B/op	    1456 allocs/op
+BenchmarkSignP256      	    3000	    517489 ns/op	   65365 B/op	    1456 allocs/op
+BenchmarkSignP256      	    3000	    520543 ns/op	   65364 B/op	    1456 allocs/op
+BenchmarkSignP384      	     100	  26108789 ns/op	 4194539 B/op	   74810 allocs/op
+BenchmarkSignP384      	     100	  23657463 ns/op	 4181741 B/op	   74570 allocs/op
+BenchmarkSignP384      	      50	  25531553 ns/op	 4174300 B/op	   74451 allocs/op
+BenchmarkSignP384      	      50	  24363823 ns/op	 4218205 B/op	   75211 allocs/op
+BenchmarkSignP384      	     100	  23112133 ns/op	 4187175 B/op	   74645 allocs/op
+BenchmarkVerifyP256    	    1000	   2093522 ns/op	  343623 B/op	    8643 allocs/op
+BenchmarkVerifyP256    	    1000	   2052038 ns/op	  350901 B/op	    8877 allocs/op
+BenchmarkVerifyP256    	    1000	   2167997 ns/op	  349131 B/op	    8805 allocs/op
+BenchmarkVerifyP256    	    1000	   2084920 ns/op	  356840 B/op	    9043 allocs/op
+BenchmarkVerifyP256    	    1000	   2179933 ns/op	  351435 B/op	    8894 allocs/op
+BenchmarkKeyGeneration 	    5000	    347016 ns/op	   48711 B/op	    1036 allocs/op
+BenchmarkKeyGeneration 	    5000	    349472 ns/op	   48711 B/op	    1036 allocs/op
+BenchmarkKeyGeneration 	    5000	    362716 ns/op	   48688 B/op	    1036 allocs/op
+BenchmarkKeyGeneration 	    5000	    347264 ns/op	   48689 B/op	    1036 allocs/op
+BenchmarkKeyGeneration 	    5000	    341725 ns/op	   48689 B/op	    1036 allocs/op
+PASS
+ok  	gccgo/crypto/ecdsa	38.590s

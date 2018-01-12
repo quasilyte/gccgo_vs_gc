@@ -1,0 +1,24 @@
+BenchmarkCompressedZipGarbage 	      30	  40872952 ns/op	   14459 B/op	      88 allocs/op
+BenchmarkCompressedZipGarbage 	      30	  39471004 ns/op	   14293 B/op	      88 allocs/op
+BenchmarkCompressedZipGarbage 	      50	  37900741 ns/op	   30641 B/op	      89 allocs/op
+BenchmarkCompressedZipGarbage 	      50	  40776593 ns/op	   14286 B/op	      88 allocs/op
+BenchmarkCompressedZipGarbage 	      50	  37835498 ns/op	   14297 B/op	      88 allocs/op
+BenchmarkZip64Test            	      10	 122196835 ns/op	 6608465 B/op	  361118 allocs/op
+BenchmarkZip64Test            	      10	 129907312 ns/op	 6586216 B/op	  361081 allocs/op
+BenchmarkZip64Test            	      10	 122366514 ns/op	 6598812 B/op	  361113 allocs/op
+BenchmarkZip64Test            	      10	 120450441 ns/op	 6574297 B/op	  361068 allocs/op
+BenchmarkZip64Test            	      10	 124653605 ns/op	 6592284 B/op	  361101 allocs/op
+PASS
+ok  	gccgo/archive/zip	15.846s
+BenchmarkCompressedZipGarbage 	      30	  39124647 ns/op	   14459 B/op	      88 allocs/op
+BenchmarkCompressedZipGarbage 	      50	  40115810 ns/op	   14368 B/op	      88 allocs/op
+BenchmarkCompressedZipGarbage 	      50	  37316815 ns/op	   14286 B/op	      88 allocs/op
+BenchmarkCompressedZipGarbage 	      30	  39002411 ns/op	   14312 B/op	      88 allocs/op
+BenchmarkCompressedZipGarbage 	      30	  39406259 ns/op	   14293 B/op	      88 allocs/op
+BenchmarkZip64Test            	      10	 118674419 ns/op	 6592662 B/op	  361096 allocs/op
+BenchmarkZip64Test            	      10	 119258895 ns/op	 6588534 B/op	  361072 allocs/op
+BenchmarkZip64Test            	      10	 131064386 ns/op	 6566372 B/op	  361050 allocs/op
+BenchmarkZip64Test            	      10	 120920439 ns/op	 6568548 B/op	  361052 allocs/op
+BenchmarkZip64Test            	      10	 118832169 ns/op	 6568664 B/op	  361052 allocs/op
+PASS
+ok  	gccgo/archive/zip	14.912s

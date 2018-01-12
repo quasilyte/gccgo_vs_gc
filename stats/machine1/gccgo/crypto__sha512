@@ -1,0 +1,17 @@
+BenchmarkHash8Bytes 	 1000000	      1732 ns/op	   4.62 MB/s	     416 B/op	       3 allocs/op
+BenchmarkHash8Bytes 	 1000000	      1588 ns/op	   5.03 MB/s	     416 B/op	       3 allocs/op
+BenchmarkHash8Bytes 	 1000000	      1571 ns/op	   5.09 MB/s	     416 B/op	       3 allocs/op
+BenchmarkHash8Bytes 	 1000000	      1694 ns/op	   4.72 MB/s	     416 B/op	       3 allocs/op
+BenchmarkHash8Bytes 	 1000000	      1579 ns/op	   5.07 MB/s	     416 B/op	       3 allocs/op
+BenchmarkHash1K     	  300000	      5845 ns/op	 175.18 MB/s	     416 B/op	       3 allocs/op
+BenchmarkHash1K     	  300000	      6180 ns/op	 165.69 MB/s	     416 B/op	       3 allocs/op
+BenchmarkHash1K     	  200000	      5829 ns/op	 175.67 MB/s	     416 B/op	       3 allocs/op
+BenchmarkHash1K     	  300000	      5835 ns/op	 175.47 MB/s	     416 B/op	       3 allocs/op
+BenchmarkHash1K     	  200000	      6202 ns/op	 165.10 MB/s	     416 B/op	       3 allocs/op
+BenchmarkHash8K     	   50000	     34139 ns/op	 239.95 MB/s	     416 B/op	       3 allocs/op
+BenchmarkHash8K     	   50000	     34571 ns/op	 236.96 MB/s	     416 B/op	       3 allocs/op
+BenchmarkHash8K     	   50000	     36379 ns/op	 225.18 MB/s	     416 B/op	       3 allocs/op
+BenchmarkHash8K     	   50000	     34253 ns/op	 239.16 MB/s	     416 B/op	       3 allocs/op
+BenchmarkHash8K     	   50000	     36544 ns/op	 224.17 MB/s	     416 B/op	       3 allocs/op
+PASS
+ok  	gccgo/crypto/sha512	27.029s

@@ -1,0 +1,17 @@
+BenchmarkNewIndexRandom 	       5	 209309183 ns/op	16123260 B/op	      20 allocs/op
+BenchmarkNewIndexRandom 	       5	 214067856 ns/op	16123264 B/op	      20 allocs/op
+BenchmarkNewIndexRandom 	       5	 230897977 ns/op	16123257 B/op	      20 allocs/op
+BenchmarkNewIndexRandom 	       5	 209077092 ns/op	16123264 B/op	      20 allocs/op
+BenchmarkNewIndexRandom 	       5	 208748618 ns/op	16123257 B/op	      20 allocs/op
+BenchmarkNewIndexRepeat 	       3	 419540632 ns/op	39011712 B/op	      41 allocs/op
+BenchmarkNewIndexRepeat 	       3	 385025242 ns/op	39011712 B/op	      41 allocs/op
+BenchmarkNewIndexRepeat 	       3	 423798814 ns/op	39011712 B/op	      41 allocs/op
+BenchmarkNewIndexRepeat 	       3	 385996837 ns/op	39011712 B/op	      41 allocs/op
+BenchmarkNewIndexRepeat 	       3	 417615926 ns/op	39011712 B/op	      41 allocs/op
+BenchmarkSaveRestore    	     100	  30222320 ns/op	 138.30 MB/s	11391795 B/op	       2 allocs/op
+BenchmarkSaveRestore    	     200	  19703813 ns/op	 212.13 MB/s	11449507 B/op	       2 allocs/op
+BenchmarkSaveRestore    	     200	   8166457 ns/op	 511.82 MB/s	11449507 B/op	       2 allocs/op
+BenchmarkSaveRestore    	     200	   8705835 ns/op	 480.11 MB/s	11449507 B/op	       2 allocs/op
+BenchmarkSaveRestore    	     200	   8243785 ns/op	 507.01 MB/s	11449507 B/op	       2 allocs/op
+PASS
+ok  	index/suffixarray	38.588s

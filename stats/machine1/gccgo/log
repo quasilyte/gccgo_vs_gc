@@ -1,0 +1,12 @@
+BenchmarkItoa    	 2000000	       780 ns/op	     224 B/op	       7 allocs/op
+BenchmarkItoa    	 2000000	       840 ns/op	     224 B/op	       7 allocs/op
+BenchmarkItoa    	 2000000	       784 ns/op	     224 B/op	       7 allocs/op
+BenchmarkItoa    	 2000000	       846 ns/op	     224 B/op	       7 allocs/op
+BenchmarkItoa    	 2000000	       785 ns/op	     224 B/op	       7 allocs/op
+BenchmarkPrintln 	 1000000	      1921 ns/op	     381 B/op	      14 allocs/op
+BenchmarkPrintln 	 1000000	      1950 ns/op	     379 B/op	      14 allocs/op
+BenchmarkPrintln 	 1000000	      1893 ns/op	     380 B/op	      14 allocs/op
+BenchmarkPrintln 	 1000000	      1971 ns/op	     379 B/op	      14 allocs/op
+BenchmarkPrintln 	 1000000	      1899 ns/op	     381 B/op	      14 allocs/op
+PASS
+ok  	gccgo/log	21.993s

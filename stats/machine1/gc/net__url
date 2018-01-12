@@ -1,0 +1,7 @@
+BenchmarkString 	  200000	      6781 ns/op	    2981 B/op	      54 allocs/op
+BenchmarkString 	  200000	      6276 ns/op	    2981 B/op	      54 allocs/op
+BenchmarkString 	  200000	      6119 ns/op	    2981 B/op	      54 allocs/op
+BenchmarkString 	  300000	      6222 ns/op	    2981 B/op	      54 allocs/op
+BenchmarkString 	  200000	      6534 ns/op	    2981 B/op	      54 allocs/op
+PASS
+ok  	net/url	7.371s

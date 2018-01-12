@@ -1,0 +1,7 @@
+BenchmarkMarshal 	    5000	    220731 ns/op	   41135 B/op	    1316 allocs/op
+BenchmarkMarshal 	   10000	    205390 ns/op	   41072 B/op	    1315 allocs/op
+BenchmarkMarshal 	   10000	    214133 ns/op	   41070 B/op	    1315 allocs/op
+BenchmarkMarshal 	   10000	    204875 ns/op	   41069 B/op	    1315 allocs/op
+BenchmarkMarshal 	   10000	    209278 ns/op	   41065 B/op	    1315 allocs/op
+PASS
+ok  	gccgo/encoding/asn1	9.704s

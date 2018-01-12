@@ -1,0 +1,17 @@
+BenchmarkEncrypt 	100000000	        15.8 ns/op	1012.05 MB/s	       0 B/op	       0 allocs/op
+BenchmarkEncrypt 	100000000	        16.2 ns/op	 990.51 MB/s	       0 B/op	       0 allocs/op
+BenchmarkEncrypt 	100000000	        14.7 ns/op	1087.76 MB/s	       0 B/op	       0 allocs/op
+BenchmarkEncrypt 	100000000	        14.7 ns/op	1085.06 MB/s	       0 B/op	       0 allocs/op
+BenchmarkEncrypt 	100000000	        15.3 ns/op	1047.18 MB/s	       0 B/op	       0 allocs/op
+BenchmarkDecrypt 	100000000	        15.4 ns/op	1035.67 MB/s	       0 B/op	       0 allocs/op
+BenchmarkDecrypt 	100000000	        14.8 ns/op	1083.38 MB/s	       0 B/op	       0 allocs/op
+BenchmarkDecrypt 	100000000	        15.1 ns/op	1058.08 MB/s	       0 B/op	       0 allocs/op
+BenchmarkDecrypt 	100000000	        15.8 ns/op	1014.97 MB/s	       0 B/op	       0 allocs/op
+BenchmarkDecrypt 	100000000	        14.8 ns/op	1083.27 MB/s	       0 B/op	       0 allocs/op
+BenchmarkExpand  	30000000	        49.7 ns/op	       0 B/op	       0 allocs/op
+BenchmarkExpand  	30000000	        52.9 ns/op	       0 B/op	       0 allocs/op
+BenchmarkExpand  	30000000	        49.0 ns/op	       0 B/op	       0 allocs/op
+BenchmarkExpand  	30000000	        48.9 ns/op	       0 B/op	       0 allocs/op
+BenchmarkExpand  	30000000	        53.7 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	crypto/aes	23.315s

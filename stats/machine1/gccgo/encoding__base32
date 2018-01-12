@@ -1,0 +1,12 @@
+BenchmarkEncodeToString 	   20000	     72064 ns/op	 113.68 MB/s	   27136 B/op	       2 allocs/op
+BenchmarkEncodeToString 	   20000	     68199 ns/op	 120.12 MB/s	   27136 B/op	       2 allocs/op
+BenchmarkEncodeToString 	   20000	     73679 ns/op	 111.18 MB/s	   27136 B/op	       2 allocs/op
+BenchmarkEncodeToString 	   20000	     68690 ns/op	 119.26 MB/s	   27136 B/op	       2 allocs/op
+BenchmarkEncodeToString 	   20000	     70699 ns/op	 115.87 MB/s	   27136 B/op	       2 allocs/op
+BenchmarkDecodeString   	   10000	    107576 ns/op	 121.89 MB/s	   22019 B/op	       2 allocs/op
+BenchmarkDecodeString   	   10000	    100265 ns/op	 130.77 MB/s	   22019 B/op	       2 allocs/op
+BenchmarkDecodeString   	   10000	    100453 ns/op	 130.53 MB/s	   22019 B/op	       2 allocs/op
+BenchmarkDecodeString   	   10000	    101534 ns/op	 129.14 MB/s	   22019 B/op	       2 allocs/op
+BenchmarkDecodeString   	   10000	    106007 ns/op	 123.69 MB/s	   22019 B/op	       2 allocs/op
+PASS
+ok  	gccgo/encoding/base32	16.058s

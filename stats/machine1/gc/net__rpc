@@ -1,0 +1,22 @@
+BenchmarkEndToEnd          	   50000	     28188 ns/op	     320 B/op	       9 allocs/op
+BenchmarkEndToEnd          	   50000	     29518 ns/op	     320 B/op	       9 allocs/op
+BenchmarkEndToEnd          	   50000	     26845 ns/op	     320 B/op	       9 allocs/op
+BenchmarkEndToEnd          	   50000	     27654 ns/op	     320 B/op	       9 allocs/op
+BenchmarkEndToEnd          	   50000	     28733 ns/op	     320 B/op	       9 allocs/op
+BenchmarkEndToEndHTTP      	   50000	     26645 ns/op	     320 B/op	       9 allocs/op
+BenchmarkEndToEndHTTP      	   50000	     28800 ns/op	     320 B/op	       9 allocs/op
+BenchmarkEndToEndHTTP      	   50000	     28013 ns/op	     320 B/op	       9 allocs/op
+BenchmarkEndToEndHTTP      	   50000	     26699 ns/op	     320 B/op	       9 allocs/op
+BenchmarkEndToEndHTTP      	   50000	     29179 ns/op	     320 B/op	       9 allocs/op
+BenchmarkEndToEndAsync     	  100000	     17590 ns/op	     227 B/op	       8 allocs/op
+BenchmarkEndToEndAsync     	  100000	     15708 ns/op	     227 B/op	       8 allocs/op
+BenchmarkEndToEndAsync     	  100000	     17948 ns/op	     227 B/op	       8 allocs/op
+BenchmarkEndToEndAsync     	  100000	     16081 ns/op	     227 B/op	       8 allocs/op
+BenchmarkEndToEndAsync     	  100000	     15606 ns/op	     227 B/op	       8 allocs/op
+BenchmarkEndToEndAsyncHTTP 	  100000	     17040 ns/op	     227 B/op	       8 allocs/op
+BenchmarkEndToEndAsyncHTTP 	  100000	     16086 ns/op	     227 B/op	       8 allocs/op
+BenchmarkEndToEndAsyncHTTP 	  100000	     16256 ns/op	     227 B/op	       8 allocs/op
+BenchmarkEndToEndAsyncHTTP 	  100000	     17976 ns/op	     227 B/op	       8 allocs/op
+BenchmarkEndToEndAsyncHTTP 	  100000	     15972 ns/op	     227 B/op	       8 allocs/op
+PASS
+ok  	net/rpc	35.152s

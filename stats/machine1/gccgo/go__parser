@@ -1,0 +1,14 @@
+BenchmarkParse 	     200	   5966428 ns/op	  10.67 MB/s	 1072861 B/op	   31432 allocs/op
+BenchmarkParse 	     300	   5594805 ns/op	  11.38 MB/s	 1071957 B/op	   31431 allocs/op
+BenchmarkParse 	     300	   5655026 ns/op	  11.26 MB/s	 1073532 B/op	   31433 allocs/op
+BenchmarkParse 	     200	   5586081 ns/op	  11.40 MB/s	 1076615 B/op	   31435 allocs/op
+BenchmarkParse 	     300	   5561995 ns/op	  11.45 MB/s	 1073377 B/op	   31433 allocs/op
+PASS
+ok  	gccgo/go/parser	10.514s
+BenchmarkParse 	     200	   6252817 ns/op	  10.18 MB/s	 1074691 B/op	   31433 allocs/op
+BenchmarkParse 	     300	   5764237 ns/op	  11.05 MB/s	 1071491 B/op	   31431 allocs/op
+BenchmarkParse 	     300	   6131634 ns/op	  10.38 MB/s	 1074805 B/op	   31434 allocs/op
+BenchmarkParse 	     300	   5746719 ns/op	  11.08 MB/s	 1073728 B/op	   31433 allocs/op
+BenchmarkParse 	     300	   6096946 ns/op	  10.44 MB/s	 1075657 B/op	   31435 allocs/op
+PASS
+ok  	gccgo/go/parser	11.490s

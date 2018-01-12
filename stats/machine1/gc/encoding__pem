@@ -1,0 +1,12 @@
+BenchmarkEncode 	   10000	    112239 ns/op	 583.90 MB/s	    1270 B/op	       4 allocs/op
+BenchmarkEncode 	   10000	    106855 ns/op	 613.31 MB/s	    1270 B/op	       4 allocs/op
+BenchmarkEncode 	   10000	    115646 ns/op	 566.69 MB/s	    1270 B/op	       4 allocs/op
+BenchmarkEncode 	   10000	    106280 ns/op	 616.63 MB/s	    1270 B/op	       4 allocs/op
+BenchmarkEncode 	   10000	    106468 ns/op	 615.54 MB/s	    1270 B/op	       4 allocs/op
+BenchmarkDecode 	    3000	    528502 ns/op	 167.99 MB/s	  164080 B/op	      10 allocs/op
+BenchmarkDecode 	    3000	    563150 ns/op	 157.65 MB/s	  164080 B/op	      10 allocs/op
+BenchmarkDecode 	    3000	    529563 ns/op	 167.65 MB/s	  164080 B/op	      10 allocs/op
+BenchmarkDecode 	    3000	    529191 ns/op	 167.77 MB/s	  164080 B/op	      10 allocs/op
+BenchmarkDecode 	    3000	    556925 ns/op	 159.41 MB/s	  164080 B/op	      10 allocs/op
+PASS
+ok  	encoding/pem	13.943s

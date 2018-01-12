@@ -1,0 +1,22 @@
+BenchmarkSignP256      	   30000	     41577 ns/op	    4048 B/op	      47 allocs/op
+BenchmarkSignP256      	   50000	     39492 ns/op	    4048 B/op	      47 allocs/op
+BenchmarkSignP256      	   30000	     43008 ns/op	    4048 B/op	      47 allocs/op
+BenchmarkSignP256      	   50000	     39589 ns/op	    4048 B/op	      47 allocs/op
+BenchmarkSignP256      	   50000	     41992 ns/op	    4048 B/op	      47 allocs/op
+BenchmarkSignP384      	     300	   5369626 ns/op	 2319607 B/op	   17449 allocs/op
+BenchmarkSignP384      	     300	   5477544 ns/op	 2321120 B/op	   17460 allocs/op
+BenchmarkSignP384      	     200	   5427745 ns/op	 2332073 B/op	   17543 allocs/op
+BenchmarkSignP384      	     300	   5330938 ns/op	 2322257 B/op	   17469 allocs/op
+BenchmarkSignP384      	     300	   5772823 ns/op	 2323536 B/op	   17478 allocs/op
+BenchmarkVerifyP256    	   10000	    109161 ns/op	    4144 B/op	      36 allocs/op
+BenchmarkVerifyP256    	   10000	    108907 ns/op	    4144 B/op	      36 allocs/op
+BenchmarkVerifyP256    	   10000	    112889 ns/op	    4144 B/op	      36 allocs/op
+BenchmarkVerifyP256    	   10000	    119881 ns/op	    4144 B/op	      36 allocs/op
+BenchmarkVerifyP256    	   10000	    109995 ns/op	    4144 B/op	      36 allocs/op
+BenchmarkKeyGeneration 	   50000	     24678 ns/op	    1200 B/op	      20 allocs/op
+BenchmarkKeyGeneration 	   50000	     25319 ns/op	    1200 B/op	      20 allocs/op
+BenchmarkKeyGeneration 	   50000	     26136 ns/op	    1200 B/op	      20 allocs/op
+BenchmarkKeyGeneration 	   50000	     24750 ns/op	    1200 B/op	      20 allocs/op
+BenchmarkKeyGeneration 	   50000	     25409 ns/op	    1200 B/op	      20 allocs/op
+PASS
+ok  	crypto/ecdsa	34.652s

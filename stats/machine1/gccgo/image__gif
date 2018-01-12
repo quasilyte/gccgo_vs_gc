@@ -1,0 +1,12 @@
+BenchmarkEncode          	     100	  10341444 ns/op	 118.82 MB/s	   84484 B/op	      17 allocs/op
+BenchmarkEncode          	     200	   9554220 ns/op	 128.61 MB/s	   84483 B/op	      17 allocs/op
+BenchmarkEncode          	     200	   9411245 ns/op	 130.57 MB/s	   84483 B/op	      17 allocs/op
+BenchmarkEncode          	     200	   9345394 ns/op	 131.49 MB/s	   84483 B/op	      17 allocs/op
+BenchmarkEncode          	     200	   9804433 ns/op	 125.33 MB/s	   84483 B/op	      17 allocs/op
+BenchmarkQuantizedEncode 	       3	 414082825 ns/op	   2.97 MB/s	 1650538 B/op	   76831 allocs/op
+BenchmarkQuantizedEncode 	       3	 412161443 ns/op	   2.98 MB/s	 1650538 B/op	   76831 allocs/op
+BenchmarkQuantizedEncode 	       3	 419683229 ns/op	   2.93 MB/s	 1650538 B/op	   76831 allocs/op
+BenchmarkQuantizedEncode 	       3	 409419716 ns/op	   3.00 MB/s	 1650538 B/op	   76831 allocs/op
+BenchmarkQuantizedEncode 	       3	 421553921 ns/op	   2.91 MB/s	 1650538 B/op	   76831 allocs/op
+PASS
+ok  	gccgo/image/gif	30.975s

@@ -1,0 +1,24 @@
+BenchmarkCompressedZipGarbage 	     100	  16170486 ns/op	    5592 B/op	      44 allocs/op
+BenchmarkCompressedZipGarbage 	     100	  16152629 ns/op	    5592 B/op	      44 allocs/op
+BenchmarkCompressedZipGarbage 	     100	  15163565 ns/op	    5592 B/op	      44 allocs/op
+BenchmarkCompressedZipGarbage 	     100	  15510825 ns/op	    5592 B/op	      44 allocs/op
+BenchmarkCompressedZipGarbage 	     100	  16199812 ns/op	    5592 B/op	      44 allocs/op
+BenchmarkZip64Test            	      20	  86034853 ns/op	   20040 B/op	      53 allocs/op
+BenchmarkZip64Test            	      20	  86572031 ns/op	   20040 B/op	      53 allocs/op
+BenchmarkZip64Test            	      20	  90072495 ns/op	   20040 B/op	      53 allocs/op
+BenchmarkZip64Test            	      20	  85540735 ns/op	   20040 B/op	      53 allocs/op
+BenchmarkZip64Test            	      20	  91044149 ns/op	   20040 B/op	      53 allocs/op
+PASS
+ok  	archive/zip	17.394s
+BenchmarkCompressedZipGarbage 	     100	  15712143 ns/op	    5592 B/op	      44 allocs/op
+BenchmarkCompressedZipGarbage 	     100	  17500639 ns/op	    5592 B/op	      44 allocs/op
+BenchmarkCompressedZipGarbage 	     100	  15150376 ns/op	    5592 B/op	      44 allocs/op
+BenchmarkCompressedZipGarbage 	     100	  15220581 ns/op	    5592 B/op	      44 allocs/op
+BenchmarkCompressedZipGarbage 	     100	  16533345 ns/op	    5592 B/op	      44 allocs/op
+BenchmarkZip64Test            	      20	  84971140 ns/op	   20040 B/op	      53 allocs/op
+BenchmarkZip64Test            	      20	  86476129 ns/op	   20040 B/op	      53 allocs/op
+BenchmarkZip64Test            	      20	  91111679 ns/op	   20040 B/op	      53 allocs/op
+BenchmarkZip64Test            	      20	  84687477 ns/op	   20040 B/op	      53 allocs/op
+BenchmarkZip64Test            	      20	  86476005 ns/op	   20040 B/op	      53 allocs/op
+PASS
+ok  	archive/zip	17.380s

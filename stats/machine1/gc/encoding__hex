@@ -1,0 +1,22 @@
+BenchmarkEncode/256         	 3000000	       433 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/256         	 3000000	       444 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/256         	 3000000	       473 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/256         	 3000000	       441 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/256         	 3000000	       437 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/1024        	 1000000	      1804 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/1024        	 1000000	      1702 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/1024        	 1000000	      1715 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/1024        	 1000000	      1798 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/1024        	 1000000	      1718 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/4096        	  200000	      6827 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/4096        	  200000	      7264 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/4096        	  200000	      6810 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/4096        	  200000	      6793 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/4096        	  200000	      7282 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/16384       	   50000	     27128 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/16384       	   50000	     27015 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/16384       	   50000	     29046 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/16384       	   50000	     27021 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/16384       	   50000	     27099 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	encoding/hex	33.469s

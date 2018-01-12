@@ -1,0 +1,12 @@
+BenchmarkReadMIMEHeader 	  300000	      3412 ns/op	    1308 B/op	      14 allocs/op
+BenchmarkReadMIMEHeader 	  500000	      3249 ns/op	    1308 B/op	      14 allocs/op
+BenchmarkReadMIMEHeader 	  500000	      3504 ns/op	    1308 B/op	      14 allocs/op
+BenchmarkReadMIMEHeader 	  500000	      3244 ns/op	    1308 B/op	      14 allocs/op
+BenchmarkReadMIMEHeader 	  500000	      3281 ns/op	    1308 B/op	      14 allocs/op
+BenchmarkUncommon       	 2000000	       753 ns/op	     451 B/op	       5 allocs/op
+BenchmarkUncommon       	 2000000	       699 ns/op	     451 B/op	       5 allocs/op
+BenchmarkUncommon       	 2000000	       767 ns/op	     451 B/op	       5 allocs/op
+BenchmarkUncommon       	 2000000	       700 ns/op	     451 B/op	       5 allocs/op
+BenchmarkUncommon       	 2000000	       714 ns/op	     451 B/op	       5 allocs/op
+PASS
+ok  	net/textproto	18.691s

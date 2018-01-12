@@ -1,0 +1,32 @@
+BenchmarkEscape         	   50000	     34833 ns/op	   12288 B/op	       2 allocs/op
+BenchmarkEscape         	   50000	     32740 ns/op	   12288 B/op	       2 allocs/op
+BenchmarkEscape         	   50000	     33087 ns/op	   12288 B/op	       2 allocs/op
+BenchmarkEscape         	   50000	     34999 ns/op	   12288 B/op	       2 allocs/op
+BenchmarkEscape         	   50000	     32838 ns/op	   12288 B/op	       2 allocs/op
+BenchmarkEscapeNone     	  500000	      3570 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEscapeNone     	  300000	      3519 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEscapeNone     	  500000	      3408 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEscapeNone     	  500000	      3447 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEscapeNone     	  300000	      3809 ns/op	       0 B/op	       0 allocs/op
+BenchmarkUnescape       	   20000	     68101 ns/op	   12640 B/op	     302 allocs/op
+BenchmarkUnescape       	   20000	     72135 ns/op	   12640 B/op	     302 allocs/op
+BenchmarkUnescape       	   20000	     67677 ns/op	   12640 B/op	     302 allocs/op
+BenchmarkUnescape       	   20000	     68203 ns/op	   12640 B/op	     302 allocs/op
+BenchmarkUnescape       	   20000	     71321 ns/op	   12640 B/op	     302 allocs/op
+BenchmarkUnescapeNone   	20000000	       106 ns/op	       0 B/op	       0 allocs/op
+BenchmarkUnescapeNone   	20000000	       112 ns/op	       0 B/op	       0 allocs/op
+BenchmarkUnescapeNone   	20000000	       105 ns/op	       0 B/op	       0 allocs/op
+BenchmarkUnescapeNone   	20000000	       111 ns/op	       0 B/op	       0 allocs/op
+BenchmarkUnescapeNone   	20000000	       105 ns/op	       0 B/op	       0 allocs/op
+BenchmarkUnescapeSparse 	  100000	     13150 ns/op	    8272 B/op	      12 allocs/op
+BenchmarkUnescapeSparse 	  100000	     14026 ns/op	    8272 B/op	      12 allocs/op
+BenchmarkUnescapeSparse 	  100000	     12896 ns/op	    8272 B/op	      12 allocs/op
+BenchmarkUnescapeSparse 	  100000	     12902 ns/op	    8272 B/op	      12 allocs/op
+BenchmarkUnescapeSparse 	  100000	     13817 ns/op	    8272 B/op	      12 allocs/op
+BenchmarkUnescapeDense  	   20000	     60661 ns/op	    5888 B/op	     402 allocs/op
+BenchmarkUnescapeDense  	   20000	     60835 ns/op	    5888 B/op	     402 allocs/op
+BenchmarkUnescapeDense  	   20000	     66568 ns/op	    5888 B/op	     402 allocs/op
+BenchmarkUnescapeDense  	   20000	     60676 ns/op	    5888 B/op	     402 allocs/op
+BenchmarkUnescapeDense  	   20000	     61250 ns/op	    5888 B/op	     402 allocs/op
+PASS
+ok  	gccgo/html	57.439s

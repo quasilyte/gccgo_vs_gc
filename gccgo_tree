@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+
+set -e
+
+# Copy all std packages to "gccgo" folder under src.
+# So, "regexp" becomes "gccgo/regexp".
+mkdir -p gccgo
+cp -a src/* gccgo/
+mv gccgo src
+
+# Patch gccgo tree to avoid compilation errors and other issues
+# during benchmark execution.
+#
+# No benchmarks and/or uses dot import:
+rm src/gccgo/bufio/scan_test.go
+rm src/gccgo/context/x_test.go
+rm src/gccgo/time/zoneinfo_test.go
+rm src/gccgo/time/format_test.go
+rm src/gccgo/runtime/crash_unix_test.go
+# Have benchmarks and uses dot import:
+sed -i 's/\. "strings"/\. "gccgo\/strings"/g' src/gccgo/strings/strings_test.go
+sed -i 's/\. "strings"/\. "gccgo\/strings"/g' src/gccgo/strings/search_test.go
+sed -i 's/\. "strings"/\. "gccgo\/strings"/g' src/gccgo/strings/replace_test.go
+sed -i 's/\. "reflect"/\. "gccgo\/reflect"/g' src/gccgo/reflect/all_test.go
+sed -i 's/\. "reflect"/\. "gccgo\/reflect"/g' src/gccgo/reflect/tostring_test.go
+sed -i 's/\. "fmt"/\. "gccgo\/fmt"/g' \src/gccgo/fmt/fmt_test.go
+sed -i 's/\. "math"/\. "gccgo\/math"/g' src/gccgo/math/all_test.go
+sed -i 's/\. "sort"/\. "gccgo\/sort"/g' src/gccgo/sort/sort_test.go
+sed -i 's/\. "strconv"/\. "gccgo\/strconv"/g' src/gccgo/strconv/decimal_test.go
+sed -i 's/\. "strconv"/\. "gccgo\/strconv"/g' src/gccgo/strconv/atof_test.go
+sed -i 's/\. "strconv"/\. "gccgo\/strconv"/g' src/gccgo/strconv/ftoa_test.go
+sed -i 's/\. "unicode\/utf16"/\. "gccgo\/unicode\/utf16"/g' src/gccgo/unicode/utf16/utf16_test.go
+# Patch C sources (change symbols):
+sed -i 's/"strings\.IndexByte"/"gccgo_strings\.IndexByte"/g' src/gccgo/strings/indexbyte.c
+sed -ri 's/"bytes\.([a-zA-Z]+)"/"gccgo_bytes\.\1"/g' src/gccgo/bytes/indexbyte.c

@@ -1,0 +1,72 @@
+BenchmarkCodeEncoder         	      20	  91106688 ns/op	  21.30 MB/s	36917991 B/op	 1051349 allocs/op
+BenchmarkCodeEncoder         	      20	  88415686 ns/op	  21.95 MB/s	36916855 B/op	 1051344 allocs/op
+BenchmarkCodeEncoder         	      20	  89371053 ns/op	  21.71 MB/s	36917343 B/op	 1051346 allocs/op
+BenchmarkCodeEncoder         	      20	  93836349 ns/op	  20.68 MB/s	36915480 B/op	 1051340 allocs/op
+BenchmarkCodeEncoder         	      20	  87870277 ns/op	  22.08 MB/s	36915540 B/op	 1051340 allocs/op
+BenchmarkCodeMarshal         	      20	  93987197 ns/op	  20.65 MB/s	41339511 B/op	 1051542 allocs/op
+BenchmarkCodeMarshal         	      20	  88244043 ns/op	  21.99 MB/s	41339619 B/op	 1051541 allocs/op
+BenchmarkCodeMarshal         	      20	  91611414 ns/op	  21.18 MB/s	41339863 B/op	 1051541 allocs/op
+BenchmarkCodeMarshal         	      20	  87834887 ns/op	  22.09 MB/s	41339779 B/op	 1051541 allocs/op
+BenchmarkCodeMarshal         	      20	  89492554 ns/op	  21.68 MB/s	41339863 B/op	 1051541 allocs/op
+BenchmarkCodeDecoder         	       5	 332567122 ns/op	   5.83 MB/s	126637324 B/op	 3961592 allocs/op
+BenchmarkCodeDecoder         	       3	 370843317 ns/op	   5.23 MB/s	128848368 B/op	 3982718 allocs/op
+BenchmarkCodeDecoder         	       5	 342576210 ns/op	   5.66 MB/s	126636188 B/op	 3961589 allocs/op
+BenchmarkCodeDecoder         	       3	 333591668 ns/op	   5.82 MB/s	128847994 B/op	 3982718 allocs/op
+BenchmarkCodeDecoder         	       3	 336802675 ns/op	   5.76 MB/s	128863445 B/op	 3982763 allocs/op
+BenchmarkDecoderStream       	  500000	      3169 ns/op	    1318 B/op	      44 allocs/op
+BenchmarkDecoderStream       	  500000	      3019 ns/op	    1318 B/op	      44 allocs/op
+BenchmarkDecoderStream       	  500000	      2959 ns/op	    1318 B/op	      44 allocs/op
+BenchmarkDecoderStream       	  500000	      3086 ns/op	    1318 B/op	      44 allocs/op
+BenchmarkDecoderStream       	  500000	      3057 ns/op	    1318 B/op	      44 allocs/op
+BenchmarkCodeUnmarshal       	       3	 366255487 ns/op	   5.30 MB/s	129299466 B/op	 4086506 allocs/op
+BenchmarkCodeUnmarshal       	       3	 386554194 ns/op	   5.02 MB/s	129291530 B/op	 4086484 allocs/op
+BenchmarkCodeUnmarshal       	       3	 375129074 ns/op	   5.17 MB/s	129292965 B/op	 4086482 allocs/op
+BenchmarkCodeUnmarshal       	       3	 403020158 ns/op	   4.81 MB/s	129300688 B/op	 4086507 allocs/op
+BenchmarkCodeUnmarshal       	       3	 368534972 ns/op	   5.27 MB/s	129301514 B/op	 4086507 allocs/op
+BenchmarkCodeUnmarshalReuse  	       3	 377933847 ns/op	125331072 B/op	 3982161 allocs/op
+BenchmarkCodeUnmarshalReuse  	       3	 361122998 ns/op	125332890 B/op	 3982165 allocs/op
+BenchmarkCodeUnmarshalReuse  	       3	 359624585 ns/op	125333845 B/op	 3982170 allocs/op
+BenchmarkCodeUnmarshalReuse  	       3	 358786195 ns/op	125329344 B/op	 3982154 allocs/op
+BenchmarkCodeUnmarshalReuse  	       3	 357194648 ns/op	125331328 B/op	 3982162 allocs/op
+BenchmarkUnmarshalString     	  500000	      3306 ns/op	    1367 B/op	      37 allocs/op
+BenchmarkUnmarshalString     	  500000	      3049 ns/op	    1366 B/op	      37 allocs/op
+BenchmarkUnmarshalString     	  500000	      3062 ns/op	    1366 B/op	      37 allocs/op
+BenchmarkUnmarshalString     	  500000	      3284 ns/op	    1366 B/op	      37 allocs/op
+BenchmarkUnmarshalString     	  500000	      3031 ns/op	    1366 B/op	      37 allocs/op
+BenchmarkUnmarshalFloat64    	  500000	      3164 ns/op	    1414 B/op	      39 allocs/op
+BenchmarkUnmarshalFloat64    	  500000	      3210 ns/op	    1414 B/op	      39 allocs/op
+BenchmarkUnmarshalFloat64    	  500000	      3412 ns/op	    1414 B/op	      39 allocs/op
+BenchmarkUnmarshalFloat64    	  500000	      3161 ns/op	    1414 B/op	      39 allocs/op
+BenchmarkUnmarshalFloat64    	  500000	      3368 ns/op	    1414 B/op	      39 allocs/op
+BenchmarkUnmarshalInt64      	  500000	      3114 ns/op	    1414 B/op	      39 allocs/op
+BenchmarkUnmarshalInt64      	  500000	      3109 ns/op	    1414 B/op	      39 allocs/op
+BenchmarkUnmarshalInt64      	  500000	      3249 ns/op	    1414 B/op	      39 allocs/op
+BenchmarkUnmarshalInt64      	  500000	      3144 ns/op	    1414 B/op	      39 allocs/op
+BenchmarkUnmarshalInt64      	  500000	      3093 ns/op	    1414 B/op	      39 allocs/op
+BenchmarkIssue10335          	  500000	      3985 ns/op	    1616 B/op	      46 allocs/op
+BenchmarkIssue10335          	  500000	      3757 ns/op	    1616 B/op	      46 allocs/op
+BenchmarkIssue10335          	  500000	      3797 ns/op	    1616 B/op	      46 allocs/op
+BenchmarkIssue10335          	  500000	      3985 ns/op	    1616 B/op	      46 allocs/op
+BenchmarkIssue10335          	  500000	      3779 ns/op	    1616 B/op	      46 allocs/op
+BenchmarkNumberIsValid       	20000000	        77.6 ns/op	       0 B/op	       0 allocs/op
+BenchmarkNumberIsValid       	20000000	        77.2 ns/op	       0 B/op	       0 allocs/op
+BenchmarkNumberIsValid       	20000000	        75.0 ns/op	       0 B/op	       0 allocs/op
+BenchmarkNumberIsValid       	20000000	        76.4 ns/op	       0 B/op	       0 allocs/op
+BenchmarkNumberIsValid       	20000000	        78.2 ns/op	       0 B/op	       0 allocs/op
+BenchmarkNumberIsValidRegexp 	 2000000	       945 ns/op	      81 B/op	       2 allocs/op
+BenchmarkNumberIsValidRegexp 	 1000000	      1042 ns/op	      81 B/op	       2 allocs/op
+BenchmarkNumberIsValidRegexp 	 2000000	       941 ns/op	      81 B/op	       2 allocs/op
+BenchmarkNumberIsValidRegexp 	 2000000	       995 ns/op	      81 B/op	       2 allocs/op
+BenchmarkNumberIsValidRegexp 	 2000000	       982 ns/op	      81 B/op	       2 allocs/op
+BenchmarkSkipValue           	     100	  10796026 ns/op	 185.44 MB/s	       0 B/op	       0 allocs/op
+BenchmarkSkipValue           	     100	  10110755 ns/op	 194.37 MB/s	       0 B/op	       0 allocs/op
+BenchmarkSkipValue           	     100	  11064424 ns/op	 180.80 MB/s	       0 B/op	       0 allocs/op
+BenchmarkSkipValue           	     100	  10179273 ns/op	 195.92 MB/s	       0 B/op	       0 allocs/op
+BenchmarkSkipValue           	     200	  10766614 ns/op	 183.35 MB/s	       0 B/op	       0 allocs/op
+BenchmarkEncoderEncode       	  500000	      2544 ns/op	     927 B/op	      30 allocs/op
+BenchmarkEncoderEncode       	  500000	      2567 ns/op	     927 B/op	      30 allocs/op
+BenchmarkEncoderEncode       	  500000	      2823 ns/op	     927 B/op	      30 allocs/op
+BenchmarkEncoderEncode       	 1000000	      2537 ns/op	     927 B/op	      30 allocs/op
+BenchmarkEncoderEncode       	  500000	      2557 ns/op	     927 B/op	      30 allocs/op
+PASS
+ok  	gccgo/encoding/json	142.327s

@@ -1,0 +1,24 @@
+BenchmarkScan     	   50000	     28816 ns/op	     608 B/op	      71 allocs/op
+BenchmarkScan     	   50000	     28234 ns/op	     608 B/op	      71 allocs/op
+BenchmarkScan     	   50000	     29089 ns/op	     608 B/op	      71 allocs/op
+BenchmarkScan     	   50000	     27863 ns/op	     608 B/op	      71 allocs/op
+BenchmarkScan     	   50000	     29191 ns/op	     608 B/op	      71 allocs/op
+BenchmarkScanFile 	    5000	    354104 ns/op	  50.07 MB/s	   14947 B/op	    1853 allocs/op
+BenchmarkScanFile 	    5000	    344399 ns/op	  51.48 MB/s	   14947 B/op	    1853 allocs/op
+BenchmarkScanFile 	    5000	    363862 ns/op	  48.72 MB/s	   14947 B/op	    1853 allocs/op
+BenchmarkScanFile 	    3000	    345415 ns/op	  51.33 MB/s	   14949 B/op	    1853 allocs/op
+BenchmarkScanFile 	    5000	    345625 ns/op	  51.30 MB/s	   14947 B/op	    1853 allocs/op
+PASS
+ok  	go/scanner	16.980s
+BenchmarkScan     	   50000	     27216 ns/op	     608 B/op	      71 allocs/op
+BenchmarkScan     	   50000	     29149 ns/op	     608 B/op	      71 allocs/op
+BenchmarkScan     	   50000	     27129 ns/op	     608 B/op	      71 allocs/op
+BenchmarkScan     	   50000	     27118 ns/op	     608 B/op	      71 allocs/op
+BenchmarkScan     	   50000	     29577 ns/op	     608 B/op	      71 allocs/op
+BenchmarkScanFile 	    5000	    332671 ns/op	  53.29 MB/s	   14947 B/op	    1853 allocs/op
+BenchmarkScanFile 	    5000	    335449 ns/op	  52.85 MB/s	   14947 B/op	    1853 allocs/op
+BenchmarkScanFile 	    5000	    356825 ns/op	  49.69 MB/s	   14947 B/op	    1853 allocs/op
+BenchmarkScanFile 	    5000	    331915 ns/op	  53.41 MB/s	   14947 B/op	    1853 allocs/op
+BenchmarkScanFile 	    5000	    354729 ns/op	  49.98 MB/s	   14947 B/op	    1853 allocs/op
+PASS
+ok  	go/scanner	17.217s

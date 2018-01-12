@@ -1,0 +1,7 @@
+BenchmarkDup 	    1000	   1076384 ns/op	  160085 B/op	   10000 allocs/op
+BenchmarkDup 	    2000	   1039227 ns/op	  160044 B/op	   10000 allocs/op
+BenchmarkDup 	    1000	   1127642 ns/op	  160085 B/op	   10000 allocs/op
+BenchmarkDup 	    2000	   1027282 ns/op	  160044 B/op	   10000 allocs/op
+BenchmarkDup 	    2000	   1086889 ns/op	  160044 B/op	   10000 allocs/op
+PASS
+ok  	gccgo/container/heap	9.225s

@@ -1,0 +1,37 @@
+BenchmarkReadSlice1000Int32s  	  100000	     17058 ns/op	 234.49 MB/s	    4136 B/op	       2 allocs/op
+BenchmarkReadSlice1000Int32s  	  100000	     15903 ns/op	 251.52 MB/s	    4136 B/op	       2 allocs/op
+BenchmarkReadSlice1000Int32s  	  100000	     15969 ns/op	 250.48 MB/s	    4136 B/op	       2 allocs/op
+BenchmarkReadSlice1000Int32s  	  100000	     16803 ns/op	 238.05 MB/s	    4136 B/op	       2 allocs/op
+BenchmarkReadSlice1000Int32s  	  100000	     16009 ns/op	 249.86 MB/s	    4136 B/op	       2 allocs/op
+BenchmarkReadStruct           	   50000	     27332 ns/op	   2.74 MB/s	    7264 B/op	     224 allocs/op
+BenchmarkReadStruct           	   50000	     29167 ns/op	   2.57 MB/s	    7266 B/op	     224 allocs/op
+BenchmarkReadStruct           	   50000	     27556 ns/op	   2.72 MB/s	    7265 B/op	     224 allocs/op
+BenchmarkReadStruct           	   50000	     27570 ns/op	   2.72 MB/s	    7266 B/op	     224 allocs/op
+BenchmarkReadStruct           	   50000	     28991 ns/op	   2.59 MB/s	    7264 B/op	     224 allocs/op
+BenchmarkReadInts             	 1000000	      1510 ns/op	  19.86 MB/s	      64 B/op	       4 allocs/op
+BenchmarkReadInts             	 1000000	      1514 ns/op	  19.81 MB/s	      64 B/op	       4 allocs/op
+BenchmarkReadInts             	 1000000	      1614 ns/op	  18.59 MB/s	      64 B/op	       4 allocs/op
+BenchmarkReadInts             	 1000000	      1502 ns/op	  19.96 MB/s	      64 B/op	       4 allocs/op
+BenchmarkReadInts             	 1000000	      1511 ns/op	  19.85 MB/s	      64 B/op	       4 allocs/op
+BenchmarkWriteInts            	  500000	      2575 ns/op	  11.65 MB/s	     128 B/op	       8 allocs/op
+BenchmarkWriteInts            	  500000	      2572 ns/op	  11.66 MB/s	     128 B/op	       8 allocs/op
+BenchmarkWriteInts            	  500000	      2468 ns/op	  12.15 MB/s	     128 B/op	       8 allocs/op
+BenchmarkWriteInts            	  500000	      2454 ns/op	  12.22 MB/s	     128 B/op	       8 allocs/op
+BenchmarkWriteInts            	 1000000	      2557 ns/op	  11.73 MB/s	     128 B/op	       8 allocs/op
+BenchmarkWriteSlice1000Int32s 	  100000	     15314 ns/op	 261.20 MB/s	    4136 B/op	       2 allocs/op
+BenchmarkWriteSlice1000Int32s 	  100000	     15591 ns/op	 256.54 MB/s	    4136 B/op	       2 allocs/op
+BenchmarkWriteSlice1000Int32s 	  100000	     15786 ns/op	 253.39 MB/s	    4136 B/op	       2 allocs/op
+BenchmarkWriteSlice1000Int32s 	  100000	     15177 ns/op	 263.55 MB/s	    4136 B/op	       2 allocs/op
+BenchmarkWriteSlice1000Int32s 	  100000	     15846 ns/op	 252.42 MB/s	    4136 B/op	       2 allocs/op
+BenchmarkPutUvarint32         	100000000	        17.0 ns/op	 235.67 MB/s	       0 B/op	       0 allocs/op
+BenchmarkPutUvarint32         	100000000	        16.6 ns/op	 241.09 MB/s	       0 B/op	       0 allocs/op
+BenchmarkPutUvarint32         	100000000	        17.3 ns/op	 231.20 MB/s	       0 B/op	       0 allocs/op
+BenchmarkPutUvarint32         	100000000	        16.9 ns/op	 237.34 MB/s	       0 B/op	       0 allocs/op
+BenchmarkPutUvarint32         	100000000	        16.4 ns/op	 243.18 MB/s	       0 B/op	       0 allocs/op
+BenchmarkPutUvarint64         	30000000	        61.4 ns/op	 130.20 MB/s	       0 B/op	       0 allocs/op
+BenchmarkPutUvarint64         	30000000	        58.0 ns/op	 137.92 MB/s	       0 B/op	       0 allocs/op
+BenchmarkPutUvarint64         	20000000	        58.5 ns/op	 136.68 MB/s	       0 B/op	       0 allocs/op
+BenchmarkPutUvarint64         	30000000	        62.1 ns/op	 128.74 MB/s	       0 B/op	       0 allocs/op
+BenchmarkPutUvarint64         	30000000	        58.3 ns/op	 137.32 MB/s	       0 B/op	       0 allocs/op
+PASS
+ok  	gccgo/encoding/binary	58.791s

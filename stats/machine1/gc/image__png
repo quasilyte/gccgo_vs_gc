@@ -1,0 +1,67 @@
+BenchmarkPaeth               	300000000	         4.35 ns/op	       0 B/op	       0 allocs/op
+BenchmarkPaeth               	300000000	         4.39 ns/op	       0 B/op	       0 allocs/op
+BenchmarkPaeth               	300000000	         4.65 ns/op	       0 B/op	       0 allocs/op
+BenchmarkPaeth               	300000000	         4.35 ns/op	       0 B/op	       0 allocs/op
+BenchmarkPaeth               	300000000	         4.40 ns/op	       0 B/op	       0 allocs/op
+BenchmarkDecodeGray          	    2000	    804373 ns/op	  81.47 MB/s	  136996 B/op	     102 allocs/op
+BenchmarkDecodeGray          	    2000	    760518 ns/op	  86.17 MB/s	  136996 B/op	     102 allocs/op
+BenchmarkDecodeGray          	    2000	    764806 ns/op	  85.69 MB/s	  136996 B/op	     102 allocs/op
+BenchmarkDecodeGray          	    2000	    801935 ns/op	  81.72 MB/s	  136996 B/op	     102 allocs/op
+BenchmarkDecodeGray          	    2000	    763233 ns/op	  85.87 MB/s	  136996 B/op	     102 allocs/op
+BenchmarkDecodeNRGBAGradient 	     500	   3049490 ns/op	  85.96 MB/s	  337312 B/op	     188 allocs/op
+BenchmarkDecodeNRGBAGradient 	     500	   3123957 ns/op	  83.91 MB/s	  337312 B/op	     188 allocs/op
+BenchmarkDecodeNRGBAGradient 	     500	   2993238 ns/op	  87.58 MB/s	  337312 B/op	     188 allocs/op
+BenchmarkDecodeNRGBAGradient 	     500	   3116597 ns/op	  84.11 MB/s	  337312 B/op	     188 allocs/op
+BenchmarkDecodeNRGBAGradient 	     500	   3003929 ns/op	  87.27 MB/s	  337312 B/op	     188 allocs/op
+BenchmarkDecodeNRGBAOpaque   	    1000	   2408660 ns/op	 108.83 MB/s	  346564 B/op	     152 allocs/op
+BenchmarkDecodeNRGBAOpaque   	     500	   2542256 ns/op	 103.11 MB/s	  346564 B/op	     152 allocs/op
+BenchmarkDecodeNRGBAOpaque   	     500	   2407890 ns/op	 108.87 MB/s	  346564 B/op	     152 allocs/op
+BenchmarkDecodeNRGBAOpaque   	    1000	   2494098 ns/op	 105.11 MB/s	  346564 B/op	     152 allocs/op
+BenchmarkDecodeNRGBAOpaque   	     500	   2401790 ns/op	 109.15 MB/s	  346564 B/op	     152 allocs/op
+BenchmarkDecodePaletted      	    3000	    488749 ns/op	 134.09 MB/s	  136356 B/op	     309 allocs/op
+BenchmarkDecodePaletted      	    3000	    500941 ns/op	 130.83 MB/s	  136356 B/op	     309 allocs/op
+BenchmarkDecodePaletted      	    3000	    512840 ns/op	 127.79 MB/s	  136356 B/op	     309 allocs/op
+BenchmarkDecodePaletted      	    3000	    489440 ns/op	 133.90 MB/s	  136356 B/op	     309 allocs/op
+BenchmarkDecodePaletted      	    3000	    495707 ns/op	 132.21 MB/s	  136356 B/op	     309 allocs/op
+BenchmarkDecodeRGB           	    1000	   2278613 ns/op	 115.05 MB/s	  331972 B/op	     157 allocs/op
+BenchmarkDecodeRGB           	    1000	   2194259 ns/op	 119.47 MB/s	  331972 B/op	     157 allocs/op
+BenchmarkDecodeRGB           	    1000	   2282799 ns/op	 114.83 MB/s	  331972 B/op	     157 allocs/op
+BenchmarkDecodeRGB           	    1000	   2209014 ns/op	 118.67 MB/s	  331972 B/op	     157 allocs/op
+BenchmarkDecodeRGB           	    1000	   2281959 ns/op	 114.88 MB/s	  331972 B/op	     157 allocs/op
+BenchmarkDecodeInterlacing   	     500	   2837453 ns/op	  92.39 MB/s	  605189 B/op	     268 allocs/op
+BenchmarkDecodeInterlacing   	     500	   3034142 ns/op	  86.40 MB/s	  605189 B/op	     268 allocs/op
+BenchmarkDecodeInterlacing   	     500	   2809742 ns/op	  93.30 MB/s	  605189 B/op	     268 allocs/op
+BenchmarkDecodeInterlacing   	     500	   2834706 ns/op	  92.48 MB/s	  605189 B/op	     268 allocs/op
+BenchmarkDecodeInterlacing   	     500	   3029895 ns/op	  86.52 MB/s	  605189 B/op	     268 allocs/op
+BenchmarkEncodeGray          	     500	   2460055 ns/op	 124.88 MB/s	  852080 B/op	      32 allocs/op
+BenchmarkEncodeGray          	     500	   2451782 ns/op	 125.30 MB/s	  852080 B/op	      32 allocs/op
+BenchmarkEncodeGray          	     500	   2579136 ns/op	 119.11 MB/s	  852080 B/op	      32 allocs/op
+BenchmarkEncodeGray          	     500	   2478942 ns/op	 123.92 MB/s	  852080 B/op	      32 allocs/op
+BenchmarkEncodeGray          	     500	   2472232 ns/op	 124.26 MB/s	  852080 B/op	      32 allocs/op
+BenchmarkEncodeNRGBOpaque    	     200	   8019618 ns/op	 153.22 MB/s	  860145 B/op	      32 allocs/op
+BenchmarkEncodeNRGBOpaque    	     200	   7579706 ns/op	 162.12 MB/s	  860144 B/op	      32 allocs/op
+BenchmarkEncodeNRGBOpaque    	     200	   7948996 ns/op	 154.59 MB/s	  860144 B/op	      32 allocs/op
+BenchmarkEncodeNRGBOpaque    	     200	   7586702 ns/op	 161.97 MB/s	  860144 B/op	      32 allocs/op
+BenchmarkEncodeNRGBOpaque    	     200	   7809272 ns/op	 157.35 MB/s	  860144 B/op	      32 allocs/op
+BenchmarkEncodeNRGBA         	     200	   8426629 ns/op	 145.82 MB/s	  863985 B/op	      32 allocs/op
+BenchmarkEncodeNRGBA         	     200	   8812658 ns/op	 139.44 MB/s	  863985 B/op	      32 allocs/op
+BenchmarkEncodeNRGBA         	     200	   8445585 ns/op	 145.50 MB/s	  863985 B/op	      32 allocs/op
+BenchmarkEncodeNRGBA         	     200	   8959453 ns/op	 137.15 MB/s	  863985 B/op	      32 allocs/op
+BenchmarkEncodeNRGBA         	     200	   8457346 ns/op	 145.29 MB/s	  863985 B/op	      32 allocs/op
+BenchmarkEncodePaletted      	    1000	   1914165 ns/op	 160.49 MB/s	  852136 B/op	      36 allocs/op
+BenchmarkEncodePaletted      	    1000	   1886432 ns/op	 162.85 MB/s	  852136 B/op	      36 allocs/op
+BenchmarkEncodePaletted      	    1000	   1882347 ns/op	 163.20 MB/s	  852136 B/op	      36 allocs/op
+BenchmarkEncodePaletted      	    1000	   1959543 ns/op	 156.77 MB/s	  852136 B/op	      36 allocs/op
+BenchmarkEncodePaletted      	    1000	   1868365 ns/op	 164.42 MB/s	  852136 B/op	      36 allocs/op
+BenchmarkEncodeRGBOpaque     	     200	   8066890 ns/op	 152.33 MB/s	  860145 B/op	      32 allocs/op
+BenchmarkEncodeRGBOpaque     	     200	   7640552 ns/op	 160.83 MB/s	  860144 B/op	      32 allocs/op
+BenchmarkEncodeRGBOpaque     	     200	   8235614 ns/op	 149.21 MB/s	  860145 B/op	      32 allocs/op
+BenchmarkEncodeRGBOpaque     	     200	   7622295 ns/op	 161.21 MB/s	  860144 B/op	      32 allocs/op
+BenchmarkEncodeRGBOpaque     	     200	   8120489 ns/op	 151.32 MB/s	  860145 B/op	      32 allocs/op
+BenchmarkEncodeRGBA          	      50	  31758267 ns/op	  38.69 MB/s	 3321592 B/op	  614432 allocs/op
+BenchmarkEncodeRGBA          	      50	  31681102 ns/op	  38.79 MB/s	 3321592 B/op	  614432 allocs/op
+BenchmarkEncodeRGBA          	      50	  33995455 ns/op	  36.15 MB/s	 3321592 B/op	  614432 allocs/op
+BenchmarkEncodeRGBA          	      50	  32079928 ns/op	  38.30 MB/s	 3321591 B/op	  614432 allocs/op
+BenchmarkEncodeRGBA          	      50	  31917371 ns/op	  38.50 MB/s	 3321592 B/op	  614432 allocs/op
+PASS
+ok  	image/png	128.011s

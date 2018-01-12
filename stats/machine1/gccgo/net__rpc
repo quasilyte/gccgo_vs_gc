@@ -1,0 +1,22 @@
+BenchmarkEndToEnd          	   20000	     91325 ns/op	   13957 B/op	     403 allocs/op
+BenchmarkEndToEnd          	   20000	     92981 ns/op	   13953 B/op	     403 allocs/op
+BenchmarkEndToEnd          	   20000	     88540 ns/op	   13930 B/op	     403 allocs/op
+BenchmarkEndToEnd          	   20000	     88804 ns/op	   13904 B/op	     403 allocs/op
+BenchmarkEndToEnd          	   20000	     84833 ns/op	   13867 B/op	     403 allocs/op
+BenchmarkEndToEndHTTP      	   20000	     94708 ns/op	   13898 B/op	     403 allocs/op
+BenchmarkEndToEndHTTP      	   20000	     87037 ns/op	   13901 B/op	     403 allocs/op
+BenchmarkEndToEndHTTP      	   10000	    100426 ns/op	   13886 B/op	     403 allocs/op
+BenchmarkEndToEndHTTP      	   20000	     85750 ns/op	   13860 B/op	     403 allocs/op
+BenchmarkEndToEndHTTP      	   20000	     89689 ns/op	   13740 B/op	     402 allocs/op
+BenchmarkEndToEndAsync     	   30000	     59539 ns/op	   12262 B/op	     389 allocs/op
+BenchmarkEndToEndAsync     	   30000	     61201 ns/op	   12259 B/op	     389 allocs/op
+BenchmarkEndToEndAsync     	   30000	     57335 ns/op	   12317 B/op	     389 allocs/op
+BenchmarkEndToEndAsync     	   30000	     61944 ns/op	   12262 B/op	     389 allocs/op
+BenchmarkEndToEndAsync     	   30000	     57784 ns/op	   12199 B/op	     389 allocs/op
+BenchmarkEndToEndAsyncHTTP 	   30000	     59653 ns/op	   12174 B/op	     389 allocs/op
+BenchmarkEndToEndAsyncHTTP 	   20000	     57766 ns/op	   12225 B/op	     389 allocs/op
+BenchmarkEndToEndAsyncHTTP 	   30000	     58390 ns/op	   12119 B/op	     389 allocs/op
+BenchmarkEndToEndAsyncHTTP 	   30000	     61022 ns/op	   12159 B/op	     389 allocs/op
+BenchmarkEndToEndAsyncHTTP 	   30000	     57561 ns/op	   12162 B/op	     389 allocs/op
+PASS
+ok  	gccgo/net/rpc	48.483s

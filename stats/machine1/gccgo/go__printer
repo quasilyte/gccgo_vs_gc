@@ -1,0 +1,14 @@
+BenchmarkPrint 	     100	  15747755 ns/op	 2585629 B/op	   79000 allocs/op
+BenchmarkPrint 	     100	  14630575 ns/op	 2582356 B/op	   78995 allocs/op
+BenchmarkPrint 	     100	  14678747 ns/op	 2582871 B/op	   78995 allocs/op
+BenchmarkPrint 	     100	  15222023 ns/op	 2582101 B/op	   78995 allocs/op
+BenchmarkPrint 	     100	  15082729 ns/op	 2581469 B/op	   78997 allocs/op
+PASS
+ok  	gccgo/go/printer	8.273s
+BenchmarkPrint 	     100	  15379169 ns/op	 2585431 B/op	   79002 allocs/op
+BenchmarkPrint 	     100	  14888029 ns/op	 2582011 B/op	   78995 allocs/op
+BenchmarkPrint 	     100	  14890070 ns/op	 2581868 B/op	   78995 allocs/op
+BenchmarkPrint 	     100	  15846138 ns/op	 2582219 B/op	   78996 allocs/op
+BenchmarkPrint 	     100	  14784773 ns/op	 2583492 B/op	   78998 allocs/op
+PASS
+ok  	gccgo/go/printer	8.352s

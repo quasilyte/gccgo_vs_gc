@@ -1,0 +1,17 @@
+BenchmarkQEncodeWord   	 2000000	       605 ns/op	      48 B/op	       1 allocs/op
+BenchmarkQEncodeWord   	 2000000	       578 ns/op	      48 B/op	       1 allocs/op
+BenchmarkQEncodeWord   	 3000000	       577 ns/op	      48 B/op	       1 allocs/op
+BenchmarkQEncodeWord   	 2000000	       617 ns/op	      48 B/op	       1 allocs/op
+BenchmarkQEncodeWord   	 3000000	       574 ns/op	      48 B/op	       1 allocs/op
+BenchmarkQDecodeWord   	 3000000	       476 ns/op	      48 B/op	       2 allocs/op
+BenchmarkQDecodeWord   	 3000000	       473 ns/op	      48 B/op	       2 allocs/op
+BenchmarkQDecodeWord   	 3000000	       473 ns/op	      48 B/op	       2 allocs/op
+BenchmarkQDecodeWord   	 3000000	       474 ns/op	      48 B/op	       2 allocs/op
+BenchmarkQDecodeWord   	 3000000	       473 ns/op	      48 B/op	       2 allocs/op
+BenchmarkQDecodeHeader 	 3000000	       462 ns/op	      48 B/op	       2 allocs/op
+BenchmarkQDecodeHeader 	 3000000	       464 ns/op	      48 B/op	       2 allocs/op
+BenchmarkQDecodeHeader 	 3000000	       440 ns/op	      48 B/op	       2 allocs/op
+BenchmarkQDecodeHeader 	 3000000	       462 ns/op	      48 B/op	       2 allocs/op
+BenchmarkQDecodeHeader 	 3000000	       472 ns/op	      48 B/op	       2 allocs/op
+PASS
+ok  	mime	28.714s

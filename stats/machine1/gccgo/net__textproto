@@ -1,0 +1,12 @@
+BenchmarkReadMIMEHeader 	  200000	      8174 ns/op	    1453 B/op	      23 allocs/op
+BenchmarkReadMIMEHeader 	  200000	      8467 ns/op	    1453 B/op	      23 allocs/op
+BenchmarkReadMIMEHeader 	  200000	      7899 ns/op	    1453 B/op	      23 allocs/op
+BenchmarkReadMIMEHeader 	  200000	      7887 ns/op	    1453 B/op	      23 allocs/op
+BenchmarkReadMIMEHeader 	  200000	      8541 ns/op	    1453 B/op	      23 allocs/op
+BenchmarkUncommon       	 1000000	      2000 ns/op	     492 B/op	       6 allocs/op
+BenchmarkUncommon       	 1000000	      1976 ns/op	     492 B/op	       6 allocs/op
+BenchmarkUncommon       	 1000000	      2072 ns/op	     492 B/op	       6 allocs/op
+BenchmarkUncommon       	 1000000	      1973 ns/op	     492 B/op	       6 allocs/op
+BenchmarkUncommon       	 1000000	      2077 ns/op	     492 B/op	       6 allocs/op
+PASS
+ok  	gccgo/net/textproto	18.988s

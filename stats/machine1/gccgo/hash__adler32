@@ -1,0 +1,7 @@
+BenchmarkAdler32KB 	 3000000	       421 ns/op	2430.55 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAdler32KB 	 3000000	       410 ns/op	2492.46 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAdler32KB 	 3000000	       422 ns/op	2421.84 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAdler32KB 	 3000000	       415 ns/op	2463.54 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAdler32KB 	 3000000	       412 ns/op	2483.45 MB/s	       0 B/op	       0 allocs/op
+PASS
+ok  	gccgo/hash/adler32	8.652s

@@ -1,0 +1,47 @@
+#!/usr/bin/env bash
+
+set -e
+
+# How much seconds to wait (sleep) until performing next step.
+# Required to give machine a break (avoid things like throttling).
+DELAY=60
+# Turns on/off allocations metrics for each benchmark.
+BENCHMEM='-benchmem=true'
+# Examples:
+#   LIBFFI=~/gcc-7.2.0/build/x86_64-pc-linux-gnu/libffi/include/
+#   LIBGO=~/gcc-7.2.0/build/x86_64-pc-linux-gnu/libgo/
+#   RUNTIME=~/gcc-7.2.0/libgo/runtime/
+GCCGO_INCLUDE="${LIBGO}:${LIBFFI}:${RUNTIME}"
+# Run each benchmark COUNT times.
+COUNT=5
+# Optimizations-related flags that are passed to GCCGO.
+GCC_OPT='-O3 -march=native'
+
+mkdir -p bench
+mkdir -p bench/gc/
+mkdir -p bench/gccgo/
+
+bench_gc() {
+    echo "    bench_gc ${1}"
+    GOROOT=`pwd` GOMAXPROCS=1 bin/go test -count="${COUNT}" -run=@ -bench=. "${BENCHMEM}" "${1}" | tee -a "bench/gc/${1/\//__}"
+}
+
+bench_gccgo() {
+    echo "    bench_gccgo ${1}"
+    C_INCLUDE_PATH="${GCCGO_INCLUDE}" GOPATH=`pwd` bin/go test \
+          -count="${COUNT}" \
+          -compiler gccgo -gccgoflags="${GCC_OPT}" \
+          -run=@ -bench=. "${BENCHMEM}" "gccgo/${1}" | tee -a "bench/gccgo/${1/\//__}"
+}
+
+cooldown() {
+    echo "    sleep for ${DELAY} seconds"
+    sleep "${DELAY}"
+}
+
+for pkg in `cat packages.txt`; do
+    bench_gc "${pkg}"
+    cooldown
+    bench_gccgo "${pkg}"
+    cooldown
+done

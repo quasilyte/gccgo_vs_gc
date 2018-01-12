@@ -1,0 +1,14 @@
+BenchmarkParse 	     300	   4204937 ns/op	  15.14 MB/s	  896202 B/op	   26555 allocs/op
+BenchmarkParse 	     500	   3830443 ns/op	  16.62 MB/s	  896207 B/op	   26555 allocs/op
+BenchmarkParse 	     500	   4056462 ns/op	  15.70 MB/s	  896209 B/op	   26555 allocs/op
+BenchmarkParse 	     500	   3847767 ns/op	  16.55 MB/s	  896191 B/op	   26555 allocs/op
+BenchmarkParse 	     500	   3973508 ns/op	  16.03 MB/s	  896207 B/op	   26555 allocs/op
+PASS
+ok  	go/parser	11.139s
+BenchmarkParse 	     300	   3950953 ns/op	  16.12 MB/s	  896207 B/op	   26555 allocs/op
+BenchmarkParse 	     500	   3945575 ns/op	  16.14 MB/s	  896194 B/op	   26555 allocs/op
+BenchmarkParse 	     300	   4286658 ns/op	  14.85 MB/s	  896216 B/op	   26556 allocs/op
+BenchmarkParse 	     500	   3944565 ns/op	  16.14 MB/s	  896200 B/op	   26555 allocs/op
+BenchmarkParse 	     500	   4171600 ns/op	  15.26 MB/s	  896219 B/op	   26556 allocs/op
+PASS
+ok  	go/parser	10.655s

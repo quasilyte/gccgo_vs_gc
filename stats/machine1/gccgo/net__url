@@ -1,0 +1,7 @@
+BenchmarkString 	  100000	     13677 ns/op	    3011 B/op	      53 allocs/op
+BenchmarkString 	  100000	     14996 ns/op	    3011 B/op	      53 allocs/op
+BenchmarkString 	  100000	     14859 ns/op	    3011 B/op	      53 allocs/op
+BenchmarkString 	  100000	     15971 ns/op	    3011 B/op	      53 allocs/op
+BenchmarkString 	  100000	     14926 ns/op	    3011 B/op	      53 allocs/op
+PASS
+ok  	gccgo/net/url	8.379s

@@ -1,0 +1,7 @@
+BenchmarkMarshal 	   50000	     31758 ns/op	    7824 B/op	     317 allocs/op
+BenchmarkMarshal 	   30000	     34284 ns/op	    7824 B/op	     317 allocs/op
+BenchmarkMarshal 	   50000	     31935 ns/op	    7824 B/op	     317 allocs/op
+BenchmarkMarshal 	   50000	     33240 ns/op	    7824 B/op	     317 allocs/op
+BenchmarkMarshal 	   50000	     31913 ns/op	    7824 B/op	     317 allocs/op
+PASS
+ok  	encoding/asn1	9.349s

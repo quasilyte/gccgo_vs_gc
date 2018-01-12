@@ -1,0 +1,17 @@
+BenchmarkNewIndexRandom 	       5	 302751630 ns/op	16122771 B/op	      20 allocs/op
+BenchmarkNewIndexRandom 	       5	 294547734 ns/op	16122774 B/op	      20 allocs/op
+BenchmarkNewIndexRandom 	       5	 314045024 ns/op	16122774 B/op	      20 allocs/op
+BenchmarkNewIndexRandom 	       5	 293765369 ns/op	16122771 B/op	      20 allocs/op
+BenchmarkNewIndexRandom 	       5	 299576271 ns/op	16122771 B/op	      20 allocs/op
+BenchmarkNewIndexRepeat 	       2	 562894353 ns/op	39011264 B/op	      43 allocs/op
+BenchmarkNewIndexRepeat 	       2	 628323481 ns/op	39011264 B/op	      43 allocs/op
+BenchmarkNewIndexRepeat 	       2	 564923241 ns/op	39011264 B/op	      43 allocs/op
+BenchmarkNewIndexRepeat 	       2	 562098348 ns/op	39011264 B/op	      43 allocs/op
+BenchmarkNewIndexRepeat 	       2	 630537352 ns/op	39011264 B/op	      43 allocs/op
+BenchmarkSaveRestore    	     100	  13508317 ns/op	 309.42 MB/s	11391844 B/op	       3 allocs/op
+BenchmarkSaveRestore    	     100	  12473645 ns/op	 335.08 MB/s	11391844 B/op	       3 allocs/op
+BenchmarkSaveRestore    	     100	  12217460 ns/op	 342.11 MB/s	11391844 B/op	       3 allocs/op
+BenchmarkSaveRestore    	     100	  12172224 ns/op	 343.38 MB/s	11391844 B/op	       3 allocs/op
+BenchmarkSaveRestore    	     100	  13110384 ns/op	 318.81 MB/s	11391844 B/op	       3 allocs/op
+PASS
+ok  	gccgo/index/suffixarray	34.469s
