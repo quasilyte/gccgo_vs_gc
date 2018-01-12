@@ -8,6 +8,12 @@ mkdir -p gccgo
 cp -a src/* gccgo/
 mv gccgo src
 
+# Move go1 bench suite to src for convenience.
+mkdir -p src/bench/
+mkdir -p src/gccgo/bench/
+cp -a test/bench/go1 src/bench/go1
+cp -a src/bench/go1 src/gccgo/bench/go1
+
 # Patch gccgo tree to avoid compilation errors and other issues
 # during benchmark execution.
 #

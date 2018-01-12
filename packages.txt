@@ -1,3 +1,4 @@
+bench/go1
 archive/zip
 strings
 bytes
