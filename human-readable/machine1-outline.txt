@@ -22,11 +22,11 @@ comparing strings...
   [+] IndexAnyASCII/4096:16            6.83µs ± 6%     3.78µs ± 3%        -44.56%  (p=0.001 n=10+5)
 
 comparing bytes...
+  [!] TrimSpace                  50.1ns ± 7%     33.7ns ± 4%        -32.73%  (p=0.008 n=5+5)
   [!] IndexBytePortable/32       31.1ns ± 8%     15.0ns ± 4%        -51.61%  (p=0.008 n=5+5)
   [+] IndexBytePortable/4K       1.99µs ± 6%     1.39µs ± 5%        -30.01%  (p=0.008 n=5+5)
   [+] IndexBytePortable/4M       1.98ms ± 3%     1.42ms ± 4%        -28.28%  (p=0.008 n=5+5)
   [+] IndexBytePortable/64M      33.9ms ± 3%     24.4ms ± 6%        -27.92%  (p=0.008 n=5+5)
-  [!] TrimSpace                  50.1ns ± 7%     33.7ns ± 4%        -32.73%  (p=0.008 n=5+5)
   [!] IndexBytePortable/32     1.03GB/s ± 7%   2.13GB/s ± 4%       +106.47%  (p=0.008 n=5+5)
   [+] IndexBytePortable/4K     2.06GB/s ± 6%   2.94GB/s ± 5%        +42.87%  (p=0.008 n=5+5)
   [+] IndexBytePortable/4M     2.12GB/s ± 3%   2.96GB/s ± 4%        +39.49%  (p=0.008 n=5+5)
