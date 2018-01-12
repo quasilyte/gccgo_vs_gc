@@ -1,0 +1,155 @@
+FAIL	gccgo/bench/go1 [build failed]
+FAIL	gccgo/bench/go1 [build failed]
+FAIL	gccgo/bench/go1 [build failed]
+BenchmarkBinaryTree17          	       1	3881554531 ns/op	1955188288 B/op	59351429 allocs/op
+BenchmarkBinaryTree17          	       1	3851087324 ns/op	1955186688 B/op	59351424 allocs/op
+BenchmarkBinaryTree17          	       1	3898855679 ns/op	1955186688 B/op	59351424 allocs/op
+BenchmarkBinaryTree17          	       1	3898854409 ns/op	1955186688 B/op	59351424 allocs/op
+BenchmarkBinaryTree17          	       1	3920657807 ns/op	1955186688 B/op	59351424 allocs/op
+BenchmarkFannkuch11            	       1	3699110383 ns/op	     352 B/op	       5 allocs/op
+BenchmarkFannkuch11            	       1	3576346500 ns/op	     352 B/op	       5 allocs/op
+BenchmarkFannkuch11            	       1	3693055917 ns/op	     352 B/op	       5 allocs/op
+BenchmarkFannkuch11            	       1	3681170163 ns/op	     352 B/op	       5 allocs/op
+BenchmarkFannkuch11            	       1	3621660419 ns/op	     352 B/op	       5 allocs/op
+BenchmarkFmtFprintfEmpty       	20000000	        87.3 ns/op	       0 B/op	       0 allocs/op
+BenchmarkFmtFprintfEmpty       	20000000	        86.6 ns/op	       0 B/op	       0 allocs/op
+BenchmarkFmtFprintfEmpty       	20000000	        92.8 ns/op	       0 B/op	       0 allocs/op
+BenchmarkFmtFprintfEmpty       	20000000	        86.4 ns/op	       0 B/op	       0 allocs/op
+BenchmarkFmtFprintfEmpty       	20000000	        88.9 ns/op	       0 B/op	       0 allocs/op
+BenchmarkFmtFprintfString      	 5000000	       307 ns/op	      34 B/op	       2 allocs/op
+BenchmarkFmtFprintfString      	 5000000	       300 ns/op	      34 B/op	       2 allocs/op
+BenchmarkFmtFprintfString      	 5000000	       319 ns/op	      34 B/op	       2 allocs/op
+BenchmarkFmtFprintfString      	 5000000	       299 ns/op	      34 B/op	       2 allocs/op
+BenchmarkFmtFprintfString      	 5000000	       327 ns/op	      34 B/op	       2 allocs/op
+BenchmarkFmtFprintfInt         	 5000000	       245 ns/op	      25 B/op	       1 allocs/op
+BenchmarkFmtFprintfInt         	 5000000	       239 ns/op	      25 B/op	       1 allocs/op
+BenchmarkFmtFprintfInt         	 5000000	       258 ns/op	      25 B/op	       1 allocs/op
+BenchmarkFmtFprintfInt         	10000000	       242 ns/op	      25 B/op	       1 allocs/op
+BenchmarkFmtFprintfInt         	10000000	       250 ns/op	      25 B/op	       1 allocs/op
+BenchmarkFmtFprintfIntInt      	 5000000	       355 ns/op	      48 B/op	       2 allocs/op
+BenchmarkFmtFprintfIntInt      	 5000000	       374 ns/op	      48 B/op	       2 allocs/op
+BenchmarkFmtFprintfIntInt      	 5000000	       362 ns/op	      48 B/op	       2 allocs/op
+BenchmarkFmtFprintfIntInt      	 5000000	       373 ns/op	      48 B/op	       2 allocs/op
+BenchmarkFmtFprintfIntInt      	 5000000	       352 ns/op	      48 B/op	       2 allocs/op
+BenchmarkFmtFprintfPrefixedInt 	 3000000	       467 ns/op	      25 B/op	       1 allocs/op
+BenchmarkFmtFprintfPrefixedInt 	 3000000	       436 ns/op	      25 B/op	       1 allocs/op
+BenchmarkFmtFprintfPrefixedInt 	 3000000	       443 ns/op	      25 B/op	       1 allocs/op
+BenchmarkFmtFprintfPrefixedInt 	 3000000	       442 ns/op	      25 B/op	       1 allocs/op
+BenchmarkFmtFprintfPrefixedInt 	 3000000	       432 ns/op	      25 B/op	       1 allocs/op
+BenchmarkFmtFprintfFloat       	 2000000	       759 ns/op	     203 B/op	       6 allocs/op
+BenchmarkFmtFprintfFloat       	 2000000	       699 ns/op	     203 B/op	       6 allocs/op
+BenchmarkFmtFprintfFloat       	 2000000	       756 ns/op	     203 B/op	       6 allocs/op
+BenchmarkFmtFprintfFloat       	 2000000	       691 ns/op	     203 B/op	       6 allocs/op
+BenchmarkFmtFprintfFloat       	 2000000	       742 ns/op	     203 B/op	       6 allocs/op
+BenchmarkFmtManyArgs           	 1000000	      1484 ns/op	     215 B/op	       6 allocs/op
+BenchmarkFmtManyArgs           	 1000000	      1407 ns/op	     213 B/op	       6 allocs/op
+BenchmarkFmtManyArgs           	 1000000	      1533 ns/op	     213 B/op	       6 allocs/op
+BenchmarkFmtManyArgs           	 1000000	      1422 ns/op	     213 B/op	       6 allocs/op
+BenchmarkFmtManyArgs           	 1000000	      1420 ns/op	     213 B/op	       6 allocs/op
+BenchmarkGobDecode             	      20	  83136187 ns/op	   9.23 MB/s	35507960 B/op	 1047117 allocs/op
+BenchmarkGobDecode             	      20	  76327480 ns/op	  10.06 MB/s	35502699 B/op	 1047113 allocs/op
+BenchmarkGobDecode             	      20	  79906373 ns/op	   9.61 MB/s	35502243 B/op	 1047112 allocs/op
+BenchmarkGobDecode             	      20	  82025758 ns/op	   9.36 MB/s	35501281 B/op	 1047111 allocs/op
+BenchmarkGobDecode             	      20	  77858157 ns/op	   9.86 MB/s	35500943 B/op	 1047111 allocs/op
+BenchmarkGobEncode             	      20	  79860668 ns/op	   9.61 MB/s	35476098 B/op	 1005419 allocs/op
+BenchmarkGobEncode             	      20	  80018519 ns/op	   9.59 MB/s	35475749 B/op	 1005419 allocs/op
+BenchmarkGobEncode             	      20	  76294234 ns/op	  10.06 MB/s	35475759 B/op	 1005419 allocs/op
+BenchmarkGobEncode             	      20	  81321902 ns/op	   9.44 MB/s	35475749 B/op	 1005419 allocs/op
+BenchmarkGobEncode             	      20	  76572807 ns/op	  10.02 MB/s	35475759 B/op	 1005419 allocs/op
+BenchmarkGzip                  	       3	 420201154 ns/op	  46.18 MB/s	 1011856 B/op	     336 allocs/op
+BenchmarkGzip                  	       3	 405782596 ns/op	  47.82 MB/s	 1011856 B/op	     336 allocs/op
+BenchmarkGzip                  	       3	 437474035 ns/op	  44.36 MB/s	 1011856 B/op	     336 allocs/op
+BenchmarkGzip                  	       3	 407291421 ns/op	  47.64 MB/s	 1011856 B/op	     336 allocs/op
+BenchmarkGzip                  	       3	 439951259 ns/op	  44.11 MB/s	 1011856 B/op	     336 allocs/op
+BenchmarkGunzip                	      20	  66791050 ns/op	 290.53 MB/s	  110041 B/op	     528 allocs/op
+BenchmarkGunzip                	      20	  67031691 ns/op	 289.49 MB/s	  109818 B/op	     528 allocs/op
+BenchmarkGunzip                	      20	  72683577 ns/op	 266.98 MB/s	  109818 B/op	     528 allocs/op
+BenchmarkGunzip                	      20	  66489568 ns/op	 291.85 MB/s	  109818 B/op	     528 allocs/op
+BenchmarkGunzip                	      20	  66367777 ns/op	 292.38 MB/s	  109818 B/op	     528 allocs/op
+BenchmarkHTTPClientServer      	   10000	    117390 ns/op	    9213 B/op	     204 allocs/op
+BenchmarkHTTPClientServer      	   10000	    116162 ns/op	    8994 B/op	     204 allocs/op
+BenchmarkHTTPClientServer      	   10000	    114504 ns/op	    8994 B/op	     204 allocs/op
+BenchmarkHTTPClientServer      	   10000	    110656 ns/op	    8994 B/op	     204 allocs/op
+BenchmarkHTTPClientServer      	   10000	    111216 ns/op	    8994 B/op	     204 allocs/op
+BenchmarkJSONEncode            	      20	 101287132 ns/op	  19.16 MB/s	40635715 B/op	 1016734 allocs/op
+BenchmarkJSONEncode            	      20	  99025680 ns/op	  19.60 MB/s	40635679 B/op	 1016733 allocs/op
+BenchmarkJSONEncode            	      20	  98826913 ns/op	  19.64 MB/s	40635679 B/op	 1016733 allocs/op
+BenchmarkJSONEncode            	      20	  99631940 ns/op	  19.48 MB/s	40635679 B/op	 1016733 allocs/op
+BenchmarkJSONEncode            	      20	  93598408 ns/op	  20.73 MB/s	40635679 B/op	 1016733 allocs/op
+BenchmarkJSONDecode            	       5	 342974843 ns/op	   5.66 MB/s	132743699 B/op	 4097123 allocs/op
+BenchmarkJSONDecode            	       3	 342732842 ns/op	   5.66 MB/s	132602533 B/op	 4096680 allocs/op
+BenchmarkJSONDecode            	       3	 376265096 ns/op	   5.16 MB/s	132603264 B/op	 4096681 allocs/op
+BenchmarkJSONDecode            	       3	 349489251 ns/op	   5.55 MB/s	132584432 B/op	 4096618 allocs/op
+BenchmarkJSONDecode            	       5	 349279240 ns/op	   5.56 MB/s	132745356 B/op	 4097128 allocs/op
+BenchmarkMandelbrot200         	     500	   3846578 ns/op	       0 B/op	       0 allocs/op
+BenchmarkMandelbrot200         	     500	   4064706 ns/op	       0 B/op	       0 allocs/op
+BenchmarkMandelbrot200         	     500	   3858884 ns/op	       0 B/op	       0 allocs/op
+BenchmarkMandelbrot200         	     500	   4099881 ns/op	       0 B/op	       0 allocs/op
+BenchmarkMandelbrot200         	     500	   3865224 ns/op	       0 B/op	       0 allocs/op
+BenchmarkGoParse               	     300	   5457227 ns/op	  10.61 MB/s	 1126425 B/op	   29725 allocs/op
+BenchmarkGoParse               	     300	   4903432 ns/op	  11.81 MB/s	 1111474 B/op	   29718 allocs/op
+BenchmarkGoParse               	     300	   5178440 ns/op	  11.19 MB/s	 1111598 B/op	   29718 allocs/op
+BenchmarkGoParse               	     300	   4908261 ns/op	  11.80 MB/s	 1111429 B/op	   29718 allocs/op
+BenchmarkGoParse               	     300	   5274509 ns/op	  10.98 MB/s	 1111406 B/op	   29718 allocs/op
+BenchmarkRegexpMatchEasy0_32   	10000000	       133 ns/op	 240.20 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRegexpMatchEasy0_32   	10000000	       134 ns/op	 237.49 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRegexpMatchEasy0_32   	10000000	       144 ns/op	 221.80 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRegexpMatchEasy0_32   	10000000	       133 ns/op	 239.72 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRegexpMatchEasy0_32   	10000000	       135 ns/op	 236.21 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRegexpMatchEasy0_1K   	 1000000	      1153 ns/op	 887.54 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRegexpMatchEasy0_1K   	 1000000	      1092 ns/op	 937.53 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRegexpMatchEasy0_1K   	 1000000	      1092 ns/op	 936.92 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRegexpMatchEasy0_1K   	 1000000	      1169 ns/op	 875.73 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRegexpMatchEasy0_1K   	 1000000	      1084 ns/op	 944.57 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRegexpMatchEasy1_32   	10000000	       127 ns/op	 251.56 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRegexpMatchEasy1_32   	10000000	       132 ns/op	 242.07 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRegexpMatchEasy1_32   	10000000	       126 ns/op	 252.15 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRegexpMatchEasy1_32   	10000000	       126 ns/op	 252.37 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRegexpMatchEasy1_32   	10000000	       136 ns/op	 235.00 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRegexpMatchEasy1_1K   	 1000000	      1859 ns/op	 550.68 MB/s	     395 B/op	       8 allocs/op
+BenchmarkRegexpMatchEasy1_1K   	 1000000	      1844 ns/op	 555.26 MB/s	     395 B/op	       8 allocs/op
+BenchmarkRegexpMatchEasy1_1K   	 1000000	      1858 ns/op	 551.03 MB/s	     395 B/op	       8 allocs/op
+BenchmarkRegexpMatchEasy1_1K   	 1000000	      1772 ns/op	 577.69 MB/s	     395 B/op	       8 allocs/op
+BenchmarkRegexpMatchEasy1_1K   	 1000000	      1923 ns/op	 532.47 MB/s	     395 B/op	       8 allocs/op
+BenchmarkRegexpMatchMedium_32  	 5000000	       320 ns/op	   3.12 MB/s	      98 B/op	       2 allocs/op
+BenchmarkRegexpMatchMedium_32  	 5000000	       340 ns/op	   2.94 MB/s	      98 B/op	       2 allocs/op
+BenchmarkRegexpMatchMedium_32  	 5000000	       314 ns/op	   3.18 MB/s	      98 B/op	       2 allocs/op
+BenchmarkRegexpMatchMedium_32  	 5000000	       335 ns/op	   2.98 MB/s	      98 B/op	       2 allocs/op
+BenchmarkRegexpMatchMedium_32  	 5000000	       313 ns/op	   3.19 MB/s	      98 B/op	       2 allocs/op
+BenchmarkRegexpMatchMedium_1K  	   10000	    120896 ns/op	   8.47 MB/s	   51935 B/op	    1057 allocs/op
+BenchmarkRegexpMatchMedium_1K  	   10000	    130662 ns/op	   7.84 MB/s	   51935 B/op	    1057 allocs/op
+BenchmarkRegexpMatchMedium_1K  	   10000	    120021 ns/op	   8.53 MB/s	   51935 B/op	    1057 allocs/op
+BenchmarkRegexpMatchMedium_1K  	   10000	    121598 ns/op	   8.42 MB/s	   51935 B/op	    1057 allocs/op
+BenchmarkRegexpMatchMedium_1K  	   10000	    131283 ns/op	   7.80 MB/s	   51935 B/op	    1057 allocs/op
+BenchmarkRegexpMatchHard_32    	  200000	     12803 ns/op	   2.50 MB/s	    6522 B/op	     132 allocs/op
+BenchmarkRegexpMatchHard_32    	  200000	     13525 ns/op	   2.37 MB/s	    6522 B/op	     132 allocs/op
+BenchmarkRegexpMatchHard_32    	  200000	     13211 ns/op	   2.42 MB/s	    6522 B/op	     132 allocs/op
+BenchmarkRegexpMatchHard_32    	  200000	     13095 ns/op	   2.44 MB/s	    6522 B/op	     132 allocs/op
+BenchmarkRegexpMatchHard_32    	  200000	     13355 ns/op	   2.40 MB/s	    6522 B/op	     132 allocs/op
+BenchmarkRegexpMatchHard_1K    	    5000	    390522 ns/op	   2.62 MB/s	  202793 B/op	    4128 allocs/op
+BenchmarkRegexpMatchHard_1K    	    5000	    411721 ns/op	   2.49 MB/s	  202792 B/op	    4128 allocs/op
+BenchmarkRegexpMatchHard_1K    	    5000	    389563 ns/op	   2.63 MB/s	  202792 B/op	    4128 allocs/op
+BenchmarkRegexpMatchHard_1K    	    5000	    394071 ns/op	   2.60 MB/s	  202792 B/op	    4128 allocs/op
+BenchmarkRegexpMatchHard_1K    	    5000	    403884 ns/op	   2.54 MB/s	  202792 B/op	    4128 allocs/op
+BenchmarkRevcomp               	       2	 530858290 ns/op	 478.78 MB/s	163582192 B/op	       8 allocs/op
+BenchmarkRevcomp               	       2	 573936884 ns/op	 442.85 MB/s	163582192 B/op	       8 allocs/op
+BenchmarkRevcomp               	       2	 522667495 ns/op	 486.29 MB/s	163582192 B/op	       8 allocs/op
+BenchmarkRevcomp               	       2	 524559607 ns/op	 484.53 MB/s	163582192 B/op	       8 allocs/op
+BenchmarkRevcomp               	       2	 566795158 ns/op	 448.43 MB/s	163582192 B/op	       8 allocs/op
+BenchmarkTemplate              	       5	 340466874 ns/op	   5.70 MB/s	123051316 B/op	 3842358 allocs/op
+BenchmarkTemplate              	       5	 332439213 ns/op	   5.84 MB/s	123050475 B/op	 3842356 allocs/op
+BenchmarkTemplate              	       3	 345988585 ns/op	   5.61 MB/s	122580888 B/op	 3840924 allocs/op
+BenchmarkTemplate              	       5	 343148192 ns/op	   5.65 MB/s	123051092 B/op	 3842357 allocs/op
+BenchmarkTemplate              	       3	 339208872 ns/op	   5.72 MB/s	122580909 B/op	 3840924 allocs/op
+BenchmarkTimeParse             	 3000000	       587 ns/op	      32 B/op	       1 allocs/op
+BenchmarkTimeParse             	 3000000	       623 ns/op	      32 B/op	       1 allocs/op
+BenchmarkTimeParse             	 3000000	       592 ns/op	      32 B/op	       1 allocs/op
+BenchmarkTimeParse             	 2000000	       593 ns/op	      32 B/op	       1 allocs/op
+BenchmarkTimeParse             	 3000000	       594 ns/op	      32 B/op	       1 allocs/op
+BenchmarkTimeFormat            	 1000000	      1120 ns/op	     335 B/op	       9 allocs/op
+BenchmarkTimeFormat            	 2000000	      1054 ns/op	     335 B/op	       9 allocs/op
+BenchmarkTimeFormat            	 1000000	      1074 ns/op	     335 B/op	       9 allocs/op
+BenchmarkTimeFormat            	 2000000	      1054 ns/op	     335 B/op	       9 allocs/op
+BenchmarkTimeFormat            	 1000000	      1038 ns/op	     335 B/op	       9 allocs/op
+PASS
+ok  	gccgo/bench/go1	342.245s
