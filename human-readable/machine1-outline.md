@@ -1,10 +1,12 @@
 This file contains benchmarks that were significantly faster on GCCGO.
 
 Legend:
+```
 [!] - same (or worse) performance on GC Go devel (as opposed to GC 1.8.1).
 [~] - performance difference holds on GC Go devel, but is less significant.
 [+] - performance difference is resolved (better or same results).
 [?] - benchmark was removed (or renamed) in Go devel.
+```
 
 ### Section A - execution speed. time/op
 
