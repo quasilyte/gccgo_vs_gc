@@ -45,10 +45,10 @@ comparing encoding/binary...
   [!] PutUvarint32            27.4ns ± 7%    16.8ns ± 3%    -38.50%  (p=0.008 n=5+5)
   [!] PutUvarint32           146MB/s ± 7%   238MB/s ± 3%    +62.50%  (p=0.008 n=5+5)
   [!] PutUvarint64           104MB/s ± 5%   134MB/s ± 4%    +29.36%  (p=0.008 n=5+5)
-  [!] ReadSlice1000Int32s       3.00 ± 0%      2.00 ± 0%    -33.33%  (p=0.008 n=5+5)
-  [!] ReadInts                  8.00 ± 0%      4.00 ± 0%    -50.00%  (p=0.008 n=5+5)
-  [!] WriteInts                 16.0 ± 0%       8.0 ± 0%    -50.00%  (p=0.008 n=5+5)
-  [!] WriteSlice1000Int32s      3.00 ± 0%      2.00 ± 0%    -33.33%  (p=0.008 n=5+5)
+  [+] ReadSlice1000Int32s       3.00 ± 0%      2.00 ± 0%    -33.33%  (p=0.008 n=5+5)
+  [+] ReadInts                  8.00 ± 0%      4.00 ± 0%    -50.00%  (p=0.008 n=5+5)
+  [+] WriteInts                 16.0 ± 0%       8.0 ± 0%    -50.00%  (p=0.008 n=5+5)
+  [+] WriteSlice1000Int32s      3.00 ± 0%      2.00 ± 0%    -33.33%  (p=0.008 n=5+5)
 
 comparing encoding/json...
   [!] SkipValue              15.6ms ± 4%      10.6ms ± 5%         -32.23%  (p=0.008 n=5+5)
