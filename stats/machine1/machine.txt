@@ -1,4 +1,5 @@
 Linux 4.4.0-97-generic Ubuntu x86_64
 Intel Xeon E5-2680 2.50GHz
 CPUs: 48
+Turbo: enabled
 Has AVX2
