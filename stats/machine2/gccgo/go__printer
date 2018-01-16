@@ -1,0 +1,7 @@
+BenchmarkPrint 	      50	  31497267 ns/op	 2584622 B/op	   79001 allocs/op
+BenchmarkPrint 	      50	  31512014 ns/op	 2581665 B/op	   78998 allocs/op
+BenchmarkPrint 	      50	  31611975 ns/op	 2584136 B/op	   79003 allocs/op
+BenchmarkPrint 	      50	  31626951 ns/op	 2583045 B/op	   79001 allocs/op
+BenchmarkPrint 	      50	  31833175 ns/op	 2584125 B/op	   79002 allocs/op
+PASS
+ok  	gccgo/go/printer	8.950s

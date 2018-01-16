@@ -1,0 +1,12 @@
+BenchmarkCompressedZipGarbage 	      20	  81527799 ns/op	   14504 B/op	      88 allocs/op
+BenchmarkCompressedZipGarbage 	      20	  81567537 ns/op	   14283 B/op	      88 allocs/op
+BenchmarkCompressedZipGarbage 	      20	  81546195 ns/op	   14283 B/op	      88 allocs/op
+BenchmarkCompressedZipGarbage 	      20	  81487834 ns/op	   14283 B/op	      88 allocs/op
+BenchmarkCompressedZipGarbage 	      20	  81483236 ns/op	   14283 B/op	      88 allocs/op
+BenchmarkZip64Test            	       5	 258986737 ns/op	 6627201 B/op	  361149 allocs/op
+BenchmarkZip64Test            	       5	 256644996 ns/op	 6573566 B/op	  361066 allocs/op
+BenchmarkZip64Test            	       5	 258287848 ns/op	 6573566 B/op	  361066 allocs/op
+BenchmarkZip64Test            	       5	 257000033 ns/op	 6574385 B/op	  361066 allocs/op
+BenchmarkZip64Test            	       5	 256732684 ns/op	 6573851 B/op	  361067 allocs/op
+PASS
+ok  	gccgo/archive/zip	21.225s

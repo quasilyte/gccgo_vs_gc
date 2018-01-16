@@ -1,0 +1,12 @@
+BenchmarkCompressedZipGarbage 	      50	  32722173 ns/op	    5592 B/op	      44 allocs/op
+BenchmarkCompressedZipGarbage 	      50	  32710135 ns/op	    5592 B/op	      44 allocs/op
+BenchmarkCompressedZipGarbage 	      50	  32709930 ns/op	    5592 B/op	      44 allocs/op
+BenchmarkCompressedZipGarbage 	      50	  32715572 ns/op	    5592 B/op	      44 allocs/op
+BenchmarkCompressedZipGarbage 	      50	  32707595 ns/op	    5592 B/op	      44 allocs/op
+BenchmarkZip64Test            	      10	 184606929 ns/op	   20040 B/op	      53 allocs/op
+BenchmarkZip64Test            	      10	 184545298 ns/op	   20040 B/op	      53 allocs/op
+BenchmarkZip64Test            	      10	 184540932 ns/op	   20040 B/op	      53 allocs/op
+BenchmarkZip64Test            	      10	 184712525 ns/op	   20040 B/op	      53 allocs/op
+BenchmarkZip64Test            	      10	 187802843 ns/op	   20040 B/op	      53 allocs/op
+PASS
+ok  	archive/zip	18.888s

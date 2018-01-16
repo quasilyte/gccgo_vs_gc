@@ -1,0 +1,17 @@
+BenchmarkRC4_128 	 2000000	       889 ns/op	 143.85 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRC4_128 	 2000000	       889 ns/op	 143.85 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRC4_128 	 2000000	       889 ns/op	 143.86 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRC4_128 	 2000000	       889 ns/op	 143.85 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRC4_128 	 2000000	       889 ns/op	 143.85 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRC4_1K  	  200000	      6793 ns/op	 150.73 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRC4_1K  	  200000	      6792 ns/op	 150.75 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRC4_1K  	  200000	      6794 ns/op	 150.71 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRC4_1K  	  200000	      6795 ns/op	 150.68 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRC4_1K  	  200000	      6793 ns/op	 150.73 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRC4_8K  	   30000	     53648 ns/op	 150.91 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRC4_8K  	   30000	     53659 ns/op	 150.88 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRC4_8K  	   30000	     53686 ns/op	 150.80 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRC4_8K  	   30000	     53667 ns/op	 150.85 MB/s	       0 B/op	       0 allocs/op
+BenchmarkRC4_8K  	   30000	     53654 ns/op	 150.89 MB/s	       0 B/op	       0 allocs/op
+PASS
+ok  	gccgo/crypto/rc4	31.639s

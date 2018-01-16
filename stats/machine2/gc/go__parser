@@ -1,0 +1,7 @@
+BenchmarkParse 	     200	   8393689 ns/op	   7.59 MB/s	  896218 B/op	   26556 allocs/op
+BenchmarkParse 	     200	   8396193 ns/op	   7.58 MB/s	  896190 B/op	   26555 allocs/op
+BenchmarkParse 	     200	   8433713 ns/op	   7.55 MB/s	  896199 B/op	   26555 allocs/op
+BenchmarkParse 	     200	   8429007 ns/op	   7.55 MB/s	  896193 B/op	   26555 allocs/op
+BenchmarkParse 	     200	   8387576 ns/op	   7.59 MB/s	  896188 B/op	   26555 allocs/op
+PASS
+ok  	go/parser	12.671s

@@ -1,0 +1,7 @@
+BenchmarkParse 	     100	  12229081 ns/op	   5.21 MB/s	 1078965 B/op	   31438 allocs/op
+BenchmarkParse 	     100	  12233085 ns/op	   5.21 MB/s	 1081823 B/op	   31440 allocs/op
+BenchmarkParse 	     100	  12200891 ns/op	   5.22 MB/s	 1071261 B/op	   31432 allocs/op
+BenchmarkParse 	     100	  12272351 ns/op	   5.19 MB/s	 1075865 B/op	   31435 allocs/op
+BenchmarkParse 	     100	  12267078 ns/op	   5.19 MB/s	 1076778 B/op	   31436 allocs/op
+PASS
+ok  	gccgo/go/parser	6.396s

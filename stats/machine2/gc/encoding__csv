@@ -1,0 +1,22 @@
+BenchmarkRead                       	  200000	      7101 ns/op	     664 B/op	      18 allocs/op
+BenchmarkRead                       	  200000	      7084 ns/op	     664 B/op	      18 allocs/op
+BenchmarkRead                       	  200000	      7084 ns/op	     664 B/op	      18 allocs/op
+BenchmarkRead                       	  200000	      7082 ns/op	     664 B/op	      18 allocs/op
+BenchmarkRead                       	  200000	      7087 ns/op	     664 B/op	      18 allocs/op
+BenchmarkReadWithFieldsPerRecord    	  200000	      7158 ns/op	     664 B/op	      18 allocs/op
+BenchmarkReadWithFieldsPerRecord    	  200000	      7139 ns/op	     664 B/op	      18 allocs/op
+BenchmarkReadWithFieldsPerRecord    	  200000	      7134 ns/op	     664 B/op	      18 allocs/op
+BenchmarkReadWithFieldsPerRecord    	  200000	      7156 ns/op	     664 B/op	      18 allocs/op
+BenchmarkReadWithFieldsPerRecord    	  200000	      7136 ns/op	     664 B/op	      18 allocs/op
+BenchmarkReadWithoutFieldsPerRecord 	  200000	      7136 ns/op	     664 B/op	      18 allocs/op
+BenchmarkReadWithoutFieldsPerRecord 	  200000	      7140 ns/op	     664 B/op	      18 allocs/op
+BenchmarkReadWithoutFieldsPerRecord 	  200000	      7144 ns/op	     664 B/op	      18 allocs/op
+BenchmarkReadWithoutFieldsPerRecord 	  200000	      7155 ns/op	     664 B/op	      18 allocs/op
+BenchmarkReadWithoutFieldsPerRecord 	  200000	      7142 ns/op	     664 B/op	      18 allocs/op
+BenchmarkReadLargeFields            	   10000	    139801 ns/op	    3937 B/op	      24 allocs/op
+BenchmarkReadLargeFields            	   10000	    139688 ns/op	    3937 B/op	      24 allocs/op
+BenchmarkReadLargeFields            	   10000	    139576 ns/op	    3937 B/op	      24 allocs/op
+BenchmarkReadLargeFields            	   10000	    139761 ns/op	    3937 B/op	      24 allocs/op
+BenchmarkReadLargeFields            	   10000	    139783 ns/op	    3937 B/op	      24 allocs/op
+PASS
+ok  	encoding/csv	29.728s

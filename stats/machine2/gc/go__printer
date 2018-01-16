@@ -1,0 +1,7 @@
+BenchmarkPrint 	     100	  15197853 ns/op	  759927 B/op	   34343 allocs/op
+BenchmarkPrint 	     100	  15302428 ns/op	  759892 B/op	   34343 allocs/op
+BenchmarkPrint 	     100	  15527550 ns/op	  759965 B/op	   34343 allocs/op
+BenchmarkPrint 	     100	  15642708 ns/op	  760171 B/op	   34344 allocs/op
+BenchmarkPrint 	     100	  15137302 ns/op	  760015 B/op	   34343 allocs/op
+PASS
+ok  	go/printer	8.552s

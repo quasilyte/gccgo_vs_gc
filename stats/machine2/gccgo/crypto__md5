@@ -1,0 +1,32 @@
+BenchmarkHash8Bytes          	 1000000	      1959 ns/op	   4.08 MB/s	     273 B/op	       5 allocs/op
+BenchmarkHash8Bytes          	 1000000	      1962 ns/op	   4.08 MB/s	     273 B/op	       5 allocs/op
+BenchmarkHash8Bytes          	 1000000	      1961 ns/op	   4.08 MB/s	     273 B/op	       5 allocs/op
+BenchmarkHash8Bytes          	 1000000	      1959 ns/op	   4.08 MB/s	     273 B/op	       5 allocs/op
+BenchmarkHash8Bytes          	 1000000	      1960 ns/op	   4.08 MB/s	     273 B/op	       5 allocs/op
+BenchmarkHash1K              	  200000	      6434 ns/op	 159.15 MB/s	     370 B/op	       7 allocs/op
+BenchmarkHash1K              	  200000	      6395 ns/op	 160.11 MB/s	     369 B/op	       7 allocs/op
+BenchmarkHash1K              	  200000	      6395 ns/op	 160.10 MB/s	     369 B/op	       7 allocs/op
+BenchmarkHash1K              	  200000	      6397 ns/op	 160.05 MB/s	     369 B/op	       7 allocs/op
+BenchmarkHash1K              	  200000	      6396 ns/op	 160.10 MB/s	     369 B/op	       7 allocs/op
+BenchmarkHash8K              	   50000	     33357 ns/op	 245.58 MB/s	     370 B/op	       7 allocs/op
+BenchmarkHash8K              	   50000	     33353 ns/op	 245.61 MB/s	     369 B/op	       7 allocs/op
+BenchmarkHash8K              	   50000	     33365 ns/op	 245.53 MB/s	     369 B/op	       7 allocs/op
+BenchmarkHash8K              	   50000	     33375 ns/op	 245.45 MB/s	     369 B/op	       7 allocs/op
+BenchmarkHash8K              	   50000	     33409 ns/op	 245.20 MB/s	     369 B/op	       7 allocs/op
+BenchmarkHash8BytesUnaligned 	 1000000	      1971 ns/op	   4.06 MB/s	     273 B/op	       5 allocs/op
+BenchmarkHash8BytesUnaligned 	 1000000	      1967 ns/op	   4.07 MB/s	     273 B/op	       5 allocs/op
+BenchmarkHash8BytesUnaligned 	 1000000	      1948 ns/op	   4.11 MB/s	     272 B/op	       5 allocs/op
+BenchmarkHash8BytesUnaligned 	 1000000	      1927 ns/op	   4.15 MB/s	     272 B/op	       5 allocs/op
+BenchmarkHash8BytesUnaligned 	 1000000	      1925 ns/op	   4.16 MB/s	     272 B/op	       5 allocs/op
+BenchmarkHash1KUnaligned     	  200000	      6390 ns/op	 160.24 MB/s	     370 B/op	       7 allocs/op
+BenchmarkHash1KUnaligned     	  200000	      6396 ns/op	 160.09 MB/s	     369 B/op	       7 allocs/op
+BenchmarkHash1KUnaligned     	  200000	      6397 ns/op	 160.06 MB/s	     369 B/op	       7 allocs/op
+BenchmarkHash1KUnaligned     	  200000	      6397 ns/op	 160.07 MB/s	     369 B/op	       7 allocs/op
+BenchmarkHash1KUnaligned     	  200000	      6395 ns/op	 160.11 MB/s	     369 B/op	       7 allocs/op
+BenchmarkHash8KUnaligned     	   50000	     33341 ns/op	 245.70 MB/s	     370 B/op	       7 allocs/op
+BenchmarkHash8KUnaligned     	   50000	     33369 ns/op	 245.50 MB/s	     369 B/op	       7 allocs/op
+BenchmarkHash8KUnaligned     	   50000	     33373 ns/op	 245.46 MB/s	     369 B/op	       7 allocs/op
+BenchmarkHash8KUnaligned     	   50000	     33371 ns/op	 245.48 MB/s	     369 B/op	       7 allocs/op
+BenchmarkHash8KUnaligned     	   50000	     33377 ns/op	 245.43 MB/s	     369 B/op	       7 allocs/op
+PASS
+ok  	gccgo/crypto/md5	53.540s

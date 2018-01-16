@@ -1,0 +1,17 @@
+BenchmarkBaseMult       	    1000	   2356483 ns/op	  202217 B/op	    4956 allocs/op
+BenchmarkBaseMult       	     500	   2350342 ns/op	  202217 B/op	    4956 allocs/op
+BenchmarkBaseMult       	     500	   2349685 ns/op	  202216 B/op	    4956 allocs/op
+BenchmarkBaseMult       	     500	   2350520 ns/op	  202217 B/op	    4956 allocs/op
+BenchmarkBaseMult       	     500	   2351868 ns/op	  202215 B/op	    4956 allocs/op
+BenchmarkBaseMultP256   	    2000	    661906 ns/op	   47798 B/op	    1018 allocs/op
+BenchmarkBaseMultP256   	    2000	    661882 ns/op	   47798 B/op	    1018 allocs/op
+BenchmarkBaseMultP256   	    2000	    662214 ns/op	   47798 B/op	    1018 allocs/op
+BenchmarkBaseMultP256   	    2000	    661974 ns/op	   47798 B/op	    1018 allocs/op
+BenchmarkBaseMultP256   	    2000	    662478 ns/op	   47798 B/op	    1018 allocs/op
+BenchmarkScalarMultP256 	    1000	   1774136 ns/op	  133542 B/op	    2767 allocs/op
+BenchmarkScalarMultP256 	    1000	   1769577 ns/op	  133540 B/op	    2767 allocs/op
+BenchmarkScalarMultP256 	    1000	   1769180 ns/op	  133348 B/op	    2765 allocs/op
+BenchmarkScalarMultP256 	    1000	   1770762 ns/op	  133444 B/op	    2766 allocs/op
+BenchmarkScalarMultP256 	    1000	   1771130 ns/op	  133444 B/op	    2766 allocs/op
+PASS
+ok  	gccgo/crypto/elliptic	25.220s

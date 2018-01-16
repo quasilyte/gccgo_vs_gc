@@ -1,0 +1,12 @@
+BenchmarkHMACSHA256_1K 	  200000	      9080 ns/op	 112.77 MB/s	      32 B/op	       1 allocs/op
+BenchmarkHMACSHA256_1K 	  200000	      9073 ns/op	 112.86 MB/s	      32 B/op	       1 allocs/op
+BenchmarkHMACSHA256_1K 	  200000	      9071 ns/op	 112.88 MB/s	      32 B/op	       1 allocs/op
+BenchmarkHMACSHA256_1K 	  200000	      9073 ns/op	 112.85 MB/s	      32 B/op	       1 allocs/op
+BenchmarkHMACSHA256_1K 	  200000	      9076 ns/op	 112.82 MB/s	      32 B/op	       1 allocs/op
+BenchmarkHMACSHA256_32 	  500000	      2415 ns/op	  13.25 MB/s	      32 B/op	       1 allocs/op
+BenchmarkHMACSHA256_32 	  500000	      2415 ns/op	  13.25 MB/s	      32 B/op	       1 allocs/op
+BenchmarkHMACSHA256_32 	  500000	      2414 ns/op	  13.25 MB/s	      32 B/op	       1 allocs/op
+BenchmarkHMACSHA256_32 	  500000	      2415 ns/op	  13.25 MB/s	      32 B/op	       1 allocs/op
+BenchmarkHMACSHA256_32 	  500000	      2415 ns/op	  13.25 MB/s	      32 B/op	       1 allocs/op
+PASS
+ok  	crypto/hmac	15.823s

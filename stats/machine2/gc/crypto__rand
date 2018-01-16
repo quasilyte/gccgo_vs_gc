@@ -1,0 +1,7 @@
+BenchmarkPrime 	       3	 350042317 ns/op	 1352746 B/op	    4191 allocs/op
+BenchmarkPrime 	       5	 296692704 ns/op	 1126134 B/op	    3531 allocs/op
+BenchmarkPrime 	      10	 417738795 ns/op	 1658122 B/op	    5098 allocs/op
+BenchmarkPrime 	      10	 191209030 ns/op	  670099 B/op	    2199 allocs/op
+BenchmarkPrime 	      10	 295840482 ns/op	 1126628 B/op	    3544 allocs/op
+PASS
+ok  	crypto/rand	13.199s

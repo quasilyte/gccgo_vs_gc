@@ -1,0 +1,12 @@
+BenchmarkEncodeToString 	   30000	     56025 ns/op	 146.22 MB/s	   27136 B/op	       2 allocs/op
+BenchmarkEncodeToString 	   30000	     56050 ns/op	 146.15 MB/s	   27136 B/op	       2 allocs/op
+BenchmarkEncodeToString 	   30000	     56042 ns/op	 146.17 MB/s	   27136 B/op	       2 allocs/op
+BenchmarkEncodeToString 	   30000	     56053 ns/op	 146.15 MB/s	   27136 B/op	       2 allocs/op
+BenchmarkEncodeToString 	   30000	     56020 ns/op	 146.23 MB/s	   27136 B/op	       2 allocs/op
+BenchmarkDecodeString   	   10000	    223630 ns/op	  58.63 MB/s	   23042 B/op	       2 allocs/op
+BenchmarkDecodeString   	   10000	    223960 ns/op	  58.55 MB/s	   23042 B/op	       2 allocs/op
+BenchmarkDecodeString   	   10000	    223874 ns/op	  58.57 MB/s	   23042 B/op	       2 allocs/op
+BenchmarkDecodeString   	   10000	    223807 ns/op	  58.59 MB/s	   23042 B/op	       2 allocs/op
+BenchmarkDecodeString   	   10000	    223633 ns/op	  58.63 MB/s	   23042 B/op	       2 allocs/op
+PASS
+ok  	encoding/base32	22.562s

@@ -1,0 +1,17 @@
+BenchmarkDecodeDigits 	     100	  14625361 ns/op	   6.84 MB/s	 3611912 B/op	      40 allocs/op
+BenchmarkDecodeDigits 	     100	  14623321 ns/op	   6.84 MB/s	 3611911 B/op	      40 allocs/op
+BenchmarkDecodeDigits 	     100	  14625043 ns/op	   6.84 MB/s	 3611911 B/op	      40 allocs/op
+BenchmarkDecodeDigits 	     100	  14621346 ns/op	   6.84 MB/s	 3611911 B/op	      40 allocs/op
+BenchmarkDecodeDigits 	     100	  14638886 ns/op	   6.83 MB/s	 3611911 B/op	      40 allocs/op
+BenchmarkDecodeTwain  	      30	  45794515 ns/op	   8.47 MB/s	 3624504 B/op	      40 allocs/op
+BenchmarkDecodeTwain  	      30	  45821640 ns/op	   8.46 MB/s	 3624503 B/op	      40 allocs/op
+BenchmarkDecodeTwain  	      30	  45833232 ns/op	   8.46 MB/s	 3624504 B/op	      40 allocs/op
+BenchmarkDecodeTwain  	      30	  45830707 ns/op	   8.46 MB/s	 3624504 B/op	      40 allocs/op
+BenchmarkDecodeTwain  	      30	  45733298 ns/op	   8.48 MB/s	 3624504 B/op	      40 allocs/op
+BenchmarkDecodeRand   	     300	   4438379 ns/op	   3.69 MB/s	 3643063 B/op	      40 allocs/op
+BenchmarkDecodeRand   	     300	   4442212 ns/op	   3.69 MB/s	 3643063 B/op	      40 allocs/op
+BenchmarkDecodeRand   	     300	   4440525 ns/op	   3.69 MB/s	 3643063 B/op	      40 allocs/op
+BenchmarkDecodeRand   	     300	   4439362 ns/op	   3.69 MB/s	 3643063 B/op	      40 allocs/op
+BenchmarkDecodeRand   	     300	   4455366 ns/op	   3.68 MB/s	 3643063 B/op	      40 allocs/op
+PASS
+ok  	compress/bzip2	24.101s

@@ -1,0 +1,7 @@
+BenchmarkPrime 	       2	1381270770 ns/op	 6051060 B/op	  156241 allocs/op
+BenchmarkPrime 	       1	2295726856 ns/op	 9767936 B/op	  248779 allocs/op
+BenchmarkPrime 	       2	 593699792 ns/op	 2782148 B/op	   75858 allocs/op
+BenchmarkPrime 	       1	1169311964 ns/op	 5145560 B/op	  134371 allocs/op
+BenchmarkPrime 	       1	3340257065 ns/op	14067672 B/op	  355075 allocs/op
+PASS
+ok  	gccgo/crypto/rand	11.760s

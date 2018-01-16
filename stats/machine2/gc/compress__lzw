@@ -1,0 +1,32 @@
+BenchmarkDecoder/1e4         	    5000	    255100 ns/op	  39.20 MB/s	   21856 B/op	       2 allocs/op
+BenchmarkDecoder/1e4         	    5000	    255210 ns/op	  39.18 MB/s	   21856 B/op	       2 allocs/op
+BenchmarkDecoder/1e4         	    5000	    255256 ns/op	  39.18 MB/s	   21856 B/op	       2 allocs/op
+BenchmarkDecoder/1e4         	    5000	    254995 ns/op	  39.22 MB/s	   21856 B/op	       2 allocs/op
+BenchmarkDecoder/1e4         	    5000	    255027 ns/op	  39.21 MB/s	   21856 B/op	       2 allocs/op
+BenchmarkDecoder/1e5         	     500	   2492830 ns/op	  40.12 MB/s	   21858 B/op	       2 allocs/op
+BenchmarkDecoder/1e5         	     500	   2493310 ns/op	  40.11 MB/s	   21858 B/op	       2 allocs/op
+BenchmarkDecoder/1e5         	     500	   2492504 ns/op	  40.12 MB/s	   21858 B/op	       2 allocs/op
+BenchmarkDecoder/1e5         	     500	   2492936 ns/op	  40.11 MB/s	   21858 B/op	       2 allocs/op
+BenchmarkDecoder/1e5         	     500	   2493356 ns/op	  40.11 MB/s	   21858 B/op	       2 allocs/op
+BenchmarkDecoder/1e6         	      50	  24742377 ns/op	  40.42 MB/s	   21976 B/op	       2 allocs/op
+BenchmarkDecoder/1e6         	      50	  24746327 ns/op	  40.41 MB/s	   21976 B/op	       2 allocs/op
+BenchmarkDecoder/1e6         	      50	  24743378 ns/op	  40.41 MB/s	   21976 B/op	       2 allocs/op
+BenchmarkDecoder/1e6         	      50	  24741711 ns/op	  40.42 MB/s	   21976 B/op	       2 allocs/op
+BenchmarkDecoder/1e6         	      50	  24742331 ns/op	  40.42 MB/s	   21976 B/op	       2 allocs/op
+BenchmarkEncoder/1e4         	    3000	    456357 ns/op	  21.91 MB/s	   77888 B/op	       3 allocs/op
+BenchmarkEncoder/1e4         	    3000	    457181 ns/op	  21.87 MB/s	   77888 B/op	       3 allocs/op
+BenchmarkEncoder/1e4         	    3000	    456673 ns/op	  21.90 MB/s	   77888 B/op	       3 allocs/op
+BenchmarkEncoder/1e4         	    3000	    456723 ns/op	  21.90 MB/s	   77888 B/op	       3 allocs/op
+BenchmarkEncoder/1e4         	    3000	    457928 ns/op	  21.84 MB/s	   77888 B/op	       3 allocs/op
+BenchmarkEncoder/1e5         	     300	   4144952 ns/op	  24.13 MB/s	   77888 B/op	       3 allocs/op
+BenchmarkEncoder/1e5         	     300	   4141326 ns/op	  24.15 MB/s	   77888 B/op	       3 allocs/op
+BenchmarkEncoder/1e5         	     300	   4128450 ns/op	  24.22 MB/s	   77888 B/op	       3 allocs/op
+BenchmarkEncoder/1e5         	     300	   4128654 ns/op	  24.22 MB/s	   77888 B/op	       3 allocs/op
+BenchmarkEncoder/1e5         	     300	   4128430 ns/op	  24.22 MB/s	   77888 B/op	       3 allocs/op
+BenchmarkEncoder/1e6         	      30	  40669187 ns/op	  24.59 MB/s	   77888 B/op	       3 allocs/op
+BenchmarkEncoder/1e6         	      30	  40655654 ns/op	  24.60 MB/s	   77888 B/op	       3 allocs/op
+BenchmarkEncoder/1e6         	      30	  40649720 ns/op	  24.60 MB/s	   77888 B/op	       3 allocs/op
+BenchmarkEncoder/1e6         	      30	  40644895 ns/op	  24.60 MB/s	   77888 B/op	       3 allocs/op
+BenchmarkEncoder/1e6         	      30	  40644555 ns/op	  24.60 MB/s	   77888 B/op	       3 allocs/op
+PASS
+ok  	compress/lzw	42.567s

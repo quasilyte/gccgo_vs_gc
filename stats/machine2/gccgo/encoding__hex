@@ -1,0 +1,22 @@
+BenchmarkEncode/256         	 1000000	      1036 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/256         	 1000000	      1035 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/256         	 1000000	      1035 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/256         	 1000000	      1035 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/256         	 1000000	      1035 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/1024        	  300000	      4061 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/1024        	  300000	      4058 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/1024        	  300000	      4063 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/1024        	  300000	      4056 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/1024        	  300000	      4056 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/4096        	  100000	     16286 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/4096        	  100000	     16176 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/4096        	  100000	     16265 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/4096        	  100000	     16458 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/4096        	  100000	     16585 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/16384       	   20000	     65492 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/16384       	   20000	     64743 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/16384       	   20000	     65887 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/16384       	   20000	     65882 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncode/16384       	   20000	     66093 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	gccgo/encoding/hex	30.650s

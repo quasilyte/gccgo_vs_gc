@@ -1,0 +1,17 @@
+BenchmarkRSA2048Decrypt       	      50	  27157934 ns/op	   98298 B/op	    2707 allocs/op
+BenchmarkRSA2048Decrypt       	      50	  27103325 ns/op	   98321 B/op	    2707 allocs/op
+BenchmarkRSA2048Decrypt       	      50	  27116663 ns/op	   98321 B/op	    2707 allocs/op
+BenchmarkRSA2048Decrypt       	      50	  27123804 ns/op	   98321 B/op	    2707 allocs/op
+BenchmarkRSA2048Decrypt       	      50	  27121437 ns/op	   98321 B/op	    2707 allocs/op
+BenchmarkRSA2048Sign          	      30	  34991496 ns/op	  745853 B/op	   21876 allocs/op
+BenchmarkRSA2048Sign          	      30	  35103080 ns/op	  752353 B/op	   22075 allocs/op
+BenchmarkRSA2048Sign          	      30	  35101209 ns/op	  753482 B/op	   22106 allocs/op
+BenchmarkRSA2048Sign          	      30	  35111852 ns/op	  754281 B/op	   22137 allocs/op
+BenchmarkRSA2048Sign          	      30	  35045718 ns/op	  750019 B/op	   22004 allocs/op
+Benchmark3PrimeRSA2048Decrypt 	     100	  14311435 ns/op	  105891 B/op	    2867 allocs/op
+Benchmark3PrimeRSA2048Decrypt 	     100	  14283617 ns/op	  105779 B/op	    2866 allocs/op
+Benchmark3PrimeRSA2048Decrypt 	     100	  14311196 ns/op	  105897 B/op	    2867 allocs/op
+Benchmark3PrimeRSA2048Decrypt 	     100	  14284317 ns/op	  105775 B/op	    2866 allocs/op
+Benchmark3PrimeRSA2048Decrypt 	     100	  14346509 ns/op	  105897 B/op	    2867 allocs/op
+PASS
+ok  	gccgo/crypto/rsa	19.960s

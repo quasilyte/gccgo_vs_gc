@@ -1,0 +1,12 @@
+BenchmarkScan     	   30000	     58987 ns/op	     608 B/op	      71 allocs/op
+BenchmarkScan     	   30000	     58985 ns/op	     608 B/op	      71 allocs/op
+BenchmarkScan     	   30000	     59055 ns/op	     608 B/op	      71 allocs/op
+BenchmarkScan     	   30000	     58975 ns/op	     608 B/op	      71 allocs/op
+BenchmarkScan     	   30000	     59007 ns/op	     608 B/op	      71 allocs/op
+BenchmarkScanFile 	    2000	    736044 ns/op	  24.09 MB/s	   14952 B/op	    1853 allocs/op
+BenchmarkScanFile 	    2000	    736200 ns/op	  24.08 MB/s	   14952 B/op	    1853 allocs/op
+BenchmarkScanFile 	    2000	    735897 ns/op	  24.09 MB/s	   14952 B/op	    1853 allocs/op
+BenchmarkScanFile 	    2000	    736309 ns/op	  24.08 MB/s	   14952 B/op	    1853 allocs/op
+BenchmarkScanFile 	    2000	    735658 ns/op	  24.10 MB/s	   14952 B/op	    1853 allocs/op
+PASS
+ok  	go/scanner	19.585s

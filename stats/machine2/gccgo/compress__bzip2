@@ -1,0 +1,17 @@
+BenchmarkDecodeDigits 	     100	  13469936 ns/op	   7.42 MB/s	 3612367 B/op	      51 allocs/op
+BenchmarkDecodeDigits 	     100	  19031791 ns/op	   5.25 MB/s	 3612367 B/op	      51 allocs/op
+BenchmarkDecodeDigits 	     100	  15873374 ns/op	   6.30 MB/s	 3612367 B/op	      51 allocs/op
+BenchmarkDecodeDigits 	     100	  13176783 ns/op	   7.59 MB/s	 3612367 B/op	      51 allocs/op
+BenchmarkDecodeDigits 	     100	  14845753 ns/op	   6.74 MB/s	 3612367 B/op	      51 allocs/op
+BenchmarkDecodeTwain  	      30	  43123034 ns/op	   8.99 MB/s	 3624982 B/op	      51 allocs/op
+BenchmarkDecodeTwain  	      30	  43109515 ns/op	   9.00 MB/s	 3624982 B/op	      51 allocs/op
+BenchmarkDecodeTwain  	      30	  43129564 ns/op	   8.99 MB/s	 3624982 B/op	      51 allocs/op
+BenchmarkDecodeTwain  	      30	  43142941 ns/op	   8.99 MB/s	 3624982 B/op	      51 allocs/op
+BenchmarkDecodeTwain  	      30	  43140137 ns/op	   8.99 MB/s	 3624982 B/op	      51 allocs/op
+BenchmarkDecodeRand   	     300	   4095526 ns/op	   4.00 MB/s	 3643618 B/op	      52 allocs/op
+BenchmarkDecodeRand   	     300	   4095245 ns/op	   4.00 MB/s	 3643618 B/op	      52 allocs/op
+BenchmarkDecodeRand   	     300	   4094880 ns/op	   4.00 MB/s	 3643618 B/op	      52 allocs/op
+BenchmarkDecodeRand   	     300	   4095107 ns/op	   4.00 MB/s	 3643618 B/op	      52 allocs/op
+BenchmarkDecodeRand   	     300	   4102435 ns/op	   3.99 MB/s	 3643618 B/op	      52 allocs/op
+PASS
+ok  	gccgo/compress/bzip2	23.545s

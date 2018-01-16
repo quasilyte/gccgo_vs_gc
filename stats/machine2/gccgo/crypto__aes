@@ -1,0 +1,17 @@
+BenchmarkEncrypt 	10000000	       205 ns/op	  77.81 MB/s	       0 B/op	       0 allocs/op
+BenchmarkEncrypt 	10000000	       205 ns/op	  77.80 MB/s	       0 B/op	       0 allocs/op
+BenchmarkEncrypt 	10000000	       205 ns/op	  77.67 MB/s	       0 B/op	       0 allocs/op
+BenchmarkEncrypt 	10000000	       208 ns/op	  76.70 MB/s	       0 B/op	       0 allocs/op
+BenchmarkEncrypt 	10000000	       210 ns/op	  76.01 MB/s	       0 B/op	       0 allocs/op
+BenchmarkDecrypt 	10000000	       207 ns/op	  76.98 MB/s	       0 B/op	       0 allocs/op
+BenchmarkDecrypt 	10000000	       208 ns/op	  76.87 MB/s	       0 B/op	       0 allocs/op
+BenchmarkDecrypt 	10000000	       208 ns/op	  76.56 MB/s	       0 B/op	       0 allocs/op
+BenchmarkDecrypt 	10000000	       211 ns/op	  75.63 MB/s	       0 B/op	       0 allocs/op
+BenchmarkDecrypt 	10000000	       207 ns/op	  77.02 MB/s	       0 B/op	       0 allocs/op
+BenchmarkExpand  	 1000000	      1650 ns/op	       0 B/op	       0 allocs/op
+BenchmarkExpand  	 1000000	      1648 ns/op	       0 B/op	       0 allocs/op
+BenchmarkExpand  	 1000000	      1642 ns/op	       0 B/op	       0 allocs/op
+BenchmarkExpand  	 1000000	      1651 ns/op	       0 B/op	       0 allocs/op
+BenchmarkExpand  	 1000000	      1642 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	gccgo/crypto/aes	31.485s
