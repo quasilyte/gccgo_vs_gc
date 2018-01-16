@@ -2,6 +2,22 @@
 
 Comparing GCCGO 1.8.1 (GCC 7.2) vs GC 1.8.1 (and GC 1.10) on `x86` (AMD64).
 
+## Conclusion / tl;dr
+
+In most benchmarks, GCCGO is slower and does more allocations.
+
+When benchmark is fully CPU-bound and does no allocations at all, GCCGO
+sometimes emits better code.
+Some of those cases are fixed in Go devel (Go 1.10), making the performance of those
+nearly equal.
+
+GCCGO benefits from strong constant folding from GCC backend, 
+which makes some benchmarks run in `0ns`.
+Benchmarks that are faster due to this are not considered as issues.
+
+When escape analysis will be implemented in GCCGO, it would be interesting to
+run all of these again.
+
 ## Benchmarking info
 
 Benchmarks are executed by [run_bench](run_bench) script.
