@@ -13,7 +13,7 @@ Some of those cases are fixed in Go devel (Go 1.10), making the performance of t
 nearly equal.
 
 What GCCGO does better:
-* **Constant folding**. sometimes leads to benchmarks with `0ns` time/op.
+* **Constant folding**. Sometimes leads to benchmarks with `0ns` time/op.
 * **Inlining**. Inline non-leaf functions and functions with loops.
 
 When escape analysis will be implemented in GCCGO, it would be interesting to
