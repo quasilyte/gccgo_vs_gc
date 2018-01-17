@@ -13,6 +13,7 @@ Legend:
 ```
 comparing strings...
   [!] ByteByteNoMatch                   242ns ± 2%      151ns ± 4%        -37.51%  (p=0.000 n=9+9)
+  MapNoChanges                      166ns ± 4%      136ns ± 6%        -17.88%  (p=0.000 n=10+10)
   [?] Split1                           49.6ms ± 6%     22.2ms ± 4%        -55.27%  (p=0.000 n=10+10)
   [?] Split2                           7.75ms ± 4%     5.27ms ± 6%        -31.98%  (p=0.000 n=9+10)
   [+] IndexAnyASCII/256:1               441ns ± 7%      296ns ± 5%        -32.91%  (p=0.001 n=10+5)
@@ -43,6 +44,13 @@ comparing encoding/binary...
 comparing encoding/json...
   [!] SkipValue              15.6ms ± 4%      10.6ms ± 5%         -32.23%  (p=0.008 n=5+5)
 
+comparing hash/adler32...
+  Adler32KB     488ns ± 3%     416ns ± 1%  -14.72%  (p=0.008 n=5+5)
+
+comparing html...
+  EscapeNone        4.46µs ± 4%    3.55µs ± 7%     -20.45%  (p=0.008 n=5+5)
+  Encode               24.4ms ± 3%    21.7ms ± 3%   -11.32%  (p=0.008 n=5+5)
+
 comparing image/color...
   [!] YCbCrToRGBA/0        6.54ns ± 5%    0.34ns ± 4%   -94.77%  (p=0.008 n=5+5)
   [!] YCbCrToRGBA/128      6.08ns ± 4%    0.34ns ± 4%   -94.48%  (p=0.008 n=5+5)
@@ -61,6 +69,7 @@ comparing image/jpeg...
 comparing math...
   [!] Erf                    10.5ns ± 8%     6.6ns ± 5%   -36.54%  (p=0.008 n=5+5)
   [!] Erfc                   11.8ns ± 4%     7.4ns ± 2%   -37.44%  (p=0.008 n=5+5)
+  Dim                    4.11ns ± 2%    3.10ns ± 5%   -24.61%  (p=0.008 n=5+5)
   [~] Floor                  2.32ns ± 2%    1.71ns ± 1%   -26.21%  (p=0.008 n=5+5)
   [~] Max                    4.06ns ± 4%    2.76ns ± 2%   -32.05%  (p=0.008 n=5+5)
   [~] Frexp                  7.07ns ± 7%    3.78ns ± 4%   -46.55%  (p=0.008 n=5+5)
@@ -70,6 +79,10 @@ comparing math...
   [~] Logb                   6.02ns ± 5%    4.16ns ± 5%   -30.94%  (p=0.008 n=5+5)
   [~] Log2                   9.28ns ± 4%    5.21ns ± 3%   -43.83%  (p=0.008 n=5+5)
   [!] Modf                   5.60ns ± 4%    2.77ns ± 2%   -50.64%  (p=0.008 n=5+5)
+  Nextafter32            5.45ns ± 5%    4.16ns ± 3%   -23.68%  (p=0.008 n=5+5)
+  Nextafter64            4.82ns ± 5%    3.57ns ± 4%   -25.98%  (p=0.008 n=5+5)
+  Pow10Pos               44.9ns ± 6%    36.6ns ± 3%   -18.48%  (p=0.008 n=5+5)
+  Pow10Neg               52.7ns ± 0%    38.9ns ± 2%   -26.26%  (p=0.016 n=4+5)
   [~] Sincos                 21.3ns ± 4%    10.5ns ± 0%   -50.70%  (p=0.000 n=5+4)
   [!] SqrtIndirectLatency    7.44ns ± 2%    3.45ns ± 3%   -53.59%  (p=0.008 n=5+5)
 
@@ -100,6 +113,13 @@ comparing mime/quotedprintable...
 
 regexp/syntax...
   [!] EmptyOpContext     229ns ± 6%      21ns ± 3%  -90.66%  (p=0.008 n=5+5)
+
+comparing sort...
+  Sort1e4               10.8ms ± 6%     8.9ms ± 4%    -17.54%  (p=0.008 n=5+5)
+  Sort1e6                1.62s ± 4%     1.35s ± 6%    -16.74%  (p=0.008 n=5+5)
+
+comparing unicode/utf8...
+  RuneCountInStringTenJapaneseChars    57.8ns ± 4%    47.9ns ± 5%  -17.15%  (p=0.008 n=5+5)
 ```
 
 ### Section B - throughput. mb/sec
@@ -122,8 +142,14 @@ comparing encoding/binary...
 comparing encoding/json...
   [!] SkipValue             126MB/s ± 4%     188MB/s ± 4%         +49.44%  (p=0.008 n=5+5)
 
+comparing hash/adler32...
+  Adler32KB  2.10GB/s ± 3%  2.46GB/s ± 1%  +17.19%  (p=0.008 n=5+5)
+
 comparing image/gif...
   [+] QuantizedEncode  1.62MB/s ± 4%  2.96MB/s ± 2%  +82.82%  (p=0.008 n=5+5)
+
+comparing image/jpeg...
+  Encode             50.3MB/s ± 3%  56.8MB/s ± 3%   +12.74%  (p=0.008 n=5+5)
 ```
 
 ### Section C - allocations.
@@ -137,6 +163,10 @@ comparing encoding/binary...
   [+] ReadInts                  8.00 ± 0%      4.00 ± 0%    -50.00%  (p=0.008 n=5+5)
   [+] WriteInts                 16.0 ± 0%       8.0 ± 0%    -50.00%  (p=0.008 n=5+5)
   [+] WriteSlice1000Int32s      3.00 ± 0%      2.00 ± 0%    -33.33%  (p=0.008 n=5+5)
+
+comparing expvar...
+  MapAddSame                6.00 ± 0%      5.00 ± 0%   -16.67%  (p=0.008 n=5+5)
+  MapAddDifferent           14.0 ± 0%      12.0 ± 0%   -14.29%  (p=0.008 n=5+5)
 
 comparing fmt...
   [+] ManyArgs                           8.00 ± 0%      6.00 ± 0%    -25.00%  (p=0.008 n=5+5)
