@@ -33,7 +33,7 @@ Most benchmarks are executed 5 times `-count=5` (never less than 5, sometimes mo
 
 Results are expected to be analyzed by [benchstat](https://godoc.org/golang.org/x/perf/cmd/benchstat).
 
-The whole process is quite simple:
+The whole process described in steps:
 1. Run benchmarks with Go GC 1.8.1; compiling Go 1.8.1 stdlib
 2. Run benchmakrs with Go GCCGO 1.8.1; compiling gccgo versions stdlib
 3. Compare results
