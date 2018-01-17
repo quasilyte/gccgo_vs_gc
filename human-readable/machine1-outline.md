@@ -43,15 +43,7 @@ comparing encoding/binary...
 comparing encoding/json...
   [!] SkipValue              15.6ms ± 4%      10.6ms ± 5%         -32.23%  (p=0.008 n=5+5)
 
-# 0ns means that GCC was able to do a good joob optimizing constant expressions.
-# If more complexity for these tests is added, GCC still will produce better code.
 comparing image/color...
-  [!] YCbCrToRGB/0         5.72ns ± 3%    0.00ns       -100.00%  (p=0.008 n=5+5)
-  [!] YCbCrToRGB/128       5.73ns ± 3%    0.00ns       -100.00%  (p=0.008 n=5+5)
-  [!] YCbCrToRGB/255       5.98ns ± 3%    0.00ns       -100.00%  (p=0.008 n=5+5)
-  [!] RGBToYCbCr/0         6.07ns ± 5%    0.00ns       -100.00%  (p=0.008 n=5+5)
-  [!] RGBToYCbCr/Cb        6.17ns ± 6%    0.00ns       -100.00%  (p=0.008 n=5+5)
-  [!] RGBToYCbCr/Cr        6.22ns ± 6%    0.00ns       -100.00%  (p=0.008 n=5+5)
   [!] YCbCrToRGBA/0        6.54ns ± 5%    0.34ns ± 4%   -94.77%  (p=0.008 n=5+5)
   [!] YCbCrToRGBA/128      6.08ns ± 4%    0.34ns ± 4%   -94.48%  (p=0.008 n=5+5)
   [!] YCbCrToRGBA/255      6.46ns ± 5%    0.35ns ± 5%   -94.52%  (p=0.008 n=5+5)
@@ -65,9 +57,6 @@ comparing image/gif...
 comparing image/jpeg...
   FDCT                 1.64µs ± 3%    0.81µs ± 7%   -50.37%  (p=0.008 n=5+5)
   IDCT                 1.64µs ± 4%    0.97µs ±14%   -40.40%  (p=0.008 n=5+5)
-
-comparing image/png...
-  [!] Paeth                  4.43ns ± 5%    0.00ns       -100.00%  (p=0.008 n=5+5)
 
 comparing math...
   [!] Erf                    10.5ns ± 8%     6.6ns ± 5%   -36.54%  (p=0.008 n=5+5)
@@ -96,9 +85,6 @@ comparing math/big...
   [?] BitLen/16             1.99ns ± 1%    0.67ns ± 5%    -66.53%  (p=0.008 n=5+5)
   [?] BitLen/17             1.97ns ± 2%    0.66ns ± 6%    -66.43%  (p=0.008 n=5+5)
   [?] BitLen/31             1.99ns ± 2%    0.67ns ± 3%    -66.36%  (p=0.008 n=5+5)
-
-comparing math/cmplx...
-  [!] Conj     0.36ns ± 6%    0.00ns        -100.00%  (p=0.008 n=5+5)
 
 comparing math/rand...
   [!] Int63Unthreadsafe    8.30ns ± 4%    4.76ns ± 4%   -42.69%  (p=0.008 n=5+5)
@@ -169,8 +155,4 @@ comparing image/gif...
 comparing image/png...
   [!] DecodePaletted            309 ± 0%       135 ± 0%   -56.31%  (p=0.008 n=5+5)
   [!] EncodeRGBA               614k ± 0%      154k ± 0%   -74.99%  (p=0.008 n=5+5)
-
-# GCCGO version is allocation-free
-comparing unicode/utf16...
-  [!] EncodeValidJapaneseChars      1.00 ± 0%      0.00        -100.00%  (p=0.008 n=5+5)
 ```
