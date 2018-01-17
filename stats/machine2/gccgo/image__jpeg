@@ -1,0 +1,27 @@
+BenchmarkFDCT              	 1000000	      1513 ns/op	       0 B/op	       0 allocs/op
+BenchmarkFDCT              	 1000000	      1515 ns/op	       0 B/op	       0 allocs/op
+BenchmarkFDCT              	 1000000	      1513 ns/op	       0 B/op	       0 allocs/op
+BenchmarkFDCT              	 1000000	      1513 ns/op	       0 B/op	       0 allocs/op
+BenchmarkFDCT              	 1000000	      1513 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIDCT              	 1000000	      1823 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIDCT              	 1000000	      1822 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIDCT              	 1000000	      1822 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIDCT              	 1000000	      1822 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIDCT              	 1000000	      1822 ns/op	       0 B/op	       0 allocs/op
+BenchmarkDecodeBaseline    	     500	   3537263 ns/op	  17.47 MB/s	   63370 B/op	       8 allocs/op
+BenchmarkDecodeBaseline    	     500	   3536517 ns/op	  17.47 MB/s	   63370 B/op	       8 allocs/op
+BenchmarkDecodeBaseline    	     500	   3546985 ns/op	  17.42 MB/s	   63370 B/op	       8 allocs/op
+BenchmarkDecodeBaseline    	     500	   3545415 ns/op	  17.43 MB/s	   63370 B/op	       8 allocs/op
+BenchmarkDecodeBaseline    	     500	   3546596 ns/op	  17.43 MB/s	   63370 B/op	       8 allocs/op
+BenchmarkDecodeProgressive 	     300	   5503129 ns/op	  11.23 MB/s	  262349 B/op	      25 allocs/op
+BenchmarkDecodeProgressive 	     300	   5513821 ns/op	  11.21 MB/s	  262354 B/op	      25 allocs/op
+BenchmarkDecodeProgressive 	     300	   5505351 ns/op	  11.23 MB/s	  262349 B/op	      25 allocs/op
+BenchmarkDecodeProgressive 	     300	   5499384 ns/op	  11.24 MB/s	  262347 B/op	      25 allocs/op
+BenchmarkDecodeProgressive 	     300	   5525045 ns/op	  11.19 MB/s	  262359 B/op	      25 allocs/op
+BenchmarkEncode            	      30	  42553792 ns/op	  28.88 MB/s	    6772 B/op	       9 allocs/op
+BenchmarkEncode            	      30	  42592665 ns/op	  28.85 MB/s	    6772 B/op	       9 allocs/op
+BenchmarkEncode            	      30	  42557077 ns/op	  28.87 MB/s	    6772 B/op	       9 allocs/op
+BenchmarkEncode            	      30	  42758691 ns/op	  28.74 MB/s	    6772 B/op	       9 allocs/op
+BenchmarkEncode            	      30	  42575479 ns/op	  28.86 MB/s	    6772 B/op	       9 allocs/op
+PASS
+ok  	gccgo/image/jpeg	53.465s

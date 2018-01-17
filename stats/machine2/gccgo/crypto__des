@@ -10,3 +10,22 @@ BenchmarkDecrypt 	 2000000	       782 ns/op	  10.22 MB/s	       0 B/op	       0 
 BenchmarkDecrypt 	 2000000	       782 ns/op	  10.23 MB/s	       0 B/op	       0 allocs/op
 PASS
 ok  	gccgo/crypto/des	23.843s
+BenchmarkEncrypt 	 3000000	       415 ns/op	  19.26 MB/s	       0 B/op	       0 allocs/op
+PASS
+ok  	gccgo/crypto/des	1.768s
+BenchmarkEncrypt 	 3000000	       415 ns/op	  19.23 MB/s	       0 B/op	       0 allocs/op
+PASS
+ok  	gccgo/crypto/des	1.766s
+BenchmarkEncrypt 	BenchmarkEncrypt 	 3000000	       408 ns/op	  19.59 MB/s	       0 B/op	       0 allocs/op
+PASS
+ok  	gccgo/crypto/des	1.746s
+BenchmarkEncrypt     	10000000	       171 ns/op	  46.77 MB/s	       0 B/op	       0 allocs/op
+BenchmarkTDESEncrypt 	 3000000	       404 ns/op	  19.79 MB/s	       0 B/op	       0 allocs/op
+PASS
+ok  	gccgo/crypto/des	3.616s
+BenchmarkEncrypt 	 3000000	       417 ns/op	  19.14 MB/s	       0 B/op	       0 allocs/op
+PASS
+ok  	gccgo/crypto/des	1.771s
+BenchmarkEncrypt 	 2000000	       778 ns/op	  10.27 MB/s	       0 B/op	       0 allocs/op
+PASS
+ok  	gccgo/crypto/des	2.546s

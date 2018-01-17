@@ -1,0 +1,7 @@
+BenchmarkWriter 	  100000	     16623 ns/op	     112 B/op	       1 allocs/op
+BenchmarkWriter 	  100000	     18041 ns/op	     112 B/op	       1 allocs/op
+BenchmarkWriter 	  100000	     18902 ns/op	     112 B/op	       1 allocs/op
+BenchmarkWriter 	  100000	     18037 ns/op	     112 B/op	       1 allocs/op
+BenchmarkWriter 	  100000	     17909 ns/op	     112 B/op	       1 allocs/op
+PASS
+ok  	mime/quotedprintable	9.808s

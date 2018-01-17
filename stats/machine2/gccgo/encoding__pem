@@ -1,0 +1,12 @@
+BenchmarkEncode 	    3000	    527491 ns/op	 124.24 MB/s	    1314 B/op	       6 allocs/op
+BenchmarkEncode 	    2000	    531650 ns/op	 123.27 MB/s	    1325 B/op	       6 allocs/op
+BenchmarkEncode 	    2000	    531752 ns/op	 123.25 MB/s	    1325 B/op	       6 allocs/op
+BenchmarkEncode 	    2000	    531762 ns/op	 123.24 MB/s	    1325 B/op	       6 allocs/op
+BenchmarkEncode 	    2000	    532105 ns/op	 123.16 MB/s	    1325 B/op	       6 allocs/op
+BenchmarkDecode 	    1000	   1520030 ns/op	  58.41 MB/s	  164133 B/op	      13 allocs/op
+BenchmarkDecode 	    1000	   1524072 ns/op	  58.25 MB/s	  164133 B/op	      13 allocs/op
+BenchmarkDecode 	    1000	   1533696 ns/op	  57.89 MB/s	  164133 B/op	      13 allocs/op
+BenchmarkDecode 	    1000	   1522283 ns/op	  58.32 MB/s	  164133 B/op	      13 allocs/op
+BenchmarkDecode 	    1000	   1526021 ns/op	  58.18 MB/s	  164133 B/op	      13 allocs/op
+PASS
+ok  	gccgo/encoding/pem	14.828s

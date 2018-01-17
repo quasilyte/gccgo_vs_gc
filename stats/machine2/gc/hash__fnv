@@ -1,0 +1,22 @@
+BenchmarkFnv32KB  	  500000	      2920 ns/op	 350.59 MB/s	       0 B/op	       0 allocs/op
+BenchmarkFnv32KB  	  500000	      2921 ns/op	 350.50 MB/s	       0 B/op	       0 allocs/op
+BenchmarkFnv32KB  	  500000	      2920 ns/op	 350.57 MB/s	       0 B/op	       0 allocs/op
+BenchmarkFnv32KB  	  500000	      2920 ns/op	 350.62 MB/s	       0 B/op	       0 allocs/op
+BenchmarkFnv32KB  	  500000	      2920 ns/op	 350.58 MB/s	       0 B/op	       0 allocs/op
+BenchmarkFnv32aKB 	  500000	      2921 ns/op	 350.49 MB/s	       0 B/op	       0 allocs/op
+BenchmarkFnv32aKB 	  500000	      2921 ns/op	 350.49 MB/s	       0 B/op	       0 allocs/op
+BenchmarkFnv32aKB 	  500000	      2921 ns/op	 350.53 MB/s	       0 B/op	       0 allocs/op
+BenchmarkFnv32aKB 	  500000	      2921 ns/op	 350.48 MB/s	       0 B/op	       0 allocs/op
+BenchmarkFnv32aKB 	  500000	      2921 ns/op	 350.47 MB/s	       0 B/op	       0 allocs/op
+BenchmarkFnv64KB  	  500000	      2932 ns/op	 349.15 MB/s	       0 B/op	       0 allocs/op
+BenchmarkFnv64KB  	  500000	      2931 ns/op	 349.32 MB/s	       0 B/op	       0 allocs/op
+BenchmarkFnv64KB  	  500000	      2932 ns/op	 349.23 MB/s	       0 B/op	       0 allocs/op
+BenchmarkFnv64KB  	  500000	      2932 ns/op	 349.24 MB/s	       0 B/op	       0 allocs/op
+BenchmarkFnv64KB  	  500000	      2932 ns/op	 349.22 MB/s	       0 B/op	       0 allocs/op
+BenchmarkFnv64aKB 	  500000	      2932 ns/op	 349.24 MB/s	       0 B/op	       0 allocs/op
+BenchmarkFnv64aKB 	  500000	      2933 ns/op	 349.09 MB/s	       0 B/op	       0 allocs/op
+BenchmarkFnv64aKB 	  500000	      2932 ns/op	 349.21 MB/s	       0 B/op	       0 allocs/op
+BenchmarkFnv64aKB 	  500000	      2932 ns/op	 349.21 MB/s	       0 B/op	       0 allocs/op
+BenchmarkFnv64aKB 	  500000	      2932 ns/op	 349.24 MB/s	       0 B/op	       0 allocs/op
+PASS
+ok  	hash/fnv	29.896s

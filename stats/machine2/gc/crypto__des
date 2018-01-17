@@ -10,3 +10,6 @@ BenchmarkDecrypt 	 1000000	      1179 ns/op	   6.79 MB/s	       0 B/op	       0 
 BenchmarkDecrypt 	 1000000	      1179 ns/op	   6.78 MB/s	       0 B/op	       0 allocs/op
 PASS
 ok  	crypto/des	12.210s
+BenchmarkEncrypt 	 2000000	       643 ns/op	  12.44 MB/s	       0 B/op	       0 allocs/op
+PASS
+ok  	crypto/des	1.927s

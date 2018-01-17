@@ -1,0 +1,334 @@
+comparing bench/go1...
+[01;31m[KMandelbrot200            9.55ms ± 0%      8.32ms ± 0%       -12.91%[m[K  (p=0.016 n=4+5)
+[01;31m[KFmtManyArgs                8.00 ± 0%        6.00 ± 0%       -25.00%[m[K  (p=0.008 n=5+5)
+  gccgo won some rounds!
+comparing archive/zip...
+  gc won all rounds
+comparing go/parser...
+  gc won all rounds
+comparing go/printer...
+  gc won all rounds
+comparing go/scanner...
+  gc won all rounds
+comparing strings...
+[01;31m[KByteByteNoMatch                   529ns ± 0%      327ns ± 0%        -38.19%[m[K  (p=0.008 n=5+5)
+[01;31m[KByteStringMatch                  1.90µs ± 1%     1.75µs ± 2%         -7.77%[m[K  (p=0.008 n=5+5)
+[01;31m[KLastIndex                        17.9ns ± 0%     15.9ns ± 2%        -10.95%[m[K  (p=0.016 n=4+5)
+[01;31m[KMapNoChanges                      354ns ± 0%      277ns ± 2%        -21.81%[m[K  (p=0.008 n=5+5)
+[01;31m[KIndexTorture                     29.0µs ± 3%     28.6µs ± 0%         -1.27%[m[K  (p=0.008 n=5+5)
+[01;31m[KSplit1                            107ms ± 0%       40ms ± 0%        -62.39%[m[K  (p=0.008 n=5+5)
+[01;31m[KSplit2                           16.8ms ± 0%     11.4ms ± 0%        -32.27%[m[K  (p=0.008 n=5+5)
+[01;31m[KIndexAnyASCII/256:1               950ns ± 0%      628ns ± 0%        -33.89%[m[K  (p=0.000 n=5+4)
+[01;31m[KIndexAnyASCII/256:2               954ns ± 0%      630ns ± 0%        -33.96%[m[K  (p=0.016 n=4+5)
+[01;31m[KIndexAnyASCII/256:4               963ns ± 0%      636ns ± 0%        -34.00%[m[K  (p=0.008 n=5+5)
+[01;31m[KIndexAnyASCII/256:8               980ns ± 0%      655ns ± 3%        -33.14%[m[K  (p=0.008 n=5+5)
+[01;31m[KIndexAnyASCII/256:16             1.01µs ± 0%     0.67µs ± 0%        -34.06%[m[K  (p=0.008 n=5+5)
+[01;31m[KIndexAnyASCII/4096:1             14.7µs ± 0%      7.9µs ± 0%        -45.89%[m[K  (p=0.029 n=4+4)
+[01;31m[KIndexAnyASCII/4096:2             14.7µs ± 0%      7.9µs ± 0%        -45.88%[m[K  (p=0.000 n=5+4)
+[01;31m[KIndexAnyASCII/4096:4             14.8µs ± 3%      8.0µs ± 0%        -46.43%[m[K  (p=0.008 n=5+5)
+[01;31m[KIndexAnyASCII/4096:8             14.7µs ± 0%      8.0µs ± 0%        -45.85%[m[K  (p=0.016 n=5+4)
+[01;31m[KIndexAnyASCII/4096:16            14.7µs ± 0%      8.0µs ± 0%        -45.83%[m[K  (p=0.008 n=5+5)
+[01;31m[KSingleMatch                      81.3kB ± 0%     80.5kB ± 0%         -0.94%[m[K  (p=0.008 n=5+5)
+[01;31m[KSingleMatch                        19.0 ± 0%       18.0 ± 0%         -5.26%[m[K  (p=0.008 n=5+5)
+  gccgo won some rounds!
+comparing bytes...
+[01;31m[KIndexBytePortable/32       63.6ns ± 1%     32.0ns ± 0%        -49.72%[m[K  (p=0.008 n=5+5)
+[01;31m[KIndexBytePortable/4K       4.11µs ± 1%     2.97µs ± 0%        -27.77%[m[K  (p=0.008 n=5+5)
+[01;31m[KIndexBytePortable/4M       4.29ms ± 3%     3.05ms ± 0%        -28.97%[m[K  (p=0.008 n=5+5)
+[01;31m[KIndexBytePortable/64M      68.1ms ± 0%     48.7ms ± 0%        -28.53%[m[K  (p=0.008 n=5+5)
+[01;31m[KIndexRuneASCII/4K           221ns ± 0%      219ns ± 0%         -0.91%[m[K  (p=0.008 n=5+5)
+[01;31m[KEqual/32                   16.3ns ± 0%     15.2ns ± 0%         -6.52%[m[K  (p=0.000 n=5+4)
+[01;31m[KTrimSpace                   106ns ± 1%       71ns ± 0%        -32.50%[m[K  (p=0.008 n=5+5)
+[01;31m[KIndexBytePortable/32      503MB/s ± 1%   1001MB/s ± 0%        +98.91%[m[K  (p=0.008 n=5+5)
+[01;31m[KIndexBytePortable/4K     1.00GB/s ± 1%   1.38GB/s ± 0%        +38.44%[m[K  (p=0.008 n=5+5)
+[01;31m[KIndexBytePortable/4M      978MB/s ± 3%   1377MB/s ± 0%        +40.74%[m[K  (p=0.008 n=5+5)
+[01;31m[KIndexBytePortable/64M     985MB/s ± 0%   1378MB/s ± 0%        +39.92%[m[K  (p=0.008 n=5+5)
+[01;31m[KIndexRuneASCII/4K        18.5GB/s ± 0%   18.7GB/s ± 0%         +0.91%[m[K  (p=0.029 n=4+4)
+[01;31m[KEqual/32                 1.97GB/s ± 0%   2.10GB/s ± 0%         +6.63%[m[K  (p=0.016 n=5+4)
+[01;31m[KBufferNotEmptyWriteRead    4.72kB ± 0%     4.59kB ± 0%         -2.71%[m[K  (p=0.008 n=5+5)
+  gccgo won some rounds!
+comparing bufio...
+  gc won all rounds
+comparing compress/bzip2...
+[01;31m[KDecodeTwain     45.8ms ± 0%    43.1ms ± 0%   -5.84%[m[K  (p=0.008 n=5+5)
+[01;31m[KDecodeRand      4.44ms ± 0%    4.10ms ± 0%   -7.83%[m[K  (p=0.016 n=5+4)
+[01;31m[KDecodeTwain   8.47MB/s ± 0%  8.99MB/s ± 0%   +6.19%[m[K  (p=0.016 n=5+4)
+[01;31m[KDecodeRand    3.69MB/s ± 0%  4.00MB/s ± 0%   +8.40%[m[K  (p=0.029 n=4+4)
+  gccgo won some rounds!
+comparing compress/flate...
+[01;31m[KEncode/Digits/Huffman/1e5         908µs ± 0%      891µs ± 1%       -1.85%[m[K  (p=0.008 n=5+5)
+[01;31m[KEncode/Digits/Huffman/1e6        9.07ms ± 0%     8.80ms ± 1%       -3.07%[m[K  (p=0.008 n=5+5)
+[01;31m[KEncode/Twain/Huffman/1e5         1.07ms ± 0%     1.02ms ± 1%       -5.13%[m[K  (p=0.008 n=5+5)
+[01;31m[KEncode/Twain/Huffman/1e6         10.6ms ± 0%     10.0ms ± 0%       -5.96%[m[K  (p=0.008 n=5+5)
+[01;31m[KEncode/Digits/Huffman/1e5       110MB/s ± 0%    112MB/s ± 1%       +1.90%[m[K  (p=0.008 n=5+5)
+[01;31m[KEncode/Digits/Huffman/1e6       110MB/s ± 0%    114MB/s ± 1%       +3.17%[m[K  (p=0.008 n=5+5)
+[01;31m[KEncode/Twain/Huffman/1e5       93.3MB/s ± 0%   98.3MB/s ± 1%       +5.41%[m[K  (p=0.008 n=5+5)
+[01;31m[KEncode/Twain/Huffman/1e6       94.5MB/s ± 0%  100.5MB/s ± 0%       +6.34%[m[K  (p=0.008 n=5+5)
+[01;31m[KDecode/Digits/Huffman/1e4        40.6kB ± 0%     40.5kB ± 0%       -0.25%[m[K  (p=0.008 n=5+5)
+[01;31m[KDecode/Digits/Huffman/1e5        40.6kB ± 0%     40.5kB ± 0%       -0.29%[m[K  (p=0.008 n=5+5)
+[01;31m[KDecode/Digits/Huffman/1e6        40.7kB ± 0%     40.5kB ± 0%       -0.38%[m[K  (p=0.008 n=5+5)
+[01;31m[KDecode/Digits/Speed/1e4          40.7kB ± 0%     40.5kB ± 0%       -0.42%[m[K  (p=0.008 n=5+5)
+[01;31m[KDecode/Digits/Speed/1e5          40.9kB ± 0%     40.7kB ± 0%       -0.43%[m[K  (p=0.000 n=5+4)
+[01;31m[KDecode/Digits/Speed/1e6          44.5kB ± 0%     44.3kB ± 0%       -0.33%[m[K  (p=0.000 n=5+4)
+[01;31m[KDecode/Digits/Default/1e4        40.7kB ± 0%     40.5kB ± 0%       -0.30%[m[K  (p=0.000 n=5+4)
+[01;31m[KDecode/Digits/Default/1e5        40.9kB ± 0%     40.8kB ± 0%       -0.29%[m[K  (p=0.008 n=5+5)
+[01;31m[KDecode/Digits/Default/1e6        44.9kB ± 0%     44.7kB ± 0%       -0.35%[m[K  (p=0.000 n=5+4)
+[01;31m[KDecode/Digits/Compression/1e4    40.7kB ± 0%     40.5kB ± 0%       -0.30%[m[K  (p=0.000 n=5+4)
+[01;31m[KDecode/Digits/Compression/1e5    40.9kB ± 0%     40.8kB ± 0%       -0.29%[m[K  (p=0.008 n=5+5)
+[01;31m[KDecode/Digits/Compression/1e6    44.9kB ± 0%     44.7kB ± 0%       -0.35%[m[K  (p=0.008 n=5+5)
+[01;31m[KDecode/Twain/Huffman/1e4         42.0kB ± 0%     41.9kB ± 0%       -0.36%[m[K  (p=0.029 n=4+4)
+[01;31m[KDecode/Twain/Huffman/1e5         43.5kB ± 0%     43.4kB ± 0%       -0.37%[m[K  (p=0.008 n=5+5)
+[01;31m[KDecode/Twain/Speed/1e4           41.3kB ± 0%     41.1kB ± 0%       -0.49%[m[K  (p=0.008 n=5+5)
+[01;31m[KDecode/Twain/Speed/1e5           45.0kB ± 0%     44.8kB ± 0%       -0.44%[m[K  (p=0.008 n=5+5)
+[01;31m[KDecode/Twain/Speed/1e6           72.8kB ± 0%     72.6kB ± 0%       -0.39%[m[K  (p=0.000 n=5+4)
+[01;31m[KDecode/Twain/Default/1e4         41.3kB ± 0%     41.1kB ± 0%       -0.40%[m[K  (p=0.000 n=5+4)
+[01;31m[KDecode/Twain/Default/1e5         44.3kB ± 0%     44.2kB ± 0%       -0.38%[m[K  (p=0.000 n=5+4)
+[01;31m[KDecode/Twain/Default/1e6         71.2kB ± 0%     70.8kB ± 0%       -0.56%[m[K  (p=0.000 n=5+4)
+[01;31m[KDecode/Twain/Compression/1e4     41.3kB ± 0%     41.1kB ± 0%       -0.40%[m[K  (p=0.000 n=5+4)
+[01;31m[KDecode/Twain/Compression/1e5     43.3kB ± 0%     43.1kB ± 0%       -0.52%[m[K  (p=0.008 n=5+5)
+[01;31m[KDecode/Twain/Compression/1e6     69.2kB ± 0%     69.0kB ± 0%       -0.33%[m[K  (p=0.008 n=5+5)
+  gccgo won some rounds!
+comparing compress/lzw...
+[01;31m[KDecoder/1e4    21.9kB ± 0%    21.8kB ± 0%    -0.23%[m[K  (p=0.008 n=5+5)
+[01;31m[KDecoder/1e5    21.9kB ± 0%    21.8kB ± 0%    -0.49%[m[K  (p=0.008 n=5+5)
+[01;31m[KDecoder/1e6    22.0kB ± 0%    21.7kB ± 0%    -1.38%[m[K  (p=0.008 n=5+5)
+  gccgo won some rounds!
+comparing container/heap...
+[01;31m[KDup      20.0k ± 0%     10.0k ± 0%  -50.00%[m[K  (p=0.008 n=5+5)
+  gccgo won some rounds!
+comparing context...
+  gc won all rounds
+comparing crypto/aes...
+  gc won all rounds
+comparing crypto/cipher...
+  gc won all rounds
+comparing crypto/des...
+[01;31m[KEncrypt    1.23µs ±10%     0.61µs ±72%   -50.45%[m[K  (p=0.000 n=5+10)
+[01;31m[KDecrypt    1.18µs ± 1%     0.78µs ± 0%   -33.61%[m[K  (p=0.008 n=5+5)
+[01;31m[KEncrypt  6.49MB/s ±10%  13.21MB/s ±46%  +103.43%[m[K  (p=0.001 n=5+9)
+[01;31m[KDecrypt  6.79MB/s ± 1%  10.23MB/s ± 0%   +50.56%[m[K  (p=0.008 n=5+5)
+  gccgo won some rounds!
+comparing crypto/ecdsa...
+  gc won all rounds
+comparing crypto/elliptic...
+  gc won all rounds
+comparing crypto/hmac...
+  gc won all rounds
+comparing crypto/md5...
+  gc won all rounds
+comparing crypto/rand...
+  gc won all rounds
+comparing crypto/rc4...
+  gc won all rounds
+comparing crypto/rsa...
+  gc won all rounds
+comparing crypto/sha1...
+  gc won all rounds
+comparing crypto/sha256...
+  gc won all rounds
+comparing crypto/sha512...
+  gc won all rounds
+comparing database/sql...
+  gc won all rounds
+comparing encoding/asn1...
+  gc won all rounds
+comparing encoding/base32...
+[01;31m[KDecodeString       224µs ± 0%     209µs ± 0%    -6.51%[m[K  (p=0.008 n=5+5)
+[01;31m[KDecodeString    58.6MB/s ± 0%  62.7MB/s ± 0%    +6.96%[m[K  (p=0.008 n=5+5)
+[01;31m[KDecodeString      23.0kB ± 0%    22.0kB ± 0%    -4.44%[m[K  (p=0.008 n=5+5)
+  gccgo won some rounds!
+comparing encoding/base64...
+[01;31m[KDecodeString      21.8kB ± 0%    20.7kB ± 0%    -4.70%[m[K  (p=0.008 n=5+5)
+  gccgo won some rounds!
+comparing encoding/binary...
+[01;31m[KPutUvarint32            58.7ns ± 2%     36.1ns ± 2%    -38.48%[m[K  (p=0.000 n=5+11)
+[01;31m[KPutUvarint64             161ns ± 1%      127ns ± 5%    -20.80%[m[K  (p=0.001 n=5+10)
+[01;31m[KPutUvarint32          68.1MB/s ± 2%  110.8MB/s ± 2%    +62.59%[m[K  (p=0.000 n=5+11)
+[01;31m[KPutUvarint64          49.7MB/s ± 1%   62.8MB/s ± 5%    +26.35%[m[K  (p=0.001 n=5+10)
+[01;31m[KReadSlice1000Int32s       3.00 ± 0%       2.00 ± 0%    -33.33%[m[K  (p=0.008 n=5+5)
+[01;31m[KReadInts                  8.00 ± 0%       4.00 ± 0%    -50.00%[m[K  (p=0.008 n=5+5)
+[01;31m[KWriteInts                 16.0 ± 0%        8.0 ± 0%    -50.00%[m[K  (p=0.008 n=5+5)
+[01;31m[KWriteSlice1000Int32s      3.00 ± 0%       2.00 ± 0%    -33.33%[m[K  (p=0.008 n=5+5)
+  gccgo won some rounds!
+comparing encoding/csv...
+  gc won all rounds
+comparing encoding/gob...
+  gc won all rounds
+comparing encoding/hex...
+  gc won all rounds
+comparing encoding/json...
+[01;31m[KSkipValue              32.9ms ± 5%      22.2ms ± 5%         -32.44%[m[K  (p=0.008 n=5+5)
+[01;31m[KSkipValue            59.7MB/s ± 0%    88.4MB/s ± 0%         +48.01%[m[K  (p=0.008 n=5+5)
+  gccgo won some rounds!
+comparing encoding/pem...
+  gc won all rounds
+comparing encoding/xml...
+  gc won all rounds
+comparing expvar...
+[01;31m[KMapAddSame                6.00 ± 0%      5.00 ± 0%   -16.67%[m[K  (p=0.008 n=5+5)
+[01;31m[KMapAddDifferent           14.0 ± 0%      12.0 ± 0%   -14.29%[m[K  (p=0.008 n=5+5)
+  gccgo won some rounds!
+comparing fmt...
+[01;31m[KManyArgs                           8.00 ± 0%      6.00 ± 0%    -25.00%[m[K  (p=0.008 n=5+5)
+  gccgo won some rounds!
+comparing hash/adler32...
+[01;31m[KAdler32KB    1.08µs ± 0%    0.89µs ± 0%  -18.17%[m[K  (p=0.029 n=4+4)
+[01;31m[KAdler32KB   946MB/s ± 0%  1156MB/s ± 0%  +22.15%[m[K  (p=0.029 n=4+4)
+  gccgo won some rounds!
+comparing hash/crc32...
+  gc won all rounds
+comparing hash/crc64...
+  gc won all rounds
+comparing hash/fnv...
+[01;31m[KFnv32KB    351MB/s ± 0%   351MB/s ± 0%  +0.03%[m[K  (p=0.008 n=5+5)
+  gccgo won some rounds!
+comparing html...
+[01;31m[KEscapeNone        9.46µs ± 3%    7.84µs ± 6%     -17.11%[m[K  (p=0.008 n=5+5)
+[01;31m[KUnescapeNone       218ns ± 0%     214ns ± 0%      -2.02%[m[K  (p=0.008 n=5+5)
+  gccgo won some rounds!
+comparing html/template...
+  gc won all rounds
+comparing image/color...
+[01;31m[KYCbCrToRGB/0         12.1ns ± 0%     0.0ns       -100.00%[m[K  (p=0.008 n=5+5)
+[01;31m[KYCbCrToRGB/128       12.0ns ± 0%     0.0ns       -100.00%[m[K  (p=0.008 n=5+5)
+[01;31m[KYCbCrToRGB/255       12.9ns ± 5%     0.0ns       -100.00%[m[K  (p=0.008 n=5+5)
+[01;31m[KRGBToYCbCr/0         12.8ns ± 0%     0.0ns       -100.00%[m[K  (p=0.008 n=5+5)
+[01;31m[KRGBToYCbCr/Cb        13.1ns ± 0%     0.0ns       -100.00%[m[K  (p=0.008 n=5+5)
+[01;31m[KRGBToYCbCr/Cr        13.2ns ± 0%     0.0ns       -100.00%[m[K  (p=0.008 n=5+5)
+[01;31m[KYCbCrToRGBA/0        13.8ns ± 0%     0.7ns ± 0%   -94.78%[m[K  (p=0.000 n=5+4)
+[01;31m[KYCbCrToRGBA/128      12.8ns ± 0%     0.8ns ±12%   -93.75%[m[K  (p=0.008 n=5+5)
+[01;31m[KYCbCrToRGBA/255      13.7ns ± 0%     0.8ns ± 9%   -94.44%[m[K  (p=0.008 n=5+5)
+[01;31m[KNYCbCrAToRGBA/0      18.5ns ± 0%     1.0ns ± 6%   -94.72%[m[K  (p=0.008 n=5+5)
+[01;31m[KNYCbCrAToRGBA/128    16.8ns ± 0%     1.1ns ± 1%   -93.54%[m[K  (p=0.016 n=4+5)
+[01;31m[KNYCbCrAToRGBA/255    18.0ns ± 3%     0.8ns ± 7%   -95.74%[m[K  (p=0.008 n=5+5)
+  gccgo won some rounds!
+comparing image/draw...
+[01;31m[KFillSrc            96.8µs ± 0%     95.1µs ± 0%    -1.79%[m[K  (p=0.008 n=5+5)
+[01;31m[KRGBA                 120k ± 0%        60k ± 0%   -49.99%[m[K  (p=0.008 n=5+5)
+[01;31m[KPaletted             120k ± 0%        30k ± 0%   -74.99%[m[K  (p=0.008 n=5+5)
+[01;31m[KGenericOver          360k ± 0%       180k ± 0%   -50.00%[m[K  (p=0.008 n=5+5)
+[01;31m[KGenericMaskOver      210k ± 0%        65k ± 0%   -68.90%[m[K  (p=0.008 n=5+5)
+[01;31m[KGenericSrc           120k ± 0%        60k ± 0%   -49.99%[m[K  (p=0.008 n=5+5)
+[01;31m[KGenericMaskSrc       360k ± 0%       135k ± 0%   -62.51%[m[K  (p=0.008 n=5+5)
+  gccgo won some rounds!
+comparing image/gif...
+[01;31m[KQuantizedEncode     1.56s ± 0%     0.87s ± 1%  -43.98%[m[K  (p=0.008 n=5+5)
+[01;31m[KQuantizedEncode   790kB/s ± 0%  1412kB/s ± 2%  +78.73%[m[K  (p=0.008 n=5+5)
+[01;31m[KQuantizedEncode      307k ± 0%       77k ± 0%  -74.99%[m[K  (p=0.008 n=5+5)
+  gccgo won some rounds!
+comparing image/jpeg...
+[01;31m[KFDCT                 3.41µs ± 0%    1.51µs ± 0%   -55.64%[m[K  (p=0.000 n=5+4)
+[01;31m[KIDCT                 3.44µs ± 0%    1.82µs ± 0%   -46.99%[m[K  (p=0.029 n=4+4)
+[01;31m[KEncode               51.5ms ± 2%    42.6ms ± 0%   -17.19%[m[K  (p=0.008 n=5+5)
+[01;31m[KEncode             23.9MB/s ± 2%  28.8MB/s ± 0%   +20.74%[m[K  (p=0.008 n=5+5)
+  gccgo won some rounds!
+comparing image/png...
+[01;31m[KDecodeGray              137kB ± 0%     137kB ± 0%    -0.09%[m[K  (p=0.008 n=5+5)
+[01;31m[KDecodeNRGBAGradient     337kB ± 0%     337kB ± 0%    -0.02%[m[K  (p=0.008 n=5+5)
+[01;31m[KDecodeNRGBAOpaque       347kB ± 0%     346kB ± 0%    -0.02%[m[K  (p=0.008 n=5+5)
+[01;31m[KDecodePaletted          136kB ± 0%     136kB ± 0%    -0.04%[m[K  (p=0.008 n=5+5)
+[01;31m[KDecodeRGB               332kB ± 0%     332kB ± 0%    -0.04%[m[K  (p=0.000 n=5+4)
+[01;31m[KDecodePaletted            309 ± 0%       135 ± 0%   -56.31%[m[K  (p=0.008 n=5+5)
+[01;31m[KEncodeRGBA               614k ± 0%      154k ± 0%   -74.99%[m[K  (p=0.000 n=5+4)
+  gccgo won some rounds!
+comparing index/suffixarray...
+[01;31m[KNewIndexRandom    16.1MB ± 0%    16.1MB ± 0%   -0.00%[m[K  (p=0.008 n=5+5)
+[01;31m[KNewIndexRepeat    39.0MB ± 0%    39.0MB ± 0%   -0.00%[m[K  (p=0.008 n=5+5)
+  gccgo won some rounds!
+comparing log...
+  gc won all rounds
+comparing math...
+[01;31m[KCbrt                   56.6ns ± 0%    51.4ns ± 2%    -9.12%[m[K  (p=0.008 n=5+5)
+[01;31m[KCeil                   4.37ns ± 0%    4.29ns ± 0%    -1.92%[m[K  (p=0.008 n=5+5)
+[01;31m[KCos                    27.5ns ± 0%    27.1ns ± 0%    -1.45%[m[K  (p=0.008 n=5+5)
+[01;31m[KErf                    22.6ns ± 0%    13.9ns ± 0%   -38.50%[m[K  (p=0.008 n=5+5)
+[01;31m[KErfc                   25.6ns ± 0%    15.5ns ± 0%   -39.45%[m[K  (p=0.008 n=5+5)
+[01;31m[KDim                    8.58ns ± 0%    6.44ns ± 0%   -24.94%[m[K  (p=0.008 n=5+5)
+[01;31m[KFloor                  5.01ns ± 0%    3.61ns ± 3%   -27.90%[m[K  (p=0.008 n=5+5)
+[01;31m[KMax                    8.66ns ± 2%    5.72ns ± 0%   -33.92%[m[K  (p=0.000 n=5+4)
+[01;31m[KFrexp                  14.9ns ± 0%     7.9ns ± 0%   -47.32%[m[K  (p=0.000 n=5+4)
+[01;31m[KGamma                  40.7ns ± 0%    19.4ns ± 1%   -52.33%[m[K  (p=0.016 n=4+5)
+[01;31m[KHypotGo                18.2ns ± 0%    15.7ns ± 0%   -13.55%[m[K  (p=0.008 n=5+5)
+[01;31m[KIlogb                  13.0ns ± 1%     6.4ns ± 0%   -50.54%[m[K  (p=0.008 n=5+5)
+[01;31m[KJ0                      168ns ± 0%     145ns ± 0%   -13.69%[m[K  (p=0.000 n=5+4)
+[01;31m[KJ1                      170ns ± 0%     148ns ± 0%   -12.94%[m[K  (p=0.008 n=5+5)
+[01;31m[KJn                      364ns ± 0%     320ns ± 0%   -12.20%[m[K  (p=0.008 n=5+5)
+[01;31m[KLgamma                 41.0ns ± 0%    23.2ns ± 0%   -43.41%[m[K  (p=0.029 n=4+4)
+[01;31m[KLogb                   12.9ns ± 0%     8.6ns ± 0%   -33.43%[m[K  (p=0.008 n=5+5)
+[01;31m[KLog2                   20.0ns ± 0%    10.7ns ± 0%   -46.50%[m[K  (p=0.008 n=5+5)
+[01;31m[KModf                   12.2ns ± 0%     5.7ns ± 0%   -53.11%[m[K  (p=0.008 n=5+5)
+[01;31m[KNextafter32            12.0ns ± 0%     8.7ns ± 3%   -28.07%[m[K  (p=0.008 n=5+5)
+[01;31m[KNextafter64            10.5ns ± 0%     7.4ns ± 0%   -29.90%[m[K  (p=0.008 n=5+5)
+[01;31m[KPow10Pos               97.0ns ± 1%    75.8ns ± 0%   -21.86%[m[K  (p=0.008 n=5+5)
+[01;31m[KPow10Neg                117ns ± 0%      80ns ± 0%   -31.54%[m[K  (p=0.008 n=5+5)
+[01;31m[KRemainder              87.7ns ± 0%    34.6ns ± 1%   -60.57%[m[K  (p=0.008 n=5+5)
+[01;31m[KSincos                 46.3ns ± 0%    22.1ns ± 0%   -52.27%[m[K  (p=0.008 n=5+5)
+[01;31m[KSqrtIndirectLatency    16.4ns ± 0%     7.2ns ± 0%   -56.40%[m[K  (p=0.000 n=5+4)
+[01;31m[KSqrtGoLatency           117ns ± 0%     105ns ± 1%   -10.09%[m[K  (p=0.008 n=5+5)
+[01;31m[KY0                      166ns ± 0%     146ns ± 0%   -12.05%[m[K  (p=0.000 n=5+4)
+[01;31m[KY1                      166ns ± 0%     144ns ± 0%   -13.25%[m[K  (p=0.008 n=5+5)
+[01;31m[KYn                      355ns ± 0%     309ns ± 0%   -12.96%[m[K  (p=0.000 n=5+4)
+  gccgo won some rounds!
+comparing math/big...
+[01;31m[KBitLen/0              6.41ns ± 0%    1.47ns ± 3%    -77.02%[m[K  (p=0.008 n=5+5)
+[01;31m[KBitLen/1              4.33ns ± 0%    1.45ns ± 2%    -66.56%[m[K  (p=0.016 n=4+5)
+[01;31m[KBitLen/2              4.33ns ± 0%    1.45ns ± 3%    -66.51%[m[K  (p=0.008 n=5+5)
+[01;31m[KBitLen/3              4.36ns ± 1%    1.44ns ± 1%    -66.85%[m[K  (p=0.008 n=5+5)
+[01;31m[KBitLen/4              4.33ns ± 0%    1.48ns ± 6%    -65.87%[m[K  (p=0.016 n=4+5)
+[01;31m[KBitLen/5              4.33ns ± 0%    1.45ns ± 3%    -66.61%[m[K  (p=0.008 n=5+5)
+[01;31m[KBitLen/8              4.33ns ± 0%    1.47ns ± 8%    -65.96%[m[K  (p=0.008 n=5+5)
+[01;31m[KBitLen/9              4.33ns ± 0%    1.46ns ± 4%    -66.33%[m[K  (p=0.016 n=4+5)
+[01;31m[KBitLen/16             4.33ns ± 0%    1.43ns ± 0%    -66.97%[m[K  (p=0.008 n=5+5)
+[01;31m[KBitLen/17             4.33ns ± 0%    1.43ns ± 0%    -66.97%[m[K  (p=0.008 n=5+5)
+[01;31m[KBitLen/31             4.36ns ± 1%    1.43ns ± 0%    -67.17%[m[K  (p=0.000 n=5+4)
+  gccgo won some rounds!
+comparing math/cmplx...
+[01;31m[KConj     0.72ns ± 0%    0.00ns        -100.00%[m[K  (p=0.008 n=5+5)
+  gccgo won some rounds!
+comparing math/rand...
+[01;31m[KInt63Threadsafe      70.9ns ± 0%    53.9ns ± 1%   -23.98%[m[K  (p=0.016 n=4+5)
+[01;31m[KInt63Unthreadsafe    17.3ns ± 0%    10.3ns ± 3%   -40.35%[m[K  (p=0.008 n=5+5)
+[01;31m[KInt63n1000           68.5ns ± 0%    48.8ns ± 0%   -28.79%[m[K  (p=0.008 n=5+5)
+[01;31m[KInt31n1000           37.1ns ± 0%    10.4ns ± 0%   -71.97%[m[K  (p=0.008 n=5+5)
+[01;31m[KFloat32              32.9ns ± 0%    12.7ns ± 0%   -61.40%[m[K  (p=0.008 n=5+5)
+[01;31m[KFloat64              25.2ns ± 3%    11.7ns ± 0%   -53.61%[m[K  (p=0.008 n=5+5)
+[01;31m[KRead1000             5.54µs ± 0%    4.56µs ± 2%   -17.77%[m[K  (p=0.016 n=4+5)
+  gccgo won some rounds!
+comparing mime...
+  gc won all rounds
+comparing mime/quotedprintable...
+[01;31m[KWriter    17.9µs ± 7%    14.8µs ± 2%  -17.21%[m[K  (p=0.008 n=5+5)
+  gccgo won some rounds!
+comparing net/url...
+[01;31m[KString      54.0 ± 0%      53.0 ± 0%    -1.85%[m[K  (p=0.008 n=5+5)
+  gccgo won some rounds!
+comparing net/rpc...
+  gc won all rounds
+comparing net/textproto...
+  gc won all rounds
+comparing regexp...
+  gc won all rounds
+comparing regexp/syntax...
+[01;31m[KEmptyOpContext     484ns ± 0%      70ns ± 0%  -85.50%[m[K  (p=0.016 n=4+5)
+  gccgo won some rounds!
+comparing sort...
+[01;31m[KSortString1K           389µs ± 0%     371µs ± 2%     -4.58%[m[K  (p=0.016 n=4+5)
+[01;31m[KStableInt1K            225µs ± 2%     215µs ± 2%     -4.37%[m[K  (p=0.008 n=5+5)
+[01;31m[KSortInt64K            17.7ms ± 0%    16.6ms ± 3%     -5.99%[m[K  (p=0.008 n=5+5)
+[01;31m[KSort1e2                106µs ± 0%      95µs ± 1%    -10.28%[m[K  (p=0.008 n=5+5)
+[01;31m[KStable1e2              218µs ± 1%     205µs ± 1%     -6.10%[m[K  (p=0.008 n=5+5)
+[01;31m[KSort1e4               22.6ms ± 0%    18.8ms ± 2%    -16.89%[m[K  (p=0.008 n=5+5)
+[01;31m[KStable1e4             68.6ms ± 0%    61.9ms ± 2%     -9.79%[m[K  (p=0.008 n=5+5)
+[01;31m[KSort1e6                3.44s ± 0%     2.81s ± 0%    -18.39%[m[K  (p=0.016 n=4+5)
+[01;31m[KStable1e6              13.8s ± 0%     12.5s ± 0%     -9.07%[m[K  (p=0.016 n=5+4)
+  gccgo won some rounds!
+comparing strconv...
+[01;31m[KAtoi64                         73.3ns ± 0%    72.9ns ± 0%     -0.55%[m[K  (p=0.008 n=5+5)
+  gccgo won some rounds!
+comparing unicode/utf8...
+[01;31m[KRuneCountTenJapaneseChars             126ns ± 0%     109ns ± 0%  -13.49%[m[K  (p=0.008 n=5+5)
+[01;31m[KRuneCountInStringTenJapaneseChars     124ns ± 0%     101ns ± 1%  -18.87%[m[K  (p=0.008 n=5+5)
+  gccgo won some rounds!
+comparing unicode/utf16...
+[01;31m[KEncodeValidJapaneseChars      1.00 ± 0%      0.00        -100.00%[m[K  (p=0.008 n=5+5)
+  gccgo won some rounds!

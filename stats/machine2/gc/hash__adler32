@@ -1,0 +1,7 @@
+BenchmarkAdler32KB 	 1000000	      1070 ns/op	 956.16 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAdler32KB 	 1000000	      1081 ns/op	 946.77 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAdler32KB 	 1000000	      1081 ns/op	 946.91 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAdler32KB 	 1000000	      1081 ns/op	 946.81 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAdler32KB 	 1000000	      1083 ns/op	 944.69 MB/s	       0 B/op	       0 allocs/op
+PASS
+ok  	hash/adler32	5.468s

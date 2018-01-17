@@ -35,3 +35,35 @@ BenchmarkPutUvarint64         	10000000	       125 ns/op	  63.94 MB/s	       0 B
 BenchmarkPutUvarint64         	10000000	       128 ns/op	  62.44 MB/s	       0 B/op	       0 allocs/op
 PASS
 ok  	gccgo/encoding/binary	64.730s
+BenchmarkPutUvarint32 	50000000	        36.2 ns/op	 110.43 MB/s	       0 B/op	       0 allocs/op
+BenchmarkPutUvarint64 	10000000	       126 ns/op	  63.38 MB/s	       0 B/op	       0 allocs/op
+PASS
+ok  	gccgo/encoding/binary	3.430s
+BenchmarkPutUvarint32 	50000000	        36.1 ns/op	 110.79 MB/s	       0 B/op	       0 allocs/op
+BenchmarkPutUvarint64 	10000000	       126 ns/op	  63.42 MB/s	       0 B/op	       0 allocs/op
+PASS
+ok  	gccgo/encoding/binary	3.429s
+BenchmarkPutUvarint32 	50000000	        36.4 ns/op	 109.90 MB/s	       0 B/op	       0 allocs/op
+BenchmarkPutUvarint64 	10000000	       129 ns/op	  61.70 MB/s	       0 B/op	       0 allocs/op
+PASS
+ok  	gccgo/encoding/binary	3.496s
+BenchmarkPutUvarint32 	50000000	        36.4 ns/op	 109.98 MB/s	       0 B/op	       0 allocs/op
+BenchmarkPutUvarint64 	10000000	       127 ns/op	  62.86 MB/s	       0 B/op	       0 allocs/op
+PASS
+ok  	gccgo/encoding/binary	3.454s
+BenchmarkPutUvarint32 	50000000	        36.7 ns/op	 108.94 MB/s	       0 B/op	       0 allocs/op
+BenchmarkPutUvarint64 	10000000	       133 ns/op	  59.91 MB/s	       0 B/op	       0 allocs/op
+PASS
+ok  	gccgo/encoding/binary	3.552s
+BenchmarkPutUvarint32 	50000000	        36.7 ns/op	 108.88 MB/s	       0 B/op	       0 allocs/op
+BenchmarkPutUvarint64 	10000000	       127 ns/op	  62.69 MB/s	       0 B/op	       0 allocs/op
+PASS
+ok  	gccgo/encoding/binary	3.485s
+BenchmarkPutUvarint32 	100000000	        18.9 ns/op	 211.73 MB/s	       0 B/op	       0 allocs/op
+BenchmarkPutUvarint64 	20000000	        65.0 ns/op	 123.01 MB/s	       0 B/op	       0 allocs/op
+PASS
+ok  	gccgo/encoding/binary	3.383s
+BenchmarkPutUvarint32 	100000000	        18.6 ns/op	 215.01 MB/s	       0 B/op	       0 allocs/op
+BenchmarkPutUvarint64 	20000000	        66.0 ns/op	 121.16 MB/s	       0 B/op	       0 allocs/op
+PASS
+ok  	gccgo/encoding/binary	3.373s

@@ -1,0 +1,12 @@
+BenchmarkMarshal   	   10000	    196882 ns/op	   23825 B/op	     558 allocs/op
+BenchmarkMarshal   	   10000	    197394 ns/op	   23800 B/op	     558 allocs/op
+BenchmarkMarshal   	   10000	    197600 ns/op	   23793 B/op	     558 allocs/op
+BenchmarkMarshal   	   10000	    197840 ns/op	   23795 B/op	     558 allocs/op
+BenchmarkMarshal   	   10000	    197738 ns/op	   23795 B/op	     558 allocs/op
+BenchmarkUnmarshal 	    3000	    414362 ns/op	   46414 B/op	    1231 allocs/op
+BenchmarkUnmarshal 	    3000	    415276 ns/op	   46205 B/op	    1230 allocs/op
+BenchmarkUnmarshal 	    3000	    414117 ns/op	   46215 B/op	    1230 allocs/op
+BenchmarkUnmarshal 	    3000	    415601 ns/op	   46413 B/op	    1231 allocs/op
+BenchmarkUnmarshal 	    3000	    415009 ns/op	   46225 B/op	    1230 allocs/op
+PASS
+ok  	gccgo/encoding/xml	17.629s

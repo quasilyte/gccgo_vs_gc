@@ -1,0 +1,32 @@
+BenchmarkDecodeValidASCII         	20000000	       106 ns/op	      48 B/op	       1 allocs/op
+BenchmarkDecodeValidASCII         	20000000	       106 ns/op	      48 B/op	       1 allocs/op
+BenchmarkDecodeValidASCII         	20000000	       104 ns/op	      48 B/op	       1 allocs/op
+BenchmarkDecodeValidASCII         	20000000	       104 ns/op	      48 B/op	       1 allocs/op
+BenchmarkDecodeValidASCII         	20000000	       105 ns/op	      48 B/op	       1 allocs/op
+BenchmarkDecodeValidJapaneseChars 	20000000	       102 ns/op	      48 B/op	       1 allocs/op
+BenchmarkDecodeValidJapaneseChars 	20000000	       102 ns/op	      48 B/op	       1 allocs/op
+BenchmarkDecodeValidJapaneseChars 	20000000	       102 ns/op	      48 B/op	       1 allocs/op
+BenchmarkDecodeValidJapaneseChars 	20000000	       102 ns/op	      48 B/op	       1 allocs/op
+BenchmarkDecodeValidJapaneseChars 	20000000	       102 ns/op	      48 B/op	       1 allocs/op
+BenchmarkDecodeRune               	100000000	        18.6 ns/op	       0 B/op	       0 allocs/op
+BenchmarkDecodeRune               	100000000	        18.6 ns/op	       0 B/op	       0 allocs/op
+BenchmarkDecodeRune               	100000000	        18.6 ns/op	       0 B/op	       0 allocs/op
+BenchmarkDecodeRune               	100000000	        18.6 ns/op	       0 B/op	       0 allocs/op
+BenchmarkDecodeRune               	100000000	        18.6 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncodeValidASCII         	20000000	        79.8 ns/op	      16 B/op	       1 allocs/op
+BenchmarkEncodeValidASCII         	20000000	        79.7 ns/op	      16 B/op	       1 allocs/op
+BenchmarkEncodeValidASCII         	20000000	        79.7 ns/op	      16 B/op	       1 allocs/op
+BenchmarkEncodeValidASCII         	20000000	        79.7 ns/op	      16 B/op	       1 allocs/op
+BenchmarkEncodeValidASCII         	20000000	        79.6 ns/op	      16 B/op	       1 allocs/op
+BenchmarkEncodeValidJapaneseChars 	30000000	        58.2 ns/op	       8 B/op	       1 allocs/op
+BenchmarkEncodeValidJapaneseChars 	30000000	        58.3 ns/op	       8 B/op	       1 allocs/op
+BenchmarkEncodeValidJapaneseChars 	30000000	        58.2 ns/op	       8 B/op	       1 allocs/op
+BenchmarkEncodeValidJapaneseChars 	30000000	        58.3 ns/op	       8 B/op	       1 allocs/op
+BenchmarkEncodeValidJapaneseChars 	30000000	        58.3 ns/op	       8 B/op	       1 allocs/op
+BenchmarkEncodeRune               	300000000	         5.94 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncodeRune               	300000000	         5.95 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncodeRune               	300000000	         6.05 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncodeRune               	200000000	         5.95 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncodeRune               	300000000	         5.96 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	unicode/utf16	60.094s

@@ -1,0 +1,7 @@
+BenchmarkWriter 	  200000	     15008 ns/op	     113 B/op	       1 allocs/op
+BenchmarkWriter 	  200000	     14855 ns/op	     113 B/op	       1 allocs/op
+BenchmarkWriter 	  100000	     14652 ns/op	     113 B/op	       1 allocs/op
+BenchmarkWriter 	  100000	     14482 ns/op	     113 B/op	       1 allocs/op
+BenchmarkWriter 	  100000	     15108 ns/op	     113 B/op	       1 allocs/op
+PASS
+ok  	gccgo/mime/quotedprintable	11.218s

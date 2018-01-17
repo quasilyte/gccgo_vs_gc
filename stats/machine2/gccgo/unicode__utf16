@@ -1,0 +1,32 @@
+BenchmarkDecodeValidASCII         	 5000000	       334 ns/op	      48 B/op	       1 allocs/op
+BenchmarkDecodeValidASCII         	 5000000	       334 ns/op	      48 B/op	       1 allocs/op
+BenchmarkDecodeValidASCII         	 5000000	       334 ns/op	      48 B/op	       1 allocs/op
+BenchmarkDecodeValidASCII         	 5000000	       334 ns/op	      48 B/op	       1 allocs/op
+BenchmarkDecodeValidASCII         	 5000000	       335 ns/op	      48 B/op	       1 allocs/op
+BenchmarkDecodeValidJapaneseChars 	 5000000	       328 ns/op	      48 B/op	       1 allocs/op
+BenchmarkDecodeValidJapaneseChars 	 5000000	       328 ns/op	      48 B/op	       1 allocs/op
+BenchmarkDecodeValidJapaneseChars 	 5000000	       328 ns/op	      48 B/op	       1 allocs/op
+BenchmarkDecodeValidJapaneseChars 	 5000000	       328 ns/op	      48 B/op	       1 allocs/op
+BenchmarkDecodeValidJapaneseChars 	 5000000	       328 ns/op	      48 B/op	       1 allocs/op
+BenchmarkDecodeRune               	50000000	        26.5 ns/op	       0 B/op	       0 allocs/op
+BenchmarkDecodeRune               	50000000	        26.5 ns/op	       0 B/op	       0 allocs/op
+BenchmarkDecodeRune               	50000000	        26.5 ns/op	       0 B/op	       0 allocs/op
+BenchmarkDecodeRune               	50000000	        26.5 ns/op	       0 B/op	       0 allocs/op
+BenchmarkDecodeRune               	50000000	        26.5 ns/op	       0 B/op	       0 allocs/op
+BenchmarkEncodeValidASCII         	10000000	       197 ns/op	      16 B/op	       1 allocs/op
+BenchmarkEncodeValidASCII         	10000000	       197 ns/op	      16 B/op	       1 allocs/op
+BenchmarkEncodeValidASCII         	10000000	       196 ns/op	      16 B/op	       1 allocs/op
+BenchmarkEncodeValidASCII         	10000000	       196 ns/op	      16 B/op	       1 allocs/op
+BenchmarkEncodeValidASCII         	10000000	       196 ns/op	      16 B/op	       1 allocs/op
+BenchmarkEncodeValidJapaneseChars 	10000000	       153 ns/op	       8 B/op	       0 allocs/op
+BenchmarkEncodeValidJapaneseChars 	10000000	       153 ns/op	       8 B/op	       0 allocs/op
+BenchmarkEncodeValidJapaneseChars 	10000000	       153 ns/op	       8 B/op	       0 allocs/op
+BenchmarkEncodeValidJapaneseChars 	10000000	       153 ns/op	       8 B/op	       0 allocs/op
+BenchmarkEncodeValidJapaneseChars 	10000000	       153 ns/op	       8 B/op	       0 allocs/op
+BenchmarkEncodeRune               	10000000	       226 ns/op	      32 B/op	       1 allocs/op
+BenchmarkEncodeRune               	10000000	       226 ns/op	      32 B/op	       1 allocs/op
+BenchmarkEncodeRune               	10000000	       226 ns/op	      32 B/op	       1 allocs/op
+BenchmarkEncodeRune               	10000000	       226 ns/op	      32 B/op	       1 allocs/op
+BenchmarkEncodeRune               	10000000	       235 ns/op	      32 B/op	       1 allocs/op
+PASS
+ok  	gccgo/unicode/utf16	58.842s

@@ -1,0 +1,12 @@
+BenchmarkMarshal   	   50000	     38334 ns/op	    5776 B/op	      23 allocs/op
+BenchmarkMarshal   	   50000	     38189 ns/op	    5776 B/op	      23 allocs/op
+BenchmarkMarshal   	   50000	     38310 ns/op	    5776 B/op	      23 allocs/op
+BenchmarkMarshal   	   50000	     38194 ns/op	    5776 B/op	      23 allocs/op
+BenchmarkMarshal   	   50000	     38168 ns/op	    5776 B/op	      23 allocs/op
+BenchmarkUnmarshal 	   10000	    106216 ns/op	    8576 B/op	     189 allocs/op
+BenchmarkUnmarshal 	   10000	    106196 ns/op	    8576 B/op	     189 allocs/op
+BenchmarkUnmarshal 	   10000	    106209 ns/op	    8576 B/op	     189 allocs/op
+BenchmarkUnmarshal 	   10000	    106265 ns/op	    8576 B/op	     189 allocs/op
+BenchmarkUnmarshal 	   10000	    106354 ns/op	    8576 B/op	     189 allocs/op
+PASS
+ok  	encoding/xml	16.886s

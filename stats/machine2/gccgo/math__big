@@ -1,0 +1,290 @@
+BenchmarkAddVV/1             	100000000	        16.1 ns/op	3973.42 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/1             	100000000	        16.1 ns/op	3970.44 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/1             	100000000	        15.8 ns/op	4042.49 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/1             	100000000	        16.1 ns/op	3972.88 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/1             	100000000	        15.8 ns/op	4043.95 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/2             	100000000	        18.0 ns/op	7114.25 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/2             	100000000	        18.0 ns/op	7101.03 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/2             	100000000	        18.0 ns/op	7113.05 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/2             	100000000	        18.0 ns/op	7103.00 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/2             	100000000	        18.0 ns/op	7109.73 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/3             	100000000	        22.0 ns/op	8729.30 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/3             	100000000	        21.8 ns/op	8789.15 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/3             	100000000	        21.8 ns/op	8792.23 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/3             	100000000	        21.8 ns/op	8793.44 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/3             	100000000	        21.8 ns/op	8787.99 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/4             	50000000	        25.5 ns/op	10051.98 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/4             	50000000	        25.5 ns/op	10050.62 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/4             	50000000	        25.5 ns/op	10040.17 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/4             	50000000	        25.5 ns/op	10053.69 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/4             	50000000	        25.5 ns/op	10025.39 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/5             	50000000	        29.0 ns/op	11046.83 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/5             	50000000	        29.0 ns/op	11041.75 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/5             	50000000	        28.9 ns/op	11053.92 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/5             	50000000	        29.0 ns/op	11043.19 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/5             	50000000	        28.9 ns/op	11054.22 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/10            	30000000	        46.1 ns/op	13873.04 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/10            	30000000	        47.3 ns/op	13544.76 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/10            	30000000	        48.2 ns/op	13272.33 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/10            	30000000	        46.2 ns/op	13861.40 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/10            	30000000	        46.2 ns/op	13865.42 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/100           	 5000000	       384 ns/op	16655.82 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/100           	 5000000	       384 ns/op	16664.57 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/100           	 5000000	       383 ns/op	16670.82 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/100           	 5000000	       386 ns/op	16573.79 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/100           	 5000000	       384 ns/op	16644.32 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/1000          	  500000	      3608 ns/op	17735.87 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/1000          	  500000	      3607 ns/op	17740.13 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/1000          	  500000	      3607 ns/op	17739.97 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/1000          	  500000	      3608 ns/op	17734.64 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/1000          	  500000	      3607 ns/op	17741.03 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/10000         	   50000	     36641 ns/op	17466.69 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/10000         	   50000	     36612 ns/op	17480.18 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/10000         	   50000	     36643 ns/op	17465.56 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/10000         	   50000	     36637 ns/op	17468.54 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/10000         	   50000	     36642 ns/op	17465.94 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/100000        	    3000	    374451 ns/op	17091.68 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/100000        	    3000	    374616 ns/op	17084.12 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/100000        	    3000	    374522 ns/op	17088.43 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/100000        	    3000	    374632 ns/op	17083.40 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVV/100000        	    3000	    374869 ns/op	17072.60 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/1             	100000000	        12.0 ns/op	 666.76 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/1             	100000000	        12.0 ns/op	 666.66 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/1             	100000000	        12.0 ns/op	 666.62 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/1             	100000000	        12.0 ns/op	 666.44 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/1             	100000000	        12.0 ns/op	 666.70 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/2             	100000000	        12.7 ns/op	1259.73 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/2             	100000000	        12.7 ns/op	1259.42 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/2             	100000000	        12.7 ns/op	1259.76 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/2             	100000000	        12.7 ns/op	1259.93 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/2             	100000000	        12.7 ns/op	1259.74 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/3             	100000000	        15.1 ns/op	1589.14 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/3             	100000000	        15.1 ns/op	1589.40 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/3             	100000000	        15.1 ns/op	1589.13 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/3             	100000000	        15.1 ns/op	1585.23 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/3             	100000000	        15.3 ns/op	1572.96 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/4             	100000000	        17.5 ns/op	1824.18 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/4             	100000000	        16.9 ns/op	1894.10 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/4             	100000000	        16.9 ns/op	1893.97 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/4             	100000000	        16.9 ns/op	1893.85 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/4             	100000000	        16.9 ns/op	1893.95 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/5             	100000000	        18.4 ns/op	2168.87 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/5             	100000000	        18.4 ns/op	2168.93 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/5             	100000000	        18.4 ns/op	2169.05 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/5             	100000000	        18.5 ns/op	2167.99 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/5             	100000000	        18.5 ns/op	2167.97 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/10            	50000000	        27.9 ns/op	2862.55 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/10            	50000000	        27.9 ns/op	2868.45 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/10            	50000000	        27.9 ns/op	2864.85 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/10            	50000000	        27.9 ns/op	2868.49 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/10            	50000000	        27.9 ns/op	2867.34 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/100           	10000000	       229 ns/op	3484.53 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/100           	10000000	       229 ns/op	3483.89 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/100           	10000000	       229 ns/op	3484.69 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/100           	10000000	       229 ns/op	3484.74 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/100           	10000000	       229 ns/op	3484.55 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/1000          	 1000000	      2160 ns/op	3702.60 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/1000          	 1000000	      2160 ns/op	3703.26 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/1000          	 1000000	      2160 ns/op	3703.14 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/1000          	 1000000	      2160 ns/op	3703.02 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/1000          	 1000000	      2160 ns/op	3702.94 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/10000         	  100000	     21496 ns/op	3721.47 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/10000         	  100000	     21500 ns/op	3720.78 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/10000         	  100000	     21498 ns/op	3721.21 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/10000         	  100000	     21496 ns/op	3721.49 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/10000         	  100000	     21502 ns/op	3720.54 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/100000        	   10000	    216199 ns/op	3700.29 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/100000        	   10000	    219346 ns/op	3647.20 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/100000        	   10000	    215070 ns/op	3719.71 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/100000        	   10000	    215130 ns/op	3718.67 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddVW/100000        	   10000	    215147 ns/op	3718.38 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/1         	100000000	        16.5 ns/op	3876.85 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/1         	100000000	        16.5 ns/op	3878.46 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/1         	100000000	        16.5 ns/op	3877.50 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/1         	100000000	        16.5 ns/op	3879.94 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/1         	100000000	        16.5 ns/op	3880.26 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/2         	100000000	        21.2 ns/op	6036.53 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/2         	100000000	        21.2 ns/op	6045.53 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/2         	100000000	        21.2 ns/op	6044.57 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/2         	100000000	        21.2 ns/op	6046.21 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/2         	100000000	        21.2 ns/op	6047.02 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/3         	50000000	        28.1 ns/op	6821.96 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/3         	50000000	        28.1 ns/op	6828.97 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/3         	50000000	        28.1 ns/op	6828.53 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/3         	50000000	        28.1 ns/op	6827.58 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/3         	50000000	        28.1 ns/op	6827.75 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/4         	50000000	        33.6 ns/op	7614.86 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/4         	50000000	        33.6 ns/op	7614.87 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/4         	50000000	        33.6 ns/op	7615.05 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/4         	50000000	        33.6 ns/op	7613.57 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/4         	50000000	        33.6 ns/op	7616.07 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/5         	30000000	        40.0 ns/op	7991.47 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/5         	30000000	        40.1 ns/op	7987.58 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/5         	30000000	        40.1 ns/op	7983.89 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/5         	30000000	        40.0 ns/op	7991.26 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/5         	30000000	        40.1 ns/op	7989.78 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/10        	20000000	        72.2 ns/op	8859.78 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/10        	20000000	        72.2 ns/op	8859.87 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/10        	20000000	        72.2 ns/op	8860.92 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/10        	20000000	        72.2 ns/op	8861.85 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/10        	20000000	        72.3 ns/op	8857.75 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/100       	 2000000	       632 ns/op	10113.34 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/100       	 2000000	       647 ns/op	9887.06 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/100       	 2000000	       643 ns/op	9951.62 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/100       	 2000000	       654 ns/op	9778.27 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/100       	 2000000	       634 ns/op	10084.43 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/1000      	  200000	      6028 ns/op	10616.57 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/1000      	  200000	      6028 ns/op	10615.97 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/1000      	  200000	      6027 ns/op	10618.78 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/1000      	  200000	      6027 ns/op	10618.66 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/1000      	  200000	      6045 ns/op	10586.62 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/10000     	   20000	     60240 ns/op	10624.07 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/10000     	   20000	     60364 ns/op	10602.33 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/10000     	   20000	     60233 ns/op	10625.25 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/10000     	   20000	     60239 ns/op	10624.30 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/10000     	   20000	     61640 ns/op	10382.76 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/100000    	    2000	    602845 ns/op	10616.31 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/100000    	    2000	    600909 ns/op	10650.52 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/100000    	    2000	    601225 ns/op	10644.93 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/100000    	    2000	    600841 ns/op	10651.72 MB/s	       0 B/op	       0 allocs/op
+BenchmarkAddMulVVW/100000    	    2000	    600910 ns/op	10650.50 MB/s	       0 B/op	       0 allocs/op
+BenchmarkBitLen/0            	2000000000	         1.46 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/0            	2000000000	         1.46 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/0            	2000000000	         1.50 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/0            	2000000000	         1.51 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/0            	2000000000	         1.43 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/1            	2000000000	         1.48 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/1            	2000000000	         1.43 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/1            	2000000000	         1.46 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/1            	2000000000	         1.44 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/1            	2000000000	         1.43 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/2            	2000000000	         1.43 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/2            	2000000000	         1.44 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/2            	2000000000	         1.46 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/2            	2000000000	         1.43 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/2            	2000000000	         1.49 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/3            	2000000000	         1.44 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/3            	2000000000	         1.46 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/3            	2000000000	         1.45 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/3            	2000000000	         1.44 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/3            	2000000000	         1.43 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/4            	2000000000	         1.44 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/4            	2000000000	         1.57 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/4            	2000000000	         1.47 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/4            	2000000000	         1.48 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/4            	2000000000	         1.43 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/5            	2000000000	         1.43 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/5            	2000000000	         1.43 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/5            	2000000000	         1.45 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/5            	2000000000	         1.49 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/5            	2000000000	         1.43 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/8            	2000000000	         1.46 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/8            	2000000000	         1.43 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/8            	2000000000	         1.46 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/8            	2000000000	         1.43 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/8            	2000000000	         1.59 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/9            	2000000000	         1.46 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/9            	2000000000	         1.45 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/9            	2000000000	         1.44 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/9            	2000000000	         1.43 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/9            	2000000000	         1.51 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/16           	2000000000	         1.43 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/16           	2000000000	         1.43 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/16           	2000000000	         1.43 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/16           	2000000000	         1.43 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/16           	2000000000	         1.43 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/17           	2000000000	         1.43 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/17           	2000000000	         1.43 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/17           	2000000000	         1.43 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/17           	2000000000	         1.43 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/17           	2000000000	         1.43 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/31           	2000000000	         1.43 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/31           	2000000000	         1.43 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/31           	2000000000	         1.43 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/31           	2000000000	         1.47 ns/op	       0 B/op	       0 allocs/op
+BenchmarkBitLen/31           	2000000000	         1.43 ns/op	       0 B/op	       0 allocs/op
+BenchmarkDecimalConversion   	    2000	    990987 ns/op	  122303 B/op	    3522 allocs/op
+BenchmarkDecimalConversion   	    2000	    986122 ns/op	  122313 B/op	    3522 allocs/op
+BenchmarkDecimalConversion   	    2000	    984519 ns/op	  122328 B/op	    3522 allocs/op
+BenchmarkDecimalConversion   	    2000	    989567 ns/op	  122314 B/op	    3522 allocs/op
+BenchmarkDecimalConversion   	    2000	    986365 ns/op	  122313 B/op	    3522 allocs/op
+BenchmarkFloatString/100     	  200000	      7480 ns/op	     800 B/op	      20 allocs/op
+BenchmarkFloatString/100     	  200000	      7448 ns/op	     800 B/op	      20 allocs/op
+BenchmarkFloatString/100     	  200000	      7451 ns/op	     800 B/op	      20 allocs/op
+BenchmarkFloatString/100     	  200000	      7436 ns/op	     800 B/op	      20 allocs/op
+BenchmarkFloatString/100     	  200000	      7446 ns/op	     800 B/op	      20 allocs/op
+BenchmarkFloatString/1000    	   10000	    102816 ns/op	    4472 B/op	      48 allocs/op
+BenchmarkFloatString/1000    	   10000	    102773 ns/op	    4469 B/op	      48 allocs/op
+BenchmarkFloatString/1000    	   10000	    103038 ns/op	    4469 B/op	      48 allocs/op
+BenchmarkFloatString/1000    	   10000	    103063 ns/op	    4469 B/op	      48 allocs/op
+BenchmarkFloatString/1000    	   10000	    103184 ns/op	    4469 B/op	      48 allocs/op
+BenchmarkFloatString/10000   	     200	   6556113 ns/op	   67293 B/op	     413 allocs/op
+BenchmarkFloatString/10000   	     200	   6517572 ns/op	   67246 B/op	     412 allocs/op
+BenchmarkFloatString/10000   	     200	   6538175 ns/op	   67287 B/op	     413 allocs/op
+BenchmarkFloatString/10000   	     200	   6536515 ns/op	   67287 B/op	     413 allocs/op
+BenchmarkFloatString/10000   	     200	   6515089 ns/op	   67287 B/op	     413 allocs/op
+BenchmarkFloatString/100000  	       2	 599910264 ns/op	  758584 B/op	    4088 allocs/op
+BenchmarkFloatString/100000  	       2	 601825537 ns/op	  758584 B/op	    4088 allocs/op
+BenchmarkFloatString/100000  	       2	 600712209 ns/op	  758584 B/op	    4088 allocs/op
+BenchmarkFloatString/100000  	       2	 600107616 ns/op	  758584 B/op	    4088 allocs/op
+BenchmarkFloatString/100000  	       2	 601699662 ns/op	  758584 B/op	    4088 allocs/op
+BenchmarkFloatAdd/10         	 2000000	       737 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatAdd/10         	 2000000	       738 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatAdd/10         	 2000000	       739 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatAdd/10         	 2000000	       737 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatAdd/10         	 2000000	       737 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatAdd/100        	 2000000	       754 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatAdd/100        	 2000000	       765 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatAdd/100        	 2000000	       776 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatAdd/100        	 2000000	       757 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatAdd/100        	 2000000	       756 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatAdd/1000       	 2000000	       892 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatAdd/1000       	 2000000	       895 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatAdd/1000       	 2000000	       895 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatAdd/1000       	 2000000	       896 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatAdd/1000       	 2000000	       894 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatAdd/10000      	 1000000	      2253 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatAdd/10000      	 1000000	      2252 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatAdd/10000      	 1000000	      2251 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatAdd/10000      	 1000000	      2253 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatAdd/10000      	 1000000	      2254 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatAdd/100000     	  100000	     15531 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatAdd/100000     	  100000	     15543 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatAdd/100000     	  100000	     15521 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatAdd/100000     	  100000	     15541 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatAdd/100000     	  100000	     15511 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatSub/10         	 2000000	       678 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatSub/10         	 2000000	       679 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatSub/10         	 2000000	       679 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatSub/10         	 2000000	       679 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatSub/10         	 2000000	       679 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatSub/100        	 2000000	       690 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatSub/100        	 2000000	       688 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatSub/100        	 2000000	       688 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatSub/100        	 2000000	       687 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatSub/100        	 2000000	       689 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatSub/1000       	 2000000	       805 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatSub/1000       	 2000000	       789 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatSub/1000       	 2000000	       790 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatSub/1000       	 2000000	       790 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatSub/1000       	 2000000	       788 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatSub/10000      	 1000000	      1713 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatSub/10000      	 1000000	      1716 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatSub/10000      	 1000000	      1716 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatSub/10000      	 1000000	      1715 ns/op	      65 B/op	       2 allocs/op
+BenchmarkFloatSub/10000      	 1000000	      1716 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatSub/100000     	  200000	     10998 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatSub/100000     	  200000	     10996 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatSub/100000     	  200000	     11007 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatSub/100000     	  200000	     11013 ns/op	      66 B/op	       2 allocs/op
+BenchmarkFloatSub/100000     	  200000	     11008 ns/op	      66 B/op	       2 allocs/op
+BenchmarkParseFloatSmallExp  	   20000	     91793 ns/op	   12391 B/op	     329 allocs/op
+BenchmarkParseFloatSmallExp  	   20000	     92433 ns/op	   12385 B/op	     329 allocs/op
+BenchmarkParseFloatSmallExp  	   20000	     91971 ns/op	   12386 B/op	     329 allocs/op
+BenchmarkParseFloatSmallExp  	   20000	     92051 ns/op	   12386 B/op	     329 allocs/op
+BenchmarkParseFloatSmallExp  	   20000	     92151 ns/op	   12385 B/op	     329 allocs/op
+BenchmarkParseFloatLargeExp  	    5000	    339817 ns/op	   45407 B/op	    1079 allocs/op
+BenchmarkParseFloatLargeExp  	    5000	    340459 ns/op	   45409 B/op	    1079 allocs/op
+BenchmarkParseFloatLargeExp  	    5000	    340292 ns/op	   45385 B/op	    1079 allocs/op
+BenchmarkParseFloatLargeExp  	*** Test killed with quit: ran too long (10m0s).
+FAIL	gccgo/math/big	600.008s
