@@ -8,12 +8,13 @@ In most benchmarks, GCCGO is slower and does more allocations.
 
 When benchmark is fully CPU-bound and does no allocations at all, GCCGO
 sometimes emits better code.
+
 Some of those cases are fixed in Go devel (Go 1.10), making the performance of those
 nearly equal.
 
-GCCGO benefits from strong constant folding from GCC backend, 
-which makes some benchmarks run in `0ns`.
-Benchmarks that are faster due to this are not considered as issues.
+What GCCGO does better:
+* **Constant folding**. sometimes leads to benchmarks with `0ns` time/op.
+* **Inlining**. Inline non-leaf functions and functions with loops.
 
 When escape analysis will be implemented in GCCGO, it would be interesting to
 run all of these again.
