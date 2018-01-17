@@ -13,7 +13,7 @@ Legend:
 ```
 comparing strings...
   [!] ByteByteNoMatch                   529ns ± 0%      327ns ± 0%        -38.19%  (p=0.008 n=5+5)
-  MapNoChanges                      354ns ± 0%      277ns ± 2%        -21.81%  (p=0.008 n=5+5)
+  [!] MapNoChanges                      354ns ± 0%      277ns ± 2%        -21.81%  (p=0.008 n=5+5)
   [?] Split1                            107ms ± 0%       40ms ± 0%        -62.39%  (p=0.008 n=5+5)
   [?] Split2                           16.8ms ± 0%     11.4ms ± 0%        -32.27%  (p=0.008 n=5+5)
   [+] IndexAnyASCII/256:1               950ns ± 0%      628ns ± 0%        -33.89%  (p=0.000 n=5+4)
@@ -46,10 +46,10 @@ comparing encoding/json...
   [!] SkipValue              32.9ms ± 5%      22.2ms ± 5%         -32.44%  (p=0.008 n=5+5)
 
 comparing hash/adler32...
-  Adler32KB    1.08µs ± 0%    0.89µs ± 0%  -18.17%  (p=0.029 n=4+4)
+  [!] Adler32KB    1.08µs ± 0%    0.89µs ± 0%  -18.17%  (p=0.029 n=4+4)
 
 comparing html...
-  EscapeNone        9.46µs ± 3%    7.84µs ± 6%     -17.11%  (p=0.008 n=5+5)
+  [!] EscapeNone        9.46µs ± 3%    7.84µs ± 6%     -17.11%  (p=0.008 n=5+5)
 
 comparing image/color...
   [!] YCbCrToRGBA/0        13.8ns ± 0%     0.7ns ± 0%   -94.78%  (p=0.000 n=5+4)
@@ -65,12 +65,11 @@ comparing image/gif...
 comparing image/jpeg...
   FDCT                 3.41µs ± 0%    1.51µs ± 0%   -55.64%  (p=0.000 n=5+4)
   IDCT                 3.44µs ± 0%    1.82µs ± 0%   -46.99%  (p=0.029 n=4+4)
-  Encode               51.5ms ± 2%    42.6ms ± 0%   -17.19%  (p=0.008 n=5+5)
 
 comparing math...
   [!] Erf                    22.6ns ± 0%    13.9ns ± 0%   -38.50%  (p=0.008 n=5+5)
   [!] Erfc                   25.6ns ± 0%    15.5ns ± 0%   -39.45%  (p=0.008 n=5+5)
-  Dim                    8.58ns ± 0%    6.44ns ± 0%   -24.94%  (p=0.008 n=5+5)
+  [+] Dim                    8.58ns ± 0%    6.44ns ± 0%   -24.94%  (p=0.008 n=5+5)
   [~] Floor                  5.01ns ± 0%    3.61ns ± 3%   -27.90%  (p=0.008 n=5+5)
   [~] Max                    8.66ns ± 2%    5.72ns ± 0%   -33.92%  (p=0.000 n=5+4)
   [~] Frexp                  14.9ns ± 0%     7.9ns ± 0%   -47.32%  (p=0.000 n=5+4)
@@ -80,11 +79,11 @@ comparing math...
   [~] Logb                   12.9ns ± 0%     8.6ns ± 0%   -33.43%  (p=0.008 n=5+5)
   [~] Log2                   20.0ns ± 0%    10.7ns ± 0%   -46.50%  (p=0.008 n=5+5)
   [~] Modf                   12.2ns ± 0%     5.7ns ± 0%   -53.11%  (p=0.008 n=5+5)
-  Nextafter32            12.0ns ± 0%     8.7ns ± 3%   -28.07%  (p=0.008 n=5+5)
-  Nextafter64            10.5ns ± 0%     7.4ns ± 0%   -29.90%  (p=0.008 n=5+5)
-  Pow10Pos               97.0ns ± 1%    75.8ns ± 0%   -21.86%  (p=0.008 n=5+5)
-  Pow10Neg                117ns ± 0%      80ns ± 0%   -31.54%  (p=0.008 n=5+5)
-  Remainder              87.7ns ± 0%    34.6ns ± 1%   -60.57%  (p=0.008 n=5+5)
+  [~] Nextafter32            12.0ns ± 0%     8.7ns ± 3%   -28.07%  (p=0.008 n=5+5)
+  [!] Nextafter64            10.5ns ± 0%     7.4ns ± 0%   -29.90%  (p=0.008 n=5+5)
+  [+] Pow10Pos               97.0ns ± 1%    75.8ns ± 0%   -21.86%  (p=0.008 n=5+5)
+  [+] Pow10Neg                117ns ± 0%      80ns ± 0%   -31.54%  (p=0.008 n=5+5)
+  [+] Remainder              87.7ns ± 0%    34.6ns ± 1%   -60.57%  (p=0.008 n=5+5)
   [~] Sincos                 46.3ns ± 0%    22.1ns ± 0%   -52.27%  (p=0.008 n=5+5)
   [!] SqrtIndirectLatency    16.4ns ± 0%     7.2ns ± 0%   -56.40%  (p=0.000 n=5+4)
 
@@ -117,11 +116,11 @@ comparing regexp/syntax...
   [!] EmptyOpContext     484ns ± 0%      70ns ± 0%  -85.50%  (p=0.016 n=4+5)
 
 comparing sort...
-  Sort1e4               22.6ms ± 0%    18.8ms ± 2%    -16.89%  (p=0.008 n=5+5)
-  Sort1e6                3.44s ± 0%     2.81s ± 0%    -18.39%  (p=0.016 n=4+5)
+  [~] Sort1e4               22.6ms ± 0%    18.8ms ± 2%    -16.89%  (p=0.008 n=5+5)
+  [!] Sort1e6                3.44s ± 0%     2.81s ± 0%    -18.39%  (p=0.016 n=4+5)
 
 comparing unicode/utf8...
-  RuneCountInStringTenJapaneseChars     124ns ± 0%     101ns ± 1%  -18.87%  (p=0.008 n=5+5)
+  [!] RuneCountInStringTenJapaneseChars     124ns ± 0%     101ns ± 1%  -18.87%  (p=0.008 n=5+5)
 ```
 
 ### Section B - throughput. mb/sec
@@ -145,13 +144,13 @@ comparing encoding/json...
   [!] SkipValue            59.7MB/s ± 0%    88.4MB/s ± 0%         +48.01%  (p=0.008 n=5+5)
 
 comparing hash/adler32...
-  Adler32KB   946MB/s ± 0%  1156MB/s ± 0%  +22.15%  (p=0.029 n=4+4)
+  [!] Adler32KB   946MB/s ± 0%  1156MB/s ± 0%  +22.15%  (p=0.029 n=4+4)
 
 comparing image/gif...
   [+] QuantizedEncode   790kB/s ± 0%  1412kB/s ± 2%  +78.73%  (p=0.008 n=5+5)
 
 comparing image/jpeg...
-  Encode             23.9MB/s ± 2%  28.8MB/s ± 0%   +20.74%  (p=0.008 n=5+5)
+  [?] Encode             23.9MB/s ± 2%  28.8MB/s ± 0%   +20.74%  (p=0.008 n=5+5)
 ```
 
 ### Section C - allocations.
@@ -167,8 +166,8 @@ comparing encoding/binary...
   [+] WriteSlice1000Int32s      3.00 ± 0%       2.00 ± 0%    -33.33%  (p=0.008 n=5+5)
 
 comparing expvar...
-  MapAddSame                6.00 ± 0%      5.00 ± 0%   -16.67%  (p=0.008 n=5+5)
-  MapAddDifferent           14.0 ± 0%      12.0 ± 0%   -14.29%  (p=0.008 n=5+5)
+  [!] MapAddSame                6.00 ± 0%      5.00 ± 0%   -16.67%  (p=0.008 n=5+5)
+  [!] MapAddDifferent           14.0 ± 0%      12.0 ± 0%   -14.29%  (p=0.008 n=5+5)
 
 comparing fmt...
   [+] ManyArgs                           8.00 ± 0%      6.00 ± 0%    -25.00%  (p=0.008 n=5+5)
