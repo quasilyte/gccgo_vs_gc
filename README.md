@@ -15,6 +15,7 @@ nearly equal.
 What GCCGO does better:
 * **Constant folding**. Sometimes leads to benchmarks with `0ns` time/op.
 * **Inlining**. Inline non-leaf functions and functions with loops.
+* **Vectorization**. Math code especially benefits from FMA-like instructions like `vfmadd213sd`.
 
 When escape analysis will be implemented in GCCGO, it would be interesting to
 run all of these again.
