@@ -14,8 +14,8 @@ Legend:
 comparing strings...
   [!] ByteByteNoMatch                   242ns ± 2%      151ns ± 4%        -37.51%  (p=0.000 n=9+9)
   [!] MapNoChanges                      166ns ± 4%      136ns ± 6%        -17.88%  (p=0.000 n=10+10)
-  [?] Split1                           49.6ms ± 6%     22.2ms ± 4%        -55.27%  (p=0.000 n=10+10)
-  [?] Split2                           7.75ms ± 4%     5.27ms ± 6%        -31.98%  (p=0.000 n=9+10)
+  [-] Split1 / SplitEmptySeparator     49.6ms ± 6%     22.2ms ± 4%        -55.27%  (p=0.000 n=10+10)
+  [+] Split2                           7.75ms ± 4%     5.27ms ± 6%        -31.98%  (p=0.000 n=9+10)
   [+] IndexAnyASCII/256:1               441ns ± 7%      296ns ± 5%        -32.91%  (p=0.001 n=10+5)
   [+] IndexAnyASCII/256:2               448ns ± 7%      289ns ± 0%        -35.42%  (p=0.002 n=10+4)
   [+] IndexAnyASCII/256:4               440ns ± 2%      297ns ± 4%        -32.58%  (p=0.002 n=8+5)
