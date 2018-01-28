@@ -63,8 +63,8 @@ comparing image/gif...
   [+] QuantizedEncode     1.56s ± 0%     0.87s ± 1%  -43.98%  (p=0.008 n=5+5)
 
 comparing image/jpeg...
-  FDCT                 3.41µs ± 0%    1.51µs ± 0%   -55.64%  (p=0.000 n=5+4)
-  IDCT                 3.44µs ± 0%    1.82µs ± 0%   -46.99%  (p=0.029 n=4+4)
+  [-] FDCT                 3.41µs ± 0%    1.51µs ± 0%   -55.64%  (p=0.000 n=5+4)
+  [-] IDCT                 3.44µs ± 0%    1.82µs ± 0%   -46.99%  (p=0.029 n=4+4)
 
 comparing math...
   [!] Erf                    22.6ns ± 0%    13.9ns ± 0%   -38.50%  (p=0.008 n=5+5)
