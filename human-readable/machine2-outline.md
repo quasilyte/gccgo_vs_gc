@@ -13,7 +13,7 @@ Legend:
 ```
 comparing strings...
   [!] ByteByteNoMatch                   529ns ± 0%      327ns ± 0%        -38.19%  (p=0.008 n=5+5)
-  [!] MapNoChanges                      354ns ± 0%      277ns ± 2%        -21.81%  (p=0.008 n=5+5)
+  [+] MapNoChanges                      354ns ± 0%      277ns ± 2%        -21.81%  (p=0.008 n=5+5)
   [-] Split1 / SplitEmptySeparator      107ms ± 0%       40ms ± 0%        -62.39%  (p=0.008 n=5+5)
   [+] Split2                           16.8ms ± 0%     11.4ms ± 0%        -32.27%  (p=0.008 n=5+5)
   [+] IndexAnyASCII/256:1               950ns ± 0%      628ns ± 0%        -33.89%  (p=0.000 n=5+4)
