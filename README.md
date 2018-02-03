@@ -130,10 +130,8 @@ Visit [stats](stats) to view all benchmark stats.
 Under each machineX folder, there is `machine.txt` file of this structure:
 ```
 $OS $ARCH
-$CPUINFO
-CPUs: $NUMCPU
-Turbo: $TURBO_BOOST
-$LATEST_SIMD
+
+$lscpu_output
 ```
 
 For example:
