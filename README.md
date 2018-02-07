@@ -16,6 +16,7 @@ What GCCGO does better:
 * **Constant folding**. Sometimes leads to benchmarks with `0ns` time/op.
 * **Inlining**. Inline non-leaf functions and functions with loops.
 * **CPU-specific optimizations**. `math` code benefits from FMA instructions.
+* **Calling convention**. Less stack usage for input and output parameters.
 
 When escape analysis will be implemented in GCCGO, it would be interesting to
 run all of these again.
