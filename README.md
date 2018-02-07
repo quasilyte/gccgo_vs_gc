@@ -135,15 +135,6 @@ $OS $ARCH
 $lscpu_output
 ```
 
-For example:
-```
-Linux 4.4.0-53-generic Ubuntu x86_64
-Intel Core i5-4260U 1.40GHz
-CPUs: 4
-Turbo: disabled
-Has AVX2
-```
-
 Inside machineX folder, there are `gc` and `gccgo` sub-directories.
 They contain respective benchmark results.
 
