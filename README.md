@@ -14,7 +14,7 @@ nearly equal.
 
 What GCCGO does better:
 * **Constant folding**. Sometimes leads to benchmarks with `0ns` time/op.
-* **Inlining**. Inline non-leaf functions and functions with loops.
+* **Inlining**. Inline non-leaf functions and functions with loops. Note: could change with Go 1.11 (for Go 1.10 try `-l=4`).
 * **CPU-specific optimizations**. `math` code benefits from FMA instructions.
 * **Calling convention**. Less stack usage for input and output parameters.
 
